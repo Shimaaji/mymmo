@@ -9,6 +9,7 @@
     <EntitySet Name="Users" EntityType="ExtremeWorldModel.Store.Users" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Players" EntityType="ExtremeWorldModel.Store.Players" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Characters" EntityType="ExtremeWorldModel.Store.Characters" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TCharitems" EntityType="ExtremeWorldModel.Store.TCharitems" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="UserPlayer" Association="ExtremeWorldModel.Store.UserPlayer">
       <End Role="User" EntitySet="Users" />
       <End Role="Player" EntitySet="Players" />
@@ -47,6 +48,13 @@
     <Property Name="MapPosY" Type="int" Nullable="false" />
     <Property Name="MapPosZ" Type="int" Nullable="false" />
     <Property Name="Player_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TCharitems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <Association Name="UserPlayer">
     <End Role="User" Type="ExtremeWorldModel.Store.Users" Multiplicity="*" />
@@ -98,6 +106,7 @@
             <End Role="Player" EntitySet="Players" />
             <End Role="Character" EntitySet="Characters" />
           </AssociationSet>
+          <EntitySet Name="TCharitems" EntityType="ExtremeWorldModel.TCharitem" />
         </EntityContainer>
         <EntityType Name="TPlayer">
           <Key>
@@ -128,6 +137,14 @@
           <End Type="ExtremeWorldModel.TPlayer" Role="Player" Multiplicity="1" />
           <End Type="ExtremeWorldModel.TCharacter" Role="Character" Multiplicity="*" />
         </Association>
+        <EntityType Name="TCharitem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Desc" Type="String" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -162,6 +179,14 @@
           <ScalarProperty Name="MapPosX" ColumnName="MapPosX" />
           <ScalarProperty Name="MapPosY" ColumnName="MapPosY" />
           <ScalarProperty Name="MapPosZ" ColumnName="MapPosZ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TCharitems">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharitem)">
+        <MappingFragment StoreEntitySet="TCharitems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

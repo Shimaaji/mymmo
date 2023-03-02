@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 02/18/2023 00:16:52
+-- Date Created: 02/27/2023 23:24:06
 -- Generated from EDMX file: E:\UnityProject\mymmo\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
@@ -36,6 +36,9 @@ IF OBJECT_ID(N'[dbo].[Players]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[Characters]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Characters];
+GO
+IF OBJECT_ID(N'[dbo].[TCharitems]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TCharitems];
 GO
 
 -- --------------------------------------------------
@@ -72,6 +75,14 @@ CREATE TABLE [dbo].[Characters] (
 );
 GO
 
+-- Creating table 'TCharitems'
+CREATE TABLE [dbo].[TCharitems] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(max)  NOT NULL,
+    [Desc] nvarchar(max)  NOT NULL
+);
+GO
+
 -- --------------------------------------------------
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
@@ -92,6 +103,12 @@ GO
 ALTER TABLE [dbo].[Characters]
 ADD CONSTRAINT [PK_Characters]
     PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'TCharitems'
+ALTER TABLE [dbo].[TCharitems]
+ADD CONSTRAINT [PK_TCharitems]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
 -- --------------------------------------------------
