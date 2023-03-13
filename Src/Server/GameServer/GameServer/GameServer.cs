@@ -23,10 +23,8 @@ namespace GameServer
         {
             network = new NetService();
             network.Init(8000);
-            HelloWorldService.Instance.Init();
-
-            //测试服务端从数据库查询数据
-            //DBService.Instance.Init();
+            DBService.Instance.Init();
+            UserService.Instance.Init();
             //var a = DBService.Instance.Entities.Characters.Where(s => s.TID == 1);
             //Console.WriteLine("{0}",a.FirstOrDefault<TCharacter>().Name);
             thread = new Thread(new ThreadStart(this.Update));
@@ -36,7 +34,6 @@ namespace GameServer
 
         public void Start()
         {
-            HelloWorldService.Instance.Start();
             network.Start();
             running = true;
             thread.Start();
@@ -48,7 +45,7 @@ namespace GameServer
             running = false;
             thread.Join();
             network.Stop();
-            HelloWorldService.Instance.Stop();
+            
         }
 
         public void Update()
