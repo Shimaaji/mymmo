@@ -26,6 +26,17 @@ public class UILogin : MonoBehaviour {
 
 	public void OnClickLogin()
     {
+        if (string.IsNullOrEmpty(this.username.text))
+        {
+			MessageBox.Show("请输入账号");
+			return;
+        }
+        else if(string.IsNullOrEmpty(this.password.text))
+        {
+			MessageBox.Show("请输入密码");
+			return;
+        }
+		
 		UserService.Instance.SendLogin(this.username.text, this.password.text);
     }
 }
