@@ -1,20 +1,145 @@
-2023-03-13 22:38:04,836 [ 1] INFO  Unity: LoadingManager start
-2023-03-13 22:38:16,785 [ 1] INFO  Unity: UserLoginRequest::user :test01 psw:111111
-2023-03-13 22:38:16,787 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-03-13 22:38:16,792 [ 1] INFO  Unity: DoConnect
-2023-03-13 22:38:16,794 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-03-13 22:38:16,798 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-03-21 21:06:45,204 [ 1] INFO  Unity: LoadingManager start
+2023-03-21 21:07:02,796 [ 1] INFO  Unity: UserLoginRequest::user :test1 psw:111
+2023-03-21 21:07:02,797 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-03-21 21:07:02,802 [ 1] INFO  Unity: DoConnect
+2023-03-21 21:07:02,803 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-03-21 21:07:02,806 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-03-13 22:38:16,802 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-03-13 22:38:16,905 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-03-13 22:38:52,926 [ 1] INFO  Unity: UserLoginRequest::user :test01 psw:1111
-2023-03-13 22:38:52,946 [ 1] INFO  Unity: OnUserLogin:Failed [密码错误]
-2023-03-13 22:39:25,350 [ 1] INFO  Unity: UserLoginRequest::user :test psw:1111
-2023-03-13 22:39:25,371 [ 1] INFO  Unity: OnUserLogin:Failed [用户不存在]
-2023-03-13 22:39:59,719 [ 1] INFO  Unity: UserRegisterRequest::user :test02 psw:123321
-2023-03-13 22:39:59,749 [ 1] INFO  Unity: OnUserRegister:Success [None]
-2023-03-13 22:40:38,771 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-03-13 22:40:38,771 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-03-21 21:07:04,852 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:50)
+Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:113)
+UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2023-03-21 21:07:04,856 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:50)
+Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:113)
+UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2023-03-21 21:07:04,856 [ 1] INFO  Unity: DoConnect
+2023-03-21 21:07:04,857 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-03-21 21:07:04,858 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2023-03-21 21:07:06,874 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2023-03-21 21:07:06,875 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2023-03-21 21:07:06,914 [ 1] INFO  Unity: DoConnect
+2023-03-21 21:07:06,914 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-03-21 21:07:06,915 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2023-03-21 21:07:08,943 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2023-03-21 21:07:08,944 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2023-03-21 21:07:08,945 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2023-03-21 21:07:15,423 [ 1] INFO  Unity: UserLoginRequest::user :test1 psw:111
+2023-03-21 21:07:15,424 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-03-21 21:07:15,425 [ 1] INFO  Unity: DoConnect
+2023-03-21 21:07:15,426 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-03-21 21:07:15,427 [ 1] INFO  Unity: Connect[3] to server 127.0.0.1:8000
+
+2023-03-21 21:07:15,428 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-03-21 21:07:17,451 [ 1] INFO  Unity: OnUserLogin:Failed [密码错误]
+2023-03-21 21:07:29,219 [ 1] INFO  Unity: UserLoginRequest::user :TEST psw:111
+2023-03-21 21:07:29,540 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-03-21 21:07:29,542 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-03-21 21:07:29,692 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-03-21 21:07:36,458 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:37,342 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:38,358 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:07:40,566 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:41,152 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:41,767 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:07:42,740 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:43,069 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:43,508 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:07:45,379 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:45,699 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:45,970 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:07:46,596 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:07:47,815 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:48,439 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:48,937 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:07:52,204 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:07:53,255 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:07:54,213 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:07:54,784 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:07:55,999 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:08:58,049 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:08:59,109 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:09:01,157 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:09:02,541 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:14:02,441 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:14:03,656 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:14:16,463 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:17,876 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:14:18,598 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:18,901 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:14:19,330 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:14:19,759 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:14:20,784 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:21,214 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:14:21,582 [ 1] INFO  Unity: Select Char:[1]测试[Warrior]
+2023-03-21 21:14:56,077 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:14:57,710 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:58,318 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:59,110 [ 1] INFO  Unity: Select Char:[2]法[Wizard]
+2023-03-21 21:14:59,445 [ 1] INFO  Unity: Select Char:[4]321[Archer]
+2023-03-21 21:14:59,865 [ 1] INFO  Unity: Select Char:[5]321[Archer]
+2023-03-21 21:15:06,936 [ 1] INFO  Unity: DataManager > DataManager()
+2023-03-21 21:15:06,938 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UICharacterSelect.OnSelectClass (Int32 charClass) (at Assets/Scripts/UI/UICharacterSelect.cs:104)
+UICharacterSelect.InitCharacterCreate () (at Assets/Scripts/UI/UICharacterSelect.cs:78)
+UnityEngine.Events.InvokableCall.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent.cs:166)
+UnityEngine.Events.UnityEvent.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2023-03-21 21:15:17,418 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-03-21 21:15:17,419 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

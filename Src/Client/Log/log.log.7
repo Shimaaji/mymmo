@@ -1,14 +1,20 @@
-2023-03-13 16:17:11,725 [ 1] INFO  Unity: LoadingManager start
-2023-03-13 16:17:40,752 [ 1] INFO  Unity: UserRegisterRequest::user :user123 psw:123
-2023-03-13 16:17:40,754 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-03-13 16:17:40,758 [ 1] INFO  Unity: DoConnect
-2023-03-13 16:17:40,760 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-03-13 16:17:40,763 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-03-20 15:07:12,528 [ 1] INFO  Unity: LoadingManager start
+2023-03-20 15:07:23,432 [ 1] INFO  Unity: UserLoginRequest::user :test1 psw:111111
+2023-03-20 15:07:23,439 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-03-20 15:07:23,450 [ 1] INFO  Unity: DoConnect
+2023-03-20 15:07:23,451 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-03-20 15:07:23,465 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-03-13 16:17:40,769 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-03-13 16:17:43,133 [ 1] INFO  Unity: OnUserRegister:Failed [用户已存在.]
-2023-03-13 16:17:54,616 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-03-13 16:17:54,617 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-03-20 15:07:23,480 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-03-20 15:07:23,750 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-03-20 15:07:23,754 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-03-20 15:07:23,933 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-03-20 15:08:36,172 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UICharacterSelect.InitCharacterSelect (Boolean init) (at Assets/Scripts/UI/UICharacterSelect.cs:54)
+UICharacterSelect.Start () (at Assets/Scripts/UI/UICharacterSelect.cs:36)
+}</args></log4net.Error>
+2023-03-20 15:09:03,445 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-03-20 15:09:03,446 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

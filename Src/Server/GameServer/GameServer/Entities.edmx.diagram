@@ -5,12 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d5312fb67cf346d8bed3825252f1d401" Name="Diagram1">
-        <EntityTypeShape EntityType="ExtremeWorldModel.TUser" Width="1.5" PointX="0.625" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TPlayer" Width="1.5" PointX="3" PointY="1.875" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TUser" Width="1.5" PointX="0.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TPlayer" Width="1.5" PointX="2.375" PointY="1.75" />
         <AssociationConnector Association="ExtremeWorldModel.UserPlayer" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TCharacter" Width="1.5" PointX="5.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TCharacter" Width="1.5" PointX="5" PointY="1.625" IsExpanded="true" />
         <AssociationConnector Association="ExtremeWorldModel.PlayerCharacter" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TCharitem" Width="1.5" PointX="8.125" PointY="2.25" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TCharitem" Width="1.5" PointX="7.75" PointY="2.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
