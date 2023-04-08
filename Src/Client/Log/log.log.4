@@ -1,6 +1,35 @@
-2023-03-20 15:19:12,254 [ 1] INFO  Unity: LoadingManager start
-2023-03-20 15:19:12,640 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-03-20 15:19:12,641 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-08 02:56:30,983 [ 1] INFO  Unity: LoadingManager start
+2023-04-08 02:56:35,109 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-08 02:56:39,230 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-08 02:56:39,238 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-08 02:56:39,254 [ 1] INFO  Unity: DoConnect
+2023-04-08 02:56:39,257 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-08 02:56:39,278 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2023-04-08 02:56:39,307 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-08 02:56:43,761 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-08 02:56:43,768 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-08 02:56:44,128 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:56:44,897 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
+2023-04-08 02:56:45,594 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-08 02:56:45,621 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-08 02:56:45,644 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-08 02:56:45,653 [ 1] INFO  Unity: AddCharacter:4002:Гигу Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-08 02:56:45,670 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-08 02:56:45,671 [ 1] INFO  Unity: OnMapCharacterEmter:1
+2023-04-08 02:56:45,672 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-08 02:56:46,417 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:56:46,528 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIMinimap.InitMap () (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:30)
+UIMinimap.Start () (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
+}</args></log4net.Error>
+2023-04-08 02:56:47,416 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:56:47,418 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIMinimap.InitMap () (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:30)
+UIMinimap.Start () (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
+}</args></log4net.Error>
+2023-04-08 02:57:30,280 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-08 02:57:30,282 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

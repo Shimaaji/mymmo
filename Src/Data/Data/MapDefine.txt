@@ -1,34 +1,38 @@
 {
   "1": {
     "ID": 1,
-    "Name": "奥特兰",
+    "Name": "钟声小镇",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
-    "Resource": "MainCity"
+    "Resource": "MainCity",
+    "MiniMap": "zhongshengxiaozhen"
   },
   "2": {
     "ID": 2,
-    "Name": "野外1",
+    "Name": "黑衣森林",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
-    "Resource": "Map01"
+    "Resource": "Map01",
+    "MiniMap": "heiyisenlin"
   },
   "3": {
     "ID": 3,
-    "Name": "野外2",
+    "Name": "黑衣森林",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
-    "Resource": "Map02"
+    "Resource": "Map02",
+    "MiniMap": "heiyisenlin"
   },
   "4": {
     "ID": 4,
-    "Name": "副本1",
+    "Name": "幽冥古堡",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
-    "Resource": "Map03"
+    "Resource": "Map03",
+    "MiniMap": "youminggubao"
   }
 }

@@ -1,20 +1,29 @@
-2023-03-20 15:07:12,528 [ 1] INFO  Unity: LoadingManager start
-2023-03-20 15:07:23,432 [ 1] INFO  Unity: UserLoginRequest::user :test1 psw:111111
-2023-03-20 15:07:23,439 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-03-20 15:07:23,450 [ 1] INFO  Unity: DoConnect
-2023-03-20 15:07:23,451 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-03-20 15:07:23,465 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-04-08 02:45:47,323 [ 1] INFO  Unity: LoadingManager start
+2023-04-08 02:45:50,744 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-08 02:45:55,801 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-08 02:45:55,803 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-08 02:45:55,808 [ 1] INFO  Unity: DoConnect
+2023-04-08 02:45:55,810 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-08 02:45:55,814 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-03-20 15:07:23,480 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-03-20 15:07:23,750 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-03-20 15:07:23,754 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-03-20 15:07:23,933 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-03-20 15:08:36,172 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UICharacterSelect.InitCharacterSelect (Boolean init) (at Assets/Scripts/UI/UICharacterSelect.cs:54)
-UICharacterSelect.Start () (at Assets/Scripts/UI/UICharacterSelect.cs:36)
-}</args></log4net.Error>
-2023-03-20 15:09:03,445 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-03-20 15:09:03,446 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-08 02:45:55,820 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-08 02:45:59,632 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-08 02:45:59,635 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-08 02:45:59,916 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:46:00,754 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
+2023-04-08 02:46:01,379 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-08 02:46:01,430 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-08 02:46:01,433 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-08 02:46:01,436 [ 1] INFO  Unity: AddCharacter:4002:Гигу Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-08 02:46:01,443 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-08 02:46:01,444 [ 1] INFO  Unity: OnMapCharacterEmter:1
+2023-04-08 02:46:01,446 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-08 02:46:02,058 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:46:02,817 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-08 02:46:08,293 [ 1] INFO  Unity: Character_4002_Гигу OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-08 02:46:08,295 [ 1] INFO  Unity: Character_4002_Гигу OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-08 02:46:08,296 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-08 02:46:08,297 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
