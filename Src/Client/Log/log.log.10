@@ -1,30 +1,31 @@
-2023-04-07 18:14:10,566 [ 1] INFO  Unity: LoadingManager start
-2023-04-07 18:14:13,990 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-07 18:14:20,908 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-04-07 18:14:20,909 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-04-07 18:14:20,916 [ 1] INFO  Unity: DoConnect
-2023-04-07 18:14:20,918 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-07 18:14:20,923 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-04-09 15:48:29,945 [ 1] INFO  Unity: LoadingManager start
+2023-04-09 15:48:33,916 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-09 15:48:39,247 [ 1] INFO  Unity: UserLoginRequest::user :2 psw:2
+2023-04-09 15:48:39,258 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-09 15:48:39,277 [ 1] INFO  Unity: DoConnect
+2023-04-09 15:48:39,281 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-09 15:48:39,302 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-04-07 18:14:20,931 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-04-07 18:14:24,572 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-04-07 18:14:24,574 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-04-07 18:14:24,887 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-07 18:14:25,677 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
-2023-04-07 18:14:26,349 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-04-07 18:14:26,370 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-04-07 18:14:26,386 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2023-04-07 18:14:26,388 [ 1] INFO  Unity: AddCharacter:4002:Гигу Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-04-07 18:14:26,394 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-07 18:14:26,395 [ 1] INFO  Unity: OnMapCharacterEmter:1
-2023-04-07 18:14:26,397 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-07 18:14:27,078 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-07 18:14:27,894 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-07 18:16:17,598 [ 1] INFO  Unity: Character_4002_Гигу OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2023-04-07 18:16:17,602 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-07 18:16:17,604 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-09 15:48:39,327 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-09 15:48:39,732 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-09 15:48:39,740 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-09 15:48:40,191 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-09 15:48:41,259 [ 1] INFO  Unity: Select Char:[4009]2[Warrior]
+2023-04-09 15:48:42,314 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-09 15:48:53,763 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-09 15:48:53,768 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2023-04-09 15:50:53,035 [ 1] INFO  Unity: AddCharacter:2:2 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-09 15:50:53,054 [ 1] INFO  Unity: AddCharacter:1:1 Map:1 Entity:(1:pos:(5000,4125,820),dir:(3,-100,0),spd:0
+2023-04-09 15:50:53,057 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-09 15:50:53,058 [ 1] INFO  Unity: OnMapCharacterEmter:1
+2023-04-09 15:50:56,229 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-09 15:50:57,039 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-09 15:50:58,012 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-09 15:51:07,962 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-09 15:51:07,964 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
-2023-04-07 18:16:17,606 [ 1] INFO  Unity: Character_4002_Гигу OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-09 15:51:07,967 [ 1] INFO  Unity: Character_2_2 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-09 15:51:07,968 [ 1] INFO  Unity: Character_1_1 OnDestroy :ID:1 POS:(5000, 4125, 820) DIR:(3, -100, 0) SPD:0 
