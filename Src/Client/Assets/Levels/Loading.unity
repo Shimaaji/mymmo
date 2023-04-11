@@ -1329,6 +1329,7 @@ MonoBehaviour:
   username: {fileID: 753956147}
   password: {fileID: 1787861181}
   buttonLogin: {fileID: 812818413}
+  buttonRegister: {fileID: 0}
 --- !u!1 &582322191
 GameObject:
   m_ObjectHideFlags: 0

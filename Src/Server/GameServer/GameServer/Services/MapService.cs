@@ -17,6 +17,7 @@ namespace GameServer.Services
         public MapService()
         {
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<MapEntitySyncRequest>(this.OnMapEntitySync);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<MapTeleportRequest>(this.OnMapTeleport);
         }
 
         public void Init()
@@ -43,5 +44,33 @@ namespace GameServer.Services
             byte[] data = PackageHandler.PackMessage(message);
             conn.SendData(data, 0, data.Length);
         }
+
+        private void OnMapTeleport(NetConnection<NetSession> sender, MapTeleportRequest request)
+        {
+            Character character = sender.Session.Character;
+            Log.InfoFormat("OnMapTeleport: CharacterID: {0}:{1},TeleporterID: {2}", character.Id, character.Data, request.teleporterId);
+
+            //判断数据管理器中是否包含请求的传送点和传送目标点
+            if (!DataManager.Instance.Teleporters.ContainsKey(request.teleporterId))
+            {
+                Log.WarningFormat("Source TeleporterID [{0}] not existed", request.teleporterId);
+                return;
+            }
+            TeleporterDefine source = DataManager.Instance.Teleporters[request.teleporterId];
+            if (source.LinkTo == 0 || !DataManager.Instance.Teleporters.ContainsKey(source.LinkTo))
+            {
+                Log.WarningFormat("Source TeleporterID [{0}] LinkTO {1} not existed", request.teleporterId, source.LinkTo);
+            }
+
+            //创建目标传送点
+            TeleporterDefine target = DataManager.Instance.Teleporters[source.LinkTo];
+
+            MapManager.Instance[source.MapID].CharacterLeave(character);
+            character.Position = target.Position;
+            character.Direction = target.Direction;
+            MapManager.Instance[target.MapID].CharacterEnter(sender, character);
+
+        }
+
     }
 }

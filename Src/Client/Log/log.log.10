@@ -1,31 +1,65 @@
-2023-04-09 15:48:29,945 [ 1] INFO  Unity: LoadingManager start
-2023-04-09 15:48:33,916 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-09 15:48:39,247 [ 1] INFO  Unity: UserLoginRequest::user :2 psw:2
-2023-04-09 15:48:39,258 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-04-09 15:48:39,277 [ 1] INFO  Unity: DoConnect
-2023-04-09 15:48:39,281 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-09 15:48:39,302 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-04-11 20:28:41,330 [ 1] INFO  Unity: LoadingManager start
+2023-04-11 20:28:44,544 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-11 20:28:53,429 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-11 20:28:53,431 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-11 20:28:53,437 [ 1] INFO  Unity: DoConnect
+2023-04-11 20:28:53,439 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-11 20:28:53,443 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-04-09 15:48:39,327 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-04-09 15:48:39,732 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-04-09 15:48:39,740 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-04-09 15:48:40,191 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-09 15:48:41,259 [ 1] INFO  Unity: Select Char:[4009]2[Warrior]
-2023-04-09 15:48:42,314 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-04-09 15:48:53,763 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-04-09 15:48:53,768 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2023-04-09 15:50:53,035 [ 1] INFO  Unity: AddCharacter:2:2 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-04-09 15:50:53,054 [ 1] INFO  Unity: AddCharacter:1:1 Map:1 Entity:(1:pos:(5000,4125,820),dir:(3,-100,0),spd:0
-2023-04-09 15:50:53,057 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-09 15:50:53,058 [ 1] INFO  Unity: OnMapCharacterEmter:1
-2023-04-09 15:50:56,229 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-09 15:50:57,039 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-09 15:50:58,012 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-09 15:51:07,962 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-09 15:51:07,964 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-11 20:28:53,449 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-11 20:28:56,529 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-11 20:28:56,531 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-11 20:28:56,769 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 20:28:57,298 [ 1] INFO  Unity: Select Char:[4003]chiyu[Archer]
+2023-04-11 20:28:57,590 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
+2023-04-11 20:28:58,336 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-11 20:28:58,358 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-11 20:28:58,371 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-11 20:28:58,374 [ 1] INFO  Unity: AddCharacter:1:Гигу Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-11 20:28:58,378 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-11 20:28:58,997 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-11 20:28:58,998 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-11 20:28:59,135 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 20:29:00,074 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2023-04-11 20:29:00,076 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:00,167 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
+2023-04-11 20:29:00,168 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:00,276 [ 1] INFO  Unity: SetDirection:(84, 54, 0)
+2023-04-11 20:29:00,277 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:00,688 [ 1] INFO  Unity: SetDirection:(92, 39, 0)
+2023-04-11 20:29:00,689 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:01,562 [ 1] INFO  Unity: MoveBack
+2023-04-11 20:29:01,564 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-04-11 20:29:01,736 [ 1] INFO  Unity: SetDirection:(84, 55, 0)
+2023-04-11 20:29:01,737 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-04-11 20:29:02,092 [ 1] INFO  Unity: SetDirection:(92, 39, 0)
+2023-04-11 20:29:02,093 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-04-11 20:29:02,203 [ 1] INFO  Unity: SetDirection:(98, 22, 0)
+2023-04-11 20:29:02,204 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-04-11 20:29:02,354 [ 1] INFO  Unity: SetDirection:(100, 4, 0)
+2023-04-11 20:29:02,354 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-04-11 20:29:02,384 [ 1] INFO  Unity: Stop
+2023-04-11 20:29:02,384 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:02,483 [ 1] INFO  Unity: MoveForward
+2023-04-11 20:29:02,483 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:02,484 [ 1] INFO  Unity: SetDirection:(99, -14, 0)
+2023-04-11 20:29:02,485 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:02,569 [ 1] INFO  Unity: SetDirection:(94, -34, 0)
+2023-04-11 20:29:02,569 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:02,679 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
+2023-04-11 20:29:02,680 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:02,758 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
+2023-04-11 20:29:02,759 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:02,858 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
+2023-04-11 20:29:02,859 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-11 20:29:03,144 [ 1] INFO  Unity: Stop
+2023-04-11 20:29:03,145 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-11 20:29:03,513 [ 1] INFO  Unity: Character_1_Гигу OnDestroy :ID:1 POS:(4926, 3774, 820) DIR:(61, -79, 0) SPD:0 
+2023-04-11 20:29:03,515 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-11 20:29:03,516 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
-2023-04-09 15:51:07,967 [ 1] INFO  Unity: Character_2_2 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2023-04-09 15:51:07,968 [ 1] INFO  Unity: Character_1_1 OnDestroy :ID:1 POS:(5000, 4125, 820) DIR:(3, -100, 0) SPD:0 

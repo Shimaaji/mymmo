@@ -1,7 +1,40 @@
-2023-04-09 16:13:19,955 [ 1] INFO  Unity: LoadingManager start
-2023-04-09 16:13:23,231 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-09 16:13:30,885 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-09 16:13:30,887 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-11 23:57:44,691 [ 1] INFO  Unity: LoadingManager start
+2023-04-11 23:57:47,779 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-11 23:57:51,332 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-11 23:57:51,334 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-11 23:57:51,338 [ 1] INFO  Unity: DoConnect
+2023-04-11 23:57:51,340 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-11 23:57:51,343 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2023-04-11 23:57:51,348 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-11 23:57:51,436 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-11 23:57:51,437 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-11 23:57:51,606 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 23:57:52,295 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
+2023-04-11 23:57:52,831 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-11 23:57:52,854 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-11 23:57:52,855 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-11 23:57:52,857 [ 1] INFO  Unity: AddCharacter:3:Гигу Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-11 23:57:52,860 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-11 23:57:53,341 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-11 23:57:53,341 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-11 23:57:53,447 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 23:57:55,156 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UITest.SetTitle (System.String title) (at Assets/Scripts/UI/UITest.cs:17)
+UIMain.OnClickTest () (at Assets/Scripts/UI/UIMain.cs:34)
+UnityEngine.Events.InvokableCall.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent.cs:166)
+UnityEngine.Events.UnityEvent.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2023-04-11 23:58:08,021 [ 1] INFO  Unity: Character_3_Гигу OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-11 23:58:08,022 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-11 23:58:08,022 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

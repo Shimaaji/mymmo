@@ -1,8 +1,30 @@
-2023-04-09 16:10:15,841 [ 1] INFO  Unity: LoadingManager start
-2023-04-09 16:10:19,631 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-09 16:12:56,920 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(19,16): warning CS0649: Field `EntityController.rotation' is never assigned to, and will always have its default value
+2023-04-11 23:48:52,742 [ 1] INFO  Unity: LoadingManager start
+2023-04-11 23:48:55,854 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-11 23:48:58,782 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-11 23:48:58,784 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-11 23:48:58,787 [ 1] INFO  Unity: DoConnect
+2023-04-11 23:48:58,789 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-11 23:48:58,792 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-04-09 16:12:56,922 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(22,16): warning CS0414: The private field `EntityController.lastRotation' is assigned but its value is never used
+2023-04-11 23:48:58,797 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-11 23:48:58,889 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-11 23:48:58,890 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-11 23:48:59,054 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 23:48:59,718 [ 1] INFO  Unity: Select Char:[4002]Гигу[Wizard]
+2023-04-11 23:49:00,266 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-11 23:49:00,288 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-11 23:49:00,289 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-11 23:49:00,291 [ 1] INFO  Unity: AddCharacter:2:Гигу Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-11 23:49:00,294 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-11 23:49:00,776 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2023-04-09 16:12:56,922 [ 1] WARN  Unity: Assets/Scripts/GameObject/PlayerInputController.cs(111,11): warning CS0414: The private field `PlayerInputController.lastSync' is assigned but its value is never used
+2023-04-11 23:49:00,776 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-11 23:49:00,881 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-11 23:49:54,691 [ 1] INFO  Unity: Character_2_Гигу OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-04-11 23:49:54,692 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-11 23:49:54,692 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
