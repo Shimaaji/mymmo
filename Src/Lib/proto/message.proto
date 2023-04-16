@@ -46,6 +46,12 @@ enum ENTITY_EVENT
 	JUMP = 4;
 }
 
+enum ITEM_TYPE{
+	NORMAL = 0;
+	MATERIAL = 1;
+	TASK = 2; //任务道具
+}
+
 message NUserInfo {
 	int32 id = 1;
 	NPlayerInfo player = 2;
@@ -57,14 +63,23 @@ message NPlayerInfo {
 }
 
 message NCharacterInfo {
-	int32 id = 1;
-	int32 tid = 2;
+	int32 id = 1; //entity_id
+	int32 tid = 2; //table_id
 	string name = 3;
 	CHARACTER_TYPE type = 4;
 	CHARACTER_CLASS class = 5;
 	int32 level = 6;
 	int32 mapId = 7;
 	NEntity entity = 8;
+
+	repeated NItemInfo Items = 10;
+	NBagInfo Bag = 11;
+}
+
+message NItemInfo
+{
+	int32 id = 1;
+	int32 count = 2;
 }
 
 message NVector3
@@ -72,6 +87,12 @@ message NVector3
 	int32 x = 1;
 	int32 y = 2;
 	int32 z = 3;
+}
+
+message NBagInfo
+{
+	int32 Unlocked = 1;
+	bytes Items = 2;
 }
 
 ////////////////////////////////////////////////////////////////
@@ -188,6 +209,7 @@ message UserGameEnterRequest
 message UserGameEnterResponse {
 	RESULT result = 1;
 	string errormsg = 2;
+	NCharacterInfo character = 3;
 }
 
 message UserGameLeaveRequest
@@ -232,3 +254,17 @@ message MapTeleportRequest
 {
 	int32 teleporterId = 1;
 }
+
+//背包保存
+message BagSaveRequest
+{
+	NBagInfo BagInfo = 1;
+}
+
+//背包
+message BagSaveResponse
+{
+	Result result = 1;
+	string errormsg = 2;
+}
+

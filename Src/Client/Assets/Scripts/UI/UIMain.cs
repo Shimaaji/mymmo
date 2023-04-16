@@ -39,4 +39,9 @@ public class UIMain : MonoSingleton<UIMain> {
     {
 		MessageBox.Show("点击了对话框的："+ result ,"对话框响应结果：",MessageBoxType.Information);
     }
+
+	public void OnClickBag()
+    {
+		UIManager.Instance.Show<UIBag>();
+    }
 }
