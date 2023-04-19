@@ -1,58 +1,17 @@
-2023-04-15 00:40:35,123 [ 1] INFO  Unity: LoadingManager start
-2023-04-15 00:40:39,162 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-15 00:41:13,382 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-04-15 00:41:13,389 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-04-15 00:41:13,402 [ 1] INFO  Unity: DoConnect
-2023-04-15 00:41:13,403 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-15 00:41:13,417 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2023-04-15 00:41:13,430 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-04-15 00:41:15,624 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-04-15 00:41:15,629 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-04-15 00:41:15,812 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-15 00:41:16,389 [ 1] INFO  Unity: Select Char:[1]Гигу[Archer]
-2023-04-15 00:41:16,906 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-04-15 00:41:17,055 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-04-15 00:41:17,061 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 200]
-2023-04-15 00:41:17,062 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 100]
-2023-04-15 00:41:17,063 [ 1] INFO  Unity: ItemManager: Init[Id: 3,Count: 30]
-2023-04-15 00:41:17,063 [ 1] INFO  Unity: ItemManager: Init[Id: 4,Count: 120]
-2023-04-15 00:41:17,072 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2023-04-15 00:41:17,078 [ 1] INFO  Unity: AddCharacter:1:Гигу Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-04-15 00:41:17,093 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-15 00:41:17,638 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2023-04-15 00:41:17,645 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2023-04-15 00:41:17,770 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-15 00:41:19,141 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.Object:Instantiate(GameObject, Transform)
-<InitBags>c__Iterator0:MoveNext() (at Assets/Scripts/UI/Bag/UIBag.cs:38)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
-
-2023-04-15 00:41:19,142 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'UIBagItem') is missing!
-UnityEngine.Object:Instantiate(GameObject, Transform)
-<InitBags>c__Iterator0:MoveNext() (at Assets/Scripts/UI/Bag/UIBag.cs:38)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
-
-2023-04-15 00:41:19,143 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'UIBagItem') is missing!
-UnityEngine.Object:Instantiate(GameObject, Transform)
-<InitBags>c__Iterator0:MoveNext() (at Assets/Scripts/UI/Bag/UIBag.cs:38)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
-
-2023-04-15 00:42:50,561 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIBag+<InitBags>c__Iterator0.MoveNext () (at Assets/Scripts/UI/Bag/UIBag.cs:41)
-UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
+2023-04-17 18:57:47,790 [ 1] INFO  Unity: LoadingManager start
+2023-04-17 18:57:50,949 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-17 18:57:51,091 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{ArgumentException: The requested value 'EQUIP' was not found., System.Enum.Parse (System.Type enumType, System.String value, Boolean ignoreCase) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Enum.cs:692)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
+Rethrow as JsonSerializationException: Error converting value "EQUIP" to type 'SkillBridge.Message.ItemType'. Path '1001.Type', line 155, position 19.
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id)
 }</args></log4net.Error>
-2023-04-15 00:42:52,625 [ 1] INFO  Unity: Character_1_Гигу OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2023-04-15 00:42:52,629 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-15 00:42:52,630 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-17 18:59:08,321 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-17 18:59:08,322 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 

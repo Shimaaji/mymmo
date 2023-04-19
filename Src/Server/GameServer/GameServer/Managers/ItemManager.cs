@@ -81,12 +81,12 @@ namespace GameServer.Managers
                 item = new Item(dbItem);
                 this.Items.Add(itemId, item);
             }
+            this.Owner.StatusManager.AddItemChange(itemId, count, StatusAction.Add);
             Log.InfoFormat("[{0}] AddItem [{1}]  addCount[{2}]", this.Owner.Data.Name, itemId, count);
-            //DBService.Instance.Save();
             return true;
         }
 
-        public bool RemoveItem(int itemId,int count = 1)
+        public bool RemoveItem(int itemId, int count)
         {
             
             if (!this.Items.ContainsKey(itemId))
@@ -99,8 +99,8 @@ namespace GameServer.Managers
                 return false;
             }
             item.Remove(count);
+            this.Owner.StatusManager.AddItemChange(itemId, count, StatusAction.Delete);
             Log.InfoFormat("[{0}] RemoveItem [{1}] [{2}]", Owner.Data.Name, itemId, count);
-            //DBService.Instance.Save();
             return true;
         }
 

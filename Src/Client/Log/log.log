@@ -1,107 +1,83 @@
-2023-04-15 03:42:13,113 [ 1] INFO  Unity: LoadingManager start
-2023-04-15 03:42:16,244 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-15 03:42:19,745 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-04-15 03:42:19,746 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-04-15 03:42:19,750 [ 1] INFO  Unity: DoConnect
-2023-04-15 03:42:19,752 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-15 03:42:19,755 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-04-18 19:20:05,299 [ 1] INFO  Unity: LoadingManager start
+2023-04-18 19:20:08,396 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-18 19:20:11,407 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-18 19:20:11,408 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-18 19:20:11,412 [ 1] INFO  Unity: DoConnect
+2023-04-18 19:20:11,414 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-18 19:20:11,416 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-04-15 03:42:21,795 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+2023-04-18 19:20:11,422 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-18 19:20:13,457 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-18 19:20:13,458 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-18 19:20:13,620 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-18 19:20:14,099 [ 1] INFO  Unity: Select Char:[1]池鱼[Warrior]
+2023-04-18 19:20:14,707 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-18 19:20:14,840 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-18 19:20:14,842 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 200]
+2023-04-18 19:20:14,843 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 100]
+2023-04-18 19:20:14,844 [ 1] INFO  Unity: ItemManager: Init[Id: 3,Count: 42]
+2023-04-18 19:20:14,844 [ 1] INFO  Unity: ItemManager: Init[Id: 4,Count: 120]
+2023-04-18 19:20:14,845 [ 1] INFO  Unity: ItemManager: Init[Id: 1001,Count: 1]
+2023-04-18 19:20:14,848 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-18 19:20:14,850 [ 1] INFO  Unity: AddCharacter:1:池鱼 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-18 19:20:14,853 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-18 19:20:15,375 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-18 19:20:15,375 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-18 19:20:15,453 [ 1] INFO  Unity: GameObjectManager[-113588] Awake
+2023-04-18 19:20:15,458 [ 1] INFO  Unity: MainPlayerCamera[53490] Awake
+2023-04-18 19:20:15,459 [ 1] INFO  Unity: UIMain[55316] Awake
+2023-04-18 19:20:15,460 [ 1] INFO  Unity: UIWorldElementManager[55430] Awake
+2023-04-18 19:20:15,490 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-18 19:20:23,295 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2023-04-18 19:20:23,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,391 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
+2023-04-18 19:20:23,392 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,494 [ 1] INFO  Unity: SetDirection:(83, 56, 0)
+2023-04-18 19:20:23,495 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,578 [ 1] INFO  Unity: SetDirection:(72, 69, 0)
+2023-04-18 19:20:23,579 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,654 [ 1] INFO  Unity: SetDirection:(59, 81, 0)
+2023-04-18 19:20:23,655 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,743 [ 1] INFO  Unity: SetDirection:(44, 90, 0)
+2023-04-18 19:20:23,743 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,822 [ 1] INFO  Unity: SetDirection:(28, 96, 0)
+2023-04-18 19:20:23,822 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,911 [ 1] INFO  Unity: SetDirection:(11, 99, 0)
+2023-04-18 19:20:23,912 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:23,973 [ 1] INFO  Unity: MoveForward
+2023-04-18 19:20:23,974 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:24,030 [ 1] INFO  Unity: SetDirection:(-8, 100, 0)
+2023-04-18 19:20:24,031 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:24,773 [ 1] INFO  Unity: Stop
+2023-04-18 19:20:24,774 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:29,710 [ 1] INFO  Unity: MoveForward
+2023-04-18 19:20:29,711 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:30,840 [ 1] INFO  Unity: SetPosition:(4957, 4581, 800)
+2023-04-18 19:20:30,840 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:31,279 [ 1] INFO  Unity: Stop
+2023-04-18 19:20:31,280 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:31,996 [ 1] INFO  Unity: MoveForward
+2023-04-18 19:20:31,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:32,439 [ 1] INFO  Unity: SetDirection:(-26, 97, 0)
+2023-04-18 19:20:32,440 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-04-18 19:20:32,989 [ 1] INFO  Unity: 点击了：ID:2,名字：多丽丝,杂货商人
+2023-04-18 19:20:33,166 [ 1] INFO  Unity: Stop
+2023-04-18 19:20:33,167 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-18 19:20:34,951 [ 1] INFO  Unity: SendButItem
+2023-04-18 19:20:35,241 [ 1] INFO  Unity: StatusNotify:[Item][Add]1:1
+2023-04-18 19:20:35,242 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:10
+2023-04-18 19:20:49,357 [ 1] INFO  Unity: 点击了：ID:2,名字：多丽丝,杂货商人
+2023-04-18 19:21:08,799 [ 1] INFO  Unity: 点击了：ID:2,名字：多丽丝,杂货商人
+2023-04-18 19:21:21,199 [ 1] INFO  Unity: SendButItem
+2023-04-18 19:21:21,220 [ 1] INFO  Unity: StatusNotify:[Item][Add]2:1
+2023-04-18 19:21:21,221 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:10
+2023-04-18 19:21:33,248 [ 1] INFO  Unity: 点击了：ID:2,名字：多丽丝,杂货商人
+2023-04-18 19:22:09,988 [ 1] INFO  Unity: Character_1_池鱼 OnDestroy :ID:1 POS:(4914, 5061, 800) DIR:(-26, 97, 0) SPD:0 
+2023-04-18 19:22:09,991 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-18 19:22:09,991 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:54)
-Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:117)
-UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
-UnityEngine.EventSystems.EventSystem:Update()
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 
-2023-04-15 03:42:21,799 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:54)
-Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:117)
-UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2023-04-15 03:42:21,799 [ 1] INFO  Unity: DoConnect
-2023-04-15 03:42:21,800 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-15 03:42:21,801 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2023-04-15 03:42:23,833 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2023-04-15 03:42:23,834 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2023-04-15 03:42:23,874 [ 1] INFO  Unity: DoConnect
-2023-04-15 03:42:23,874 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-15 03:42:23,875 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2023-04-15 03:42:25,920 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2023-04-15 03:42:25,921 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2023-04-15 03:42:25,921 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2023-04-15 03:42:35,686 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-04-15 03:42:35,687 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-04-15 03:42:35,687 [ 1] INFO  Unity: DoConnect
-2023-04-15 03:42:35,688 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-04-15 03:42:35,690 [ 1] INFO  Unity: Connect[3] to server 127.0.0.1:8000
-
-2023-04-15 03:42:35,690 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-04-15 03:42:37,883 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-04-15 03:42:37,885 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-04-15 03:42:38,045 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-15 03:42:38,890 [ 1] INFO  Unity: Select Char:[1]池鱼[Archer]
-2023-04-15 03:42:39,573 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-04-15 03:42:39,716 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-04-15 03:42:39,718 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 150]
-2023-04-15 03:42:39,719 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 100]
-2023-04-15 03:42:39,720 [ 1] INFO  Unity: ItemManager: Init[Id: 3,Count: 30]
-2023-04-15 03:42:39,721 [ 1] INFO  Unity: ItemManager: Init[Id: 4,Count: 120]
-2023-04-15 03:42:39,723 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2023-04-15 03:42:39,725 [ 1] INFO  Unity: AddCharacter:1:池鱼 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-04-15 03:42:39,728 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-04-15 03:42:40,294 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2023-04-15 03:42:40,294 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2023-04-15 03:42:40,406 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-04-15 03:42:45,328 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-15 03:42:45,328 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
-
-2023-04-15 03:42:45,331 [ 1] INFO  Unity: Character_1_池鱼 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

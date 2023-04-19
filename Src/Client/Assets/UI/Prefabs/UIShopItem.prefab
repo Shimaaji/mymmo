@@ -140,9 +140,9 @@ GameObject:
   - component: {fileID: 224319907022830018}
   - component: {fileID: 222746912030569150}
   - component: {fileID: 114102374597679018}
-  - component: {fileID: 114585471682925796}
   - component: {fileID: 114296191661421390}
   - component: {fileID: 114381319243942454}
+  - component: {fileID: 114998330141182814}
   m_Layer: 5
   m_Name: UIShopItem
   m_TagString: Untagged
@@ -346,25 +346,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114585471682925796
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1998580892786704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 586070231bd69bb4b8b2904b3eaf069b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 114897561529666298}
-  title: {fileID: 114655099434037932}
-  price: {fileID: 114600459349680868}
-  limitClass: {fileID: 114155608412607142}
-  count: {fileID: 114309498266548218}
-  background: {fileID: 114102374597679018}
-  normalBg: {fileID: 21300000, guid: f2c26ba28b4d05643ba74996bb40967b, type: 3}
-  selectedBg: {fileID: 21300000, guid: bb799af4d1f965c4a93f16cb08f26925, type: 3}
 --- !u!114 &114600459349680868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -458,6 +439,24 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114998330141182814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998580892786704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176199cc9646ac845941d812feb89fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 114897561529666298}
+  title: {fileID: 114655099434037932}
+  price: {fileID: 114600459349680868}
+  count: {fileID: 114309498266548218}
+  background: {fileID: 114102374597679018}
+  normalBg: {fileID: 21300000, guid: f2c26ba28b4d05643ba74996bb40967b, type: 3}
+  selectedBg: {fileID: 21300000, guid: bb799af4d1f965c4a93f16cb08f26925, type: 3}
 --- !u!222 &222043691921476236
 CanvasRenderer:
   m_ObjectHideFlags: 1

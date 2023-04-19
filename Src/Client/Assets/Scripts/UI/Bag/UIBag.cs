@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class UIBag : UIWindow
 {
-	//public Text money;
+	public Text money;
 
 	public Transform[] pages;
 	public GameObject bagItem;
@@ -46,12 +46,14 @@ public class UIBag : UIWindow
         {
 			slots[i].color = Color.gray;
         }
+		this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+
 		yield return null;
     }
 
 	public void SetTitle(string title)
     {
-		//this.money.text = User.Instance.CurrentCharacter.Id.ToString();
+		this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
     }
 
 	public void OnReset()

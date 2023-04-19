@@ -112,10 +112,12 @@ namespace GameServer.Services
                 Name = request.Name,
                 Class = (int)request.Class,
                 TID = (int)request.Class,
-                MapID = 1,
+                MapID = 1,//初始地图
+                //初始坐标
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+                Gold = 100000,//初始金币
             };
             //为角色创建背包
             var bag = new TCharacterBag();
