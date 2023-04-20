@@ -23,9 +23,14 @@ namespace GameServer.Services
         }
 
         
-        internal void Save()
+        //同步或异步保存
+        public void Save(bool async = false)
         {
-            entities.SaveChangesAsync();
+            if (async)
+                entities.SaveChangesAsync();
+            else
+                entities.SaveChanges();
+
         }
     }
 }

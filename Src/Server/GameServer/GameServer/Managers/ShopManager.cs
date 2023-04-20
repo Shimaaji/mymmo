@@ -16,9 +16,7 @@ namespace GameServer.Managers
         public Result BuyItem(NetConnection<NetSession> sender, int shopId, int shopItemId)
         {
             if (!DataManager.Instance.Shops.ContainsKey(shopId))
-            {
                 return Result.Failed;
-            }
 
             ShopItemDefine shopItem;
             if (DataManager.Instance.ShopItems[shopId].TryGetValue(shopItemId, out shopItem))

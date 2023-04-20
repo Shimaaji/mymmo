@@ -115,6 +115,7 @@ namespace Managers
                     {
                         this.Items[i].ItemId = (ushort)itemId;
                         this.Items[i].Count = addCount;
+                        break;
                     }
                 }
             }

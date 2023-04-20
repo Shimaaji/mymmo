@@ -8,7 +8,7 @@ public class UIManager : Singleton<UIManager> {
 	class UIElement
     {
         public string Resources;
-        public bool Cashe;
+        public bool Cache;
         public GameObject Instance;
     }
 
@@ -16,9 +16,10 @@ public class UIManager : Singleton<UIManager> {
 
     public UIManager()
     {
-        this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cashe = true });
-        this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cashe = false });
-        this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop",Cashe = false });
+        this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true });
+        this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });
+        this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop",Cache = false });
+        this.UIResources.Add(typeof(UICharEquip), new UIElement() { Resources = "UI/UICharEquip", Cache = false });
     }
 
     ~UIManager()
@@ -58,7 +59,7 @@ public class UIManager : Singleton<UIManager> {
         if (this.UIResources.ContainsKey(type))
         {
             UIElement info = this.UIResources[type];
-            if (info.Cashe)
+            if (info.Cache)
             {
                 info.Instance.SetActive(false);
             }

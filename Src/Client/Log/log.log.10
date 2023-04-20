@@ -1,16 +1,37 @@
-2023-04-17 18:57:47,790 [ 1] INFO  Unity: LoadingManager start
-2023-04-17 18:57:50,949 [ 1] INFO  Unity: DataManager > DataManager()
-2023-04-17 18:57:51,091 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{ArgumentException: The requested value 'EQUIP' was not found., System.Enum.Parse (System.Type enumType, System.String value, Boolean ignoreCase) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Enum.cs:692)
-Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
-Rethrow as JsonSerializationException: Error converting value "EQUIP" to type 'SkillBridge.Message.ItemType'. Path '1001.Type', line 155, position 19.
-Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
-Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue)
-Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target)
-Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id)
-}</args></log4net.Error>
-2023-04-17 18:59:08,321 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-04-17 18:59:08,322 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-04-19 19:43:07,104 [ 1] INFO  Unity: LoadingManager start
+2023-04-19 19:43:10,241 [ 1] INFO  Unity: DataManager > DataManager()
+2023-04-19 19:43:14,776 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-04-19 19:43:14,777 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-04-19 19:43:14,781 [ 1] INFO  Unity: DoConnect
+2023-04-19 19:43:14,783 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-04-19 19:43:14,787 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2023-04-19 19:43:14,791 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-04-19 19:43:14,893 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-04-19 19:43:14,895 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-04-19 19:43:15,061 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-19 19:43:15,646 [ 1] INFO  Unity: Select Char:[1]AB[Warrior]
+2023-04-19 19:43:16,355 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-04-19 19:43:16,379 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-04-19 19:43:16,381 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
+2023-04-19 19:43:16,382 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
+2023-04-19 19:43:16,385 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-04-19 19:43:16,387 [ 1] INFO  Unity: AddCharacter:3:AB Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-04-19 19:43:16,390 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-04-19 19:43:16,917 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-19 19:43:16,917 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-04-19 19:43:16,995 [ 1] INFO  Unity: GameObjectManager[-1942588] Awake
+2023-04-19 19:43:17,000 [ 1] INFO  Unity: MainPlayerCamera[182658] Awake
+2023-04-19 19:43:17,001 [ 1] INFO  Unity: UIMain[184476] Awake
+2023-04-19 19:43:17,002 [ 1] INFO  Unity: UIWorldElementManager[184590] Awake
+2023-04-19 19:43:17,035 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-04-19 19:43:25,057 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2023-04-19 19:43:25,058 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:3,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-04-19 19:43:27,215 [ 1] INFO  Unity: Character_3_AB OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(98, 18, 0) SPD:0 
+2023-04-19 19:43:27,216 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-04-19 19:43:27,217 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
