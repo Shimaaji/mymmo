@@ -30,6 +30,7 @@ namespace GameServer
             MapService.Instance.Init();
             UserService.Instance.Init();
             ItemService.Instance.Init();
+            QuestService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
 

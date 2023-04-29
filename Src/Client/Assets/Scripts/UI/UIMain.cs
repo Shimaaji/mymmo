@@ -9,16 +9,22 @@ public class UIMain : MonoSingleton<UIMain> {
 
 	public Text avatarName;
 	public Text avatarLevel;
+	public GameObject[] avatarImage;
 
+	
 	protected override void OnStart() 
 	{
 		this.UpdateAvatar();
 	}
-
+	
 	void UpdateAvatar()
 	{
 		this.avatarName.text = string.Format("{0}[{1}]", User.Instance.CurrentCharacter.Name, User.Instance.CurrentCharacter.Id);
 		this.avatarLevel.text = User.Instance.CurrentCharacter.Level.ToString();
+		for (int i = 0; i < 3; i++)
+		{
+			avatarImage[i].SetActive(i == User.Instance.CurrentCharacter.Tid - 1);
+		}
 	}
 
 
@@ -49,4 +55,9 @@ public class UIMain : MonoSingleton<UIMain> {
     {
 		UIManager.Instance.Show<UICharEquip>();
     }
+
+	public void OnClickQuest()
+    {
+		UIManager.Instance.Show<UIQuestSystem>();
+	}
 }

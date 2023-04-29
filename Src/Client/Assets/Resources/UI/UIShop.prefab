@@ -541,7 +541,7 @@ MonoBehaviour:
   tabButtons:
   - {fileID: 114048042056708282}
   - {fileID: 114937956771465066}
-  tabPage:
+  tabPages:
   - {fileID: 1663299733889922}
   - {fileID: 1099657504924870}
   index: -1

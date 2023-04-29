@@ -90,7 +90,7 @@ public class UICharEquip : UIWindow {
 
     public void DoEquip(Item item)
     {
-        EquipManager.Instance.EquiItem(item);
+        EquipManager.Instance.EquipItem(item);
     }
 
     public void UnEquip(Item item)

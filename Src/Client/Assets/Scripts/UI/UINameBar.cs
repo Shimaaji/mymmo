@@ -22,14 +22,13 @@ public class UINameBar : MonoBehaviour {
 	void Update () 
 	{
 		this.UpdateInfo();
-		this.transform.forward = Camera.main.transform.forward;
 	}
 
 	void UpdateInfo()
     {
         if (this.character != null)
         {
-			string name = "Lv." + this.character.Info.Level + this.character.Name;
+			string name = this.character.Name + "Lv." + this.character.Info.Level;
 			if (name != this.avatarName.text)
             {
 				this.avatarName.text = name;

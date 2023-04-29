@@ -65,7 +65,7 @@ public class EquipManager : Singleton<EquipManager>
         return this.Data;
     }
 
-    public void EquiItem(Item equip)
+    public void EquipItem(Item equip)
     {
         ItemService.Instance.SendeEquipItem(equip, true);
     }
