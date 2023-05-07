@@ -23,7 +23,7 @@ public class UIMain : MonoSingleton<UIMain> {
 		this.avatarLevel.text = User.Instance.CurrentCharacter.Level.ToString();
 		for (int i = 0; i < 3; i++)
 		{
-			avatarImage[i].SetActive(i == User.Instance.CurrentCharacter.Tid - 1);
+			avatarImage[i].SetActive(i == User.Instance.CurrentCharacter.ConfigId - 1);
 		}
 	}
 
@@ -60,4 +60,9 @@ public class UIMain : MonoSingleton<UIMain> {
     {
 		UIManager.Instance.Show<UIQuestSystem>();
 	}
+
+	public void OnClickFriend()
+    {
+		UIManager.Instance.Show<UIFriend>();
+    }
 }

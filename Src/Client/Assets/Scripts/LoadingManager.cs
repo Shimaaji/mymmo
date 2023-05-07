@@ -43,8 +43,9 @@ public class LoadingManager : MonoBehaviour {
         MapService.Instance.Init();
         UserService.Instance.Init();
         DataManager.Instance.Load();
+        StatusService.Instance.Init();
+        FriendService.Instance.Init();
 
-        //TestManager.Instance.Init();
         ShopManager.Instance.Init();
 
         // Fake Loading Simulate

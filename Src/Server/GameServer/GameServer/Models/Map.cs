@@ -35,6 +35,9 @@ namespace GameServer.Models
         }
         internal MapDefine Define;
 
+        /// <summary>
+        /// 地图中的角色，以CharacterID为key
+        /// </summary>
         Dictionary<int, MapCharacter> MapCharacters = new Dictionary<int, MapCharacter>();
 
 
@@ -44,8 +47,6 @@ namespace GameServer.Models
         SpawnManager SpawnManager = new SpawnManager();
 
         public MonsterManager MonsterManager = new MonsterManager();
-
-
 
         internal Map(MapDefine define)
         {
@@ -93,6 +94,24 @@ namespace GameServer.Models
             }
             this.MapCharacters.Remove(cha.Id);
         }
+        void AddCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
+        {
+            if (conn.Session.Response.mapCharacterEnter == null)
+            {
+                conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+                conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
+            }
+            conn.Session.Response.mapCharacterEnter.Characters.Add(character);
+            conn.SendResponse();
+
+        }
+
+        void SendCharacterLeaveMap(NetConnection<NetSession> conn, Character character)
+        {
+            conn.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
+            conn.Session.Response.mapCharacterLeave.entityId = character.entityId;
+            conn.SendResponse();
+        }
 
         internal void UpdateEntity(NEntitySync entity)
         {
@@ -113,24 +132,7 @@ namespace GameServer.Models
             }
         }
 
-        void AddCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
-        {
-            if (conn.Session.Response.mapCharacterEnter == null)
-            {
-                conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-                conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
-            }
-            conn.Session.Response.mapCharacterEnter.Characters.Add(character);
-            conn.SendResponse();
-            
-        }
 
-        void SendCharacterLeaveMap(NetConnection<NetSession> conn, Character character)
-        {
-            conn.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
-            conn.Session.Response.mapCharacterLeave.characterId = character.Id;
-            conn.SendResponse();
-        }
 
         /// <summary>
         /// 怪物进入地图
