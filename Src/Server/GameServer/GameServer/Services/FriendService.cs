@@ -114,20 +114,16 @@ namespace GameServer.Services
         private void OnFriendRemove(NetConnection<NetSession> sender, FriendRemoveRequest request)
         {
             Character character = sender.Session.Character;
-            //Log.InfoFormat("OnFriendRemove: :character:{0} FriendReletionID:{1}", character.Id, request.Id);
-            Log.InfoFormat("OnFriendRemove: :character:{0} FriendReletionID:{1}", character.Id, request.friendId);
+            Log.InfoFormat("OnFriendRemove: :character:{0} FriendReletionID:{1}", character.Id, request.Id);
             sender.Session.Response.friendRemove = new FriendRemoveResponse();
-            //sender.Session.Response.friendRemove.Id = request.Id;
-            sender.Session.Response.friendRemove.Id = request.friendId;
+            sender.Session.Response.friendRemove.Id = request.Id;
 
             //删除自己的好友
-            //if (character.FriendManager.RemoveFriendByID(request.Id))
-            if (character.FriendManager.RemoveFriendByID(request.friendId))
+            if (character.FriendManager.RemoveFriendByID(request.Id))
             {
                 sender.Session.Response.friendRemove.Result = Result.Success;
                 //删除别人好友中的自己
-                //var friend = SessionManager.Instance.GetSession(request.Id);
-                var friend = SessionManager.Instance.GetSession(request.friendId);
+                var friend = SessionManager.Instance.GetSession(request.Id);
                 if (friend != null)
                 {
                     //好友在线
@@ -136,8 +132,7 @@ namespace GameServer.Services
                 else
                 {
                     //好友不在线
-                    //this.RemoveFriend(request.friendId, character.Id);
-                    this.RemoveFriend(character.Id,request.friendId);
+                    this.RemoveFriend(request.friendId, character.Id);
                 }
             }
             else

@@ -18,6 +18,11 @@
         <AssociationConnector Association="ExtremeWorldModel.TCharacterTCharacterQuest" />
         <EntityTypeShape EntityType="ExtremeWorldModel.TCharacterFriend" Width="1.5" PointX="8" PointY="7.375" />
         <AssociationConnector Association="ExtremeWorldModel.TCharacterTCharacterFriend" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuild" Width="1.5" PointX="0.5" PointY="7.875" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildMember" Width="1.5" PointX="3.375" PointY="7" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildApply" Width="1.5" PointX="3.375" PointY="10.125" />
+        <AssociationConnector Association="ExtremeWorldModel.GuildMember" />
+        <AssociationConnector Association="ExtremeWorldModel.GuildApply" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

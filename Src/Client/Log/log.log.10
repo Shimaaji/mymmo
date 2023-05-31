@@ -1,37 +1,70 @@
-2023-05-06 13:50:49,257 [ 1] INFO  Unity: LoadingManager start
-2023-05-06 13:50:52,399 [ 1] INFO  Unity: DataManager > DataManager()
-2023-05-06 13:51:05,182 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-05-06 13:51:05,184 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-05-06 13:51:05,187 [ 1] INFO  Unity: DoConnect
-2023-05-06 13:51:05,189 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-05-06 13:51:05,193 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-05-28 13:01:30,367 [ 1] INFO  Unity: LoadingManager start
+2023-05-28 13:01:33,558 [ 1] INFO  Unity: DataManager > DataManager()
+2023-05-28 13:01:45,511 [ 1] INFO  Unity: UserRegisterRequest::user :test1 psw:111
+2023-05-28 13:01:45,513 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-05-28 13:01:45,517 [ 1] INFO  Unity: DoConnect
+2023-05-28 13:01:45,519 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-05-28 13:01:45,531 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-05-06 13:51:05,197 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-05-06 13:51:05,307 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-05-06 13:51:05,309 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-05-06 13:51:05,458 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-05-06 13:51:25,866 [ 1] INFO  Unity: Select Char:[1]111[Warrior]
-2023-05-06 13:51:26,449 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-05-06 13:51:26,475 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-05-06 13:51:26,477 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
-2023-05-06 13:51:26,478 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
-2023-05-06 13:51:26,485 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2023-05-06 13:51:26,487 [ 1] INFO  Unity: AddCharacter:1:111 Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-05-06 13:51:26,490 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-05-06 13:51:27,045 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2023-05-28 13:01:45,539 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-05-28 13:01:45,672 [ 1] INFO  Unity: OnUserRegister:Success [None]
+2023-05-28 13:01:51,621 [ 1] INFO  Unity: UserLoginRequest::user :test1 psw:111
+2023-05-28 13:01:51,655 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-05-28 13:01:51,657 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-05-28 13:01:51,985 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-05-28 13:02:19,502 [ 1] INFO  Unity: UserCreateCharacterRequest: Name:在, Class:Wizard
+2023-05-28 13:02:19,545 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2023-05-28 13:02:20,602 [ 1] INFO  Unity: Select Char:[2]在[Wizard]
+2023-05-28 13:02:22,661 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-05-28 13:02:22,690 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-05-28 13:02:22,693 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
+2023-05-28 13:02:22,693 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
+2023-05-28 13:02:22,703 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-05-28 13:02:22,705 [ 1] INFO  Unity: AddCharacter:2:在 Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-05-28 13:02:22,709 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-05-28 13:02:23,348 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2023-05-06 13:51:27,045 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2023-05-28 13:02:23,348 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2023-05-06 13:51:27,120 [ 1] INFO  Unity: GameObjectManager[-1079220] Awake
-2023-05-06 13:51:27,125 [ 1] INFO  Unity: MainPlayerCamera[195416] Awake
-2023-05-06 13:51:27,126 [ 1] INFO  Unity: UIMain[197258] Awake
-2023-05-06 13:51:27,127 [ 1] INFO  Unity: UIWorldElementManager[197372] Awake
-2023-05-06 13:51:27,159 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-05-06 13:51:32,928 [ 1] INFO  Unity: SendFriendRemoveRequest
-2023-05-06 13:51:32,952 [ 1] INFO  Unity: OnFriendList
-2023-05-06 13:51:39,800 [ 1] INFO  Unity: Character_1_111 OnDestroy :ID:12 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2023-05-06 13:51:39,804 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-05-06 13:51:39,804 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-05-28 13:02:23,436 [ 1] INFO  Unity: GameObjectManager[-51182] Awake
+2023-05-28 13:02:23,441 [ 1] INFO  Unity: MainPlayerCamera[36046] Awake
+2023-05-28 13:02:23,442 [ 1] INFO  Unity: UIMain[38096] Awake
+2023-05-28 13:02:23,442 [ 1] INFO  Unity: UIWorldElementManager[38224] Awake
+2023-05-28 13:02:23,478 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-05-28 13:02:25,925 [ 1] INFO  Unity: SendGuildListRequest
+2023-05-28 13:03:12,595 [ 1] INFO  Unity: SendGuildCreate
+2023-05-28 13:03:12,633 [ 1] INFO  Unity: OnGuildCreateResponse : Success
+2023-05-28 13:03:12,636 [ 1] INFO  Unity: OnGuild: Success 2:这是测是号
+2023-05-28 13:03:15,852 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-05-28 13:03:15,853 [ 1] INFO  Unity: UserSendGameLeaveRequest
+2023-05-28 13:03:15,975 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:12
+2023-05-28 13:03:15,979 [ 1] INFO  Unity: RemoveCharacter:12
+2023-05-28 13:03:15,984 [ 1] INFO  Unity: OnUserGameLeave:Success  None
+2023-05-28 13:03:15,984 [ 1] INFO  Unity: Character_2_在 OnDestroy :ID:12 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-05-28 13:03:16,125 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-05-28 13:03:21,258 [ 1] INFO  Unity: UserCreateCharacterRequest: Name:123, Class:Archer
+2023-05-28 13:03:21,289 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2023-05-28 13:03:22,179 [ 1] INFO  Unity: Select Char:[3]123[Archer]
+2023-05-28 13:03:22,637 [ 1] INFO  Unity: UserSendGameEnterRequest:1
+2023-05-28 13:03:22,657 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-05-28 13:03:22,658 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
+2023-05-28 13:03:22,659 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
+2023-05-28 13:03:22,660 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-05-28 13:03:22,661 [ 1] INFO  Unity: AddCharacter:3:123 Map:1 Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-05-28 13:03:22,663 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-05-28 13:03:23,352 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-05-28 13:03:23,353 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-05-28 13:03:23,453 [ 1] INFO  Unity: GameObjectManager[-60690] Awake
+2023-05-28 13:03:23,454 [ 1] INFO  Unity: MainPlayerCamera[40850] Awake
+2023-05-28 13:03:23,454 [ 1] INFO  Unity: UIMain[42900] Awake
+2023-05-28 13:03:23,455 [ 1] INFO  Unity: UIWorldElementManager[43028] Awake
+2023-05-28 13:03:23,485 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-05-28 13:03:25,597 [ 1] INFO  Unity: SendGuildListRequest
+2023-05-28 13:03:43,366 [ 1] INFO  Unity: Character_3_123 OnDestroy :ID:13 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2023-05-28 13:03:43,368 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-05-28 13:03:43,369 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)

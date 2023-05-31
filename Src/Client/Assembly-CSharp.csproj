@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Assets\GameDefine.cs" />
      <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
      <Compile Include="Assets\Scripts\Entities\Character.cs" />
      <Compile Include="Assets\Scripts\Entities\Entity.cs" />
@@ -73,11 +74,13 @@
      <Compile Include="Assets\Scripts\Managers\EntityManager.cs" />
      <Compile Include="Assets\Scripts\Managers\EquipManager.cs" />
      <Compile Include="Assets\Scripts\Managers\FriendManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\GuildManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemManager.cs" />
      <Compile Include="Assets\Scripts\Managers\MinimapManager.cs" />
      <Compile Include="Assets\Scripts\Managers\NPCManager.cs" />
      <Compile Include="Assets\Scripts\Managers\QuestManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ShopManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\TeamManager.cs" />
      <Compile Include="Assets\Scripts\Managers\TestManager.cs" />
      <Compile Include="Assets\Scripts\Models\BagItem.cs" />
      <Compile Include="Assets\Scripts\Models\Item.cs" />
@@ -86,10 +89,12 @@
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
      <Compile Include="Assets\Scripts\Services\FriendService.cs" />
+     <Compile Include="Assets\Scripts\Services\GuildService.cs" />
      <Compile Include="Assets\Scripts\Services\ItemService.cs" />
      <Compile Include="Assets\Scripts\Services\MapService.cs" />
      <Compile Include="Assets\Scripts\Services\QuestService.cs" />
      <Compile Include="Assets\Scripts\Services\StatusService.cs" />
+     <Compile Include="Assets\Scripts\Services\TeamService.cs" />
      <Compile Include="Assets\Scripts\Services\UserService.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\UI\Bag\UIBag.cs" />
@@ -97,6 +102,15 @@
      <Compile Include="Assets\Scripts\UI\CharEquip\UIEquipItem.cs" />
      <Compile Include="Assets\Scripts\UI\Friend\UIFriend.cs" />
      <Compile Include="Assets\Scripts\UI\Friend\UIFriendItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuild.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildApplyItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildApplyList.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildList.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildMemberItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildPopCreate.cs" />
+     <Compile Include="Assets\Scripts\UI\Guild\UIGuildPopNoGuild.cs" />
      <Compile Include="Assets\Scripts\UI\InputBox.cs" />
      <Compile Include="Assets\Scripts\UI\ListView\ListView.cs" />
      <Compile Include="Assets\Scripts\UI\MessageBox.cs" />
@@ -108,8 +122,11 @@
      <Compile Include="Assets\Scripts\UI\QuestSystem\UIQuestSystem.cs" />
      <Compile Include="Assets\Scripts\UI\Shop\UIShop.cs" />
      <Compile Include="Assets\Scripts\UI\Shop\UIShopItem.cs" />
+     <Compile Include="Assets\Scripts\UI\SpriteManager.cs" />
      <Compile Include="Assets\Scripts\UI\TabView\TabButton.cs" />
      <Compile Include="Assets\Scripts\UI\TabView\TabView.cs" />
+     <Compile Include="Assets\Scripts\UI\Team\UITeam.cs" />
+     <Compile Include="Assets\Scripts\UI\Team\UITeamItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIAvatar.cs" />
      <Compile Include="Assets\Scripts\UI\UICharacterSelect.cs" />
      <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />

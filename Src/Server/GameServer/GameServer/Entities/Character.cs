@@ -1,6 +1,8 @@
-﻿using Common.Data;
+﻿using Common;
+using Common.Data;
 using GameServer.Core;
 using GameServer.Managers;
+using GameServer.Models;
 using Network;
 using SkillBridge.Message;
 using System;
@@ -21,6 +23,11 @@ namespace GameServer.Entities
         public StatusManager StatusManager;
         public FriendManager FriendManager;
 
+        public Team Team;
+        public double TeamUpdateTS;
+
+        public Guild Guild;
+        public double GuildUpdateTS;
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
@@ -54,6 +61,8 @@ namespace GameServer.Entities
 
             this.FriendManager = new FriendManager(this);
             this.FriendManager.GetFriendInfos(this.Info.Friends);
+
+            this.Guild = GuildManager.Instance.GetGuild(this.Data.GuildId);
         }
 
         public long Gold
@@ -73,17 +82,61 @@ namespace GameServer.Entities
 
         public void PostProcess(NetMessageResponse message)
         {
+            Log.InfoFormat("PostProcess > Character: characterID:{0}:{1}", this.Id, this.Info.Name);
             this.FriendManager.PostProcess(message);
+
+            if (this.Team != null)
+            {
+                Log.InfoFormat("PostProcess > Team: characterID:{0}:{1}  {2}<{3}", this.Id, this.Info.Name, TeamUpdateTS,this.Team.timestamp);
+                if (TeamUpdateTS < this.Team.timestamp)
+                {
+                    TeamUpdateTS = Team.timestamp;
+                    this.Team.PostProcess(message);
+                }
+            }
+
+            if (this.Guild != null)
+            {
+                Log.InfoFormat("PostProcess > Guild: characterID:{0}:{1}  {2}<{3}", this.Id, this.Info.Name, GuildUpdateTS, this.GuildUpdateTS);
+                if (this.Info.Guild == null)
+                {
+                    this.Info.Guild = this.Guild.GuildInfo(this);
+                    if (message.mapCharacterEnter != null)
+                    {
+                        GuildUpdateTS = Guild.timestamp;
+                    }
+                }
+                if (GuildUpdateTS < this.Guild.timestamp && message.mapCharacterEnter == null)
+                {
+                    GuildUpdateTS = Guild.timestamp;
+                    this.Guild.PostProcess(this, message);
+                }
+
+            }
+
             if (this.StatusManager.HasStatus)
             {
                 this.StatusManager.PostProcess(message);
             }
         }
 
-        ///
+        /// <summary>
+        /// 角色离开时使用
+        /// </summary>
         public void Clear()
         {
-            this.FriendManager.UpdateFriendInfo(this.Info, 0);
+            this.FriendManager.OfflineNotify();
+        }
+
+        public NCharacterInfo GetBasicInfo()
+        {
+            return new NCharacterInfo()
+            {
+                Id = this.Id,
+                Name = this.Info.Name,
+                Class = this.Info.Class,
+                Level = this.Info.Level,
+            };
         }
     }
 }

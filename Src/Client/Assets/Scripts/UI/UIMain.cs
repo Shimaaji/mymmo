@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Managers;
+using Models;
 using Services;
 using System;
 using System.Collections;
@@ -10,6 +11,8 @@ public class UIMain : MonoSingleton<UIMain> {
 	public Text avatarName;
 	public Text avatarLevel;
 	public GameObject[] avatarImage;
+
+	public UITeam TeamWindow;
 
 	
 	protected override void OnStart() 
@@ -65,4 +68,29 @@ public class UIMain : MonoSingleton<UIMain> {
     {
 		UIManager.Instance.Show<UIFriend>();
     }
+
+	public void OnClickGuild()
+    {
+		GuildManager.Instance.ShowGuild();
+    }
+
+	public void OnClickRide()
+    {
+
+    }
+	public void OnClickSetting()
+	{
+
+	}
+
+	public void OnClickSkill()
+	{
+
+	}
+
+
+	public void ShowTeamUI(bool show)
+	{
+		TeamWindow.ShowTeam(show);
+	}
 }

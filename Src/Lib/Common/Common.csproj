@@ -72,6 +72,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Utils\MathUtil.cs" />
+    <Compile Include="Utils\TimeUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -83,4 +84,8 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)Common.* $(ProjectDir)..\..\Client\Assets\References\ /Y
+copy $(TargetDir)Protocol.* $(ProjectDir)..\..\Client\Assets\References\ /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
