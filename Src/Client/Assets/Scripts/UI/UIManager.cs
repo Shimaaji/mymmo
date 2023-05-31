@@ -60,7 +60,6 @@ public class UIManager : Singleton<UIManager> {
 
     public void Close(Type type)
     {
-        
         if (this.UIResources.ContainsKey(type))
         {
             UIElement info = this.UIResources[type];
