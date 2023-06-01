@@ -20,7 +20,9 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildJoinRequest>(this.OnGuildJoinRequest);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildJoinResponse>(this.OnGuildJoinResponse);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildLeaveRequest>(this.OnGuildLeave);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<GuildAdminRequest>(this.OnGuildAdmin);
         }
+
 
         public void Init()
         {
@@ -134,5 +136,35 @@ namespace GameServer.Services
 
             sender.SendResponse();
         }
+
+        private void OnGuildAdmin(NetConnection<NetSession> sender, GuildAdminRequest request)
+        {
+            Character character = sender.Session.Character;
+            Log.InfoFormat("OnGuildAdmin: :character:{0}", character.Id);
+            sender.Session.Response.guildAdmin = new GuildAdminResponse();
+            if (character.Guild == null)
+            {
+                sender.Session.Response.guildAdmin.Result = Result.Failed;
+                sender.Session.Response.guildAdmin.Errormsg = "无公会，执行失败";
+                sender.SendResponse();
+                return;
+            }
+
+            character.Guild.ExecuteAdmin(request.Command, request.Target, character.Id);
+
+            var target = SessionManager.Instance.GetSession(request.Target);
+            if (target != null)
+            {
+                target.Session.Response.guildAdmin = new GuildAdminResponse();
+                target.Session.Response.guildAdmin.Result = Result.Success;
+                target.Session.Response.guildAdmin.Command = request;
+                target.SendResponse();
+            }
+
+            sender.Session.Response.guildAdmin.Result = Result.Success;
+            sender.Session.Response.guildAdmin.Command = request;
+            sender.SendResponse();
+        }
+
     }
 }

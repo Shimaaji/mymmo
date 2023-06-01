@@ -178,7 +178,7 @@ namespace Services
 
         public void SendGuildJoinApply(bool accept, NGuildApplyInfo apply)
         {
-            Debug.Log("SendGuildJoinAllpy");
+            Debug.Log("SendGuildJoinApply");
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
             message.Request.guildJoinRes = new GuildJoinResponse();

@@ -258,6 +258,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9d07a923df9df842a2d0fc6cad75209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  nickname: {fileID: 114417527309637434}
+  class: {fileID: 114298624483345262}
+  level: {fileID: 114824978236813810}
 --- !u!114 &114169875526660576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -323,7 +327,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114870583768373000}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114156920395509854}
+        m_MethodName: OnDecline
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114243208905018128
@@ -364,7 +379,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114041914581013908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114156920395509854}
+        m_MethodName: OnAccept
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114298624483345262

@@ -37,8 +37,8 @@ public class UIGuild : UIWindow {
 		ClearList();
 		InitItems();
 
-		//this.panelAdmin.SetActive(GuildManager.Instance.myMemberInfo.Title > GuildTitle.None);
-		//this.panelLeader.SetActive(GuildManager.Instance.myMemberInfo.Title == GuildTitle.President);
+		this.panelAdmin.SetActive(GuildManager.Instance.myMemberInfo.Title > GuildTitle.None);
+		this.panelLeader.SetActive(GuildManager.Instance.myMemberInfo.Title == GuildTitle.President);
 	}
 	public void OnGuildMemberSelected(ListView.ListViewItem item)
 	{

@@ -958,6 +958,8 @@ MonoBehaviour:
   itemRoot: {fileID: 224910255456805254}
   uiInfo: {fileID: 114997032031582986}
   selectedItem: {fileID: 0}
+  panelAdmin: {fileID: 1578956071870608}
+  panelLeader: {fileID: 1144486416123056}
 --- !u!114 &114074816813052182
 MonoBehaviour:
   m_ObjectHideFlags: 1
