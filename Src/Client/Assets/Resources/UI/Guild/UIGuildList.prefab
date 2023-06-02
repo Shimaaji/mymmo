@@ -602,6 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f817ce714968480439a2e93803e1e2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Root: {fileID: 0}
   itemPrefab: {fileID: 1816834181434090, guid: 40c3b5d4fd64aae48bc7d22baf4261a7, type: 2}
   listMain: {fileID: 114134924990263096}
   itemRoot: {fileID: 224512165545775012}
@@ -1961,7 +1962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: 0}
+  m_AnchoredPosition: {x: 222.4, y: 0}
   m_SizeDelta: {x: 65.99, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224509768617980240

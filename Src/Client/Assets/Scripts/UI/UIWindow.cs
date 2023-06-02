@@ -16,6 +16,7 @@ public class UIWindow : MonoBehaviour {
         }
     }
 
+    public GameObject Root;
 	public enum WindowResult
     {
 		None = 0,
