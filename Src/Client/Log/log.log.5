@@ -1,38 +1,441 @@
-2023-06-01 19:29:34,513 [ 1] INFO  Unity: LoadingManager start
-2023-06-01 19:29:37,633 [ 1] INFO  Unity: DataManager > DataManager()
-2023-06-01 19:29:42,861 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-06-01 19:29:42,862 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-06-01 19:29:42,866 [ 1] INFO  Unity: DoConnect
-2023-06-01 19:29:42,868 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-06-01 19:29:42,872 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-06-03 18:37:10,304 [ 1] INFO  Unity: LoadingManager start
+2023-06-03 18:37:13,664 [ 1] INFO  Unity: DataManager > DataManager()
+2023-06-03 18:37:23,379 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2023-06-03 18:37:23,380 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-06-03 18:37:23,384 [ 1] INFO  Unity: DoConnect
+2023-06-03 18:37:23,386 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-06-03 18:37:23,389 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2023-06-01 19:29:44,907 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
-Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:55)
-Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:118)
-UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
+2023-06-03 18:37:23,393 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-06-03 18:37:24,140 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2023-06-03 18:37:24,141 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-06-03 18:37:24,383 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-06-03 18:37:25,219 [ 1] INFO  Unity: Select Char:[1]111[Warrior]
+2023-06-03 18:37:25,857 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2023-06-03 18:37:26,050 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2023-06-03 18:37:26,051 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
+2023-06-03 18:37:26,052 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
+2023-06-03 18:37:26,060 [ 1] INFO  Unity: OnGuild: Success 1:啊啊啊啊
+2023-06-03 18:37:26,062 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-06-03 18:37:26,064 [ 1] INFO  Unity: AddCharacter:1:111 Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-06-03 18:37:26,067 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-06-03 18:37:26,668 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-06-03 18:37:26,668 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2023-06-03 18:37:26,749 [ 1] INFO  Unity: GameObjectManager[-166064] Awake
+2023-06-03 18:37:26,757 [ 1] INFO  Unity: MainPlayerCamera[57360] Awake
+2023-06-03 18:37:26,758 [ 1] INFO  Unity: UIMain[59590] Awake
+2023-06-03 18:37:26,759 [ 1] INFO  Unity: UIWorldElementManager[59718] Awake
+2023-06-03 18:37:26,800 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-06-03 18:37:26,868 [ 1] INFO  Unity: Set Channel:Local
+2023-06-03 18:37:38,254 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:37:38,255 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:38,955 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2023-06-03 18:37:38,956 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,055 [ 1] INFO  Unity: SetDirection:(93, 36, 0)
+2023-06-03 18:37:39,056 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,135 [ 1] INFO  Unity: SetDirection:(85, 52, 0)
+2023-06-03 18:37:39,135 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,239 [ 1] INFO  Unity: SetDirection:(73, 69, 0)
+2023-06-03 18:37:39,239 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,338 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
+2023-06-03 18:37:39,338 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,457 [ 1] INFO  Unity: SetDirection:(40, 92, 0)
+2023-06-03 18:37:39,458 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:37:39,674 [ 1] INFO  Unity: Stop
+2023-06-03 18:37:39,675 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:37:42,301 [ 1] INFO  Unity: Set Channel:World
+2023-06-03 18:37:52,043 [ 1] INFO  Unity: SendChat
+2023-06-03 18:38:06,518 [ 1] INFO  Unity: Set Channel:Local
+2023-06-03 18:38:08,355 [ 1] INFO  Unity: SendChat
+2023-06-03 18:38:15,132 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-06-03 18:38:15,133 [ 1] INFO  Unity: AddCharacter:2:222 Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-06-03 18:38:15,174 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:38:25,677 [ 1] INFO  Unity: SetDirection:(22, 97, 0)
+2023-06-03 18:38:25,678 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:25,827 [ 1] INFO  Unity: SetDirection:(3, 100, 0)
+2023-06-03 18:38:25,828 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:26,001 [ 1] INFO  Unity: SetDirection:(-15, 99, 0)
+2023-06-03 18:38:26,002 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:26,393 [ 1] INFO  Unity: SetDirection:(3, 100, 0)
+2023-06-03 18:38:26,394 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:27,433 [ 1] INFO  Unity: SetDirection:(-17, 99, 0)
+2023-06-03 18:38:27,434 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:27,535 [ 1] INFO  Unity: SetDirection:(-35, 94, 0)
+2023-06-03 18:38:27,536 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:27,637 [ 1] INFO  Unity: SetDirection:(-53, 85, 0)
+2023-06-03 18:38:27,638 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:27,748 [ 1] INFO  Unity: SetDirection:(-68, 73, 0)
+2023-06-03 18:38:27,749 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:28,569 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:38:28,569 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:38:28,824 [ 1] INFO  Unity: Stop
+2023-06-03 18:38:28,824 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:42,124 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:38:42,124 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:38:42,346 [ 1] INFO  Unity: Stop
+2023-06-03 18:38:42,346 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:38:51,871 [ 1] INFO  Unity: SendChat
+2023-06-03 18:38:51,890 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:38:53,341 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:38:53,342 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:38:53,601 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5080, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:38:53,602 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5080,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:38:53,652 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5080, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:38:53,653 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5080,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:38:53,929 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(4995, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:38:53,930 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(4995,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:38:54,301 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(4995, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:38:54,302 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(4995,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:38:54,529 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5065, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:38:54,530 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5065,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:39:00,614 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5065, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:39:00,615 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5065,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:39:00,846 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5130, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:39:00,847 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5130,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:39:01,186 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5130, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:39:01,187 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5130,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:39:01,561 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5015, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:39:01,562 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5015,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:39:02,449 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:39:02,449 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:39:02,701 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:02,702 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:39:03,166 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:39:03,167 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:39:03,571 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:03,571 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:39:03,660 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:39:03,660 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:39:03,877 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:03,878 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:39:13,716 [ 1] INFO  Unity: SendChat
+2023-06-03 18:39:13,736 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:39:15,733 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:39:15,733 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:39:15,913 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:15,914 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:39:30,307 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5015, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:39:30,307 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5015,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:39:30,308 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:39:30,459 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5060, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:39:30,460 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5060,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:39:58,901 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:39:58,901 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:39:59,183 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:59,184 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:39:59,298 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:39:59,298 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:39:59,770 [ 1] INFO  Unity: Stop
+2023-06-03 18:39:59,770 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:00,952 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5060, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:40:00,953 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5060,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:40:00,953 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:40:01,168 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5125, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:01,168 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5125,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:01,719 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5125, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:40:01,720 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5125,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:40:02,087 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5015, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:02,088 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5015,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:02,138 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5015, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:40:02,139 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5015,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:40:02,363 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5080, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:02,364 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5080,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:14,082 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5080, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:40:14,082 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5080,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:40:14,083 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:40:14,263 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5135, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:14,264 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5135,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:14,486 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5135, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:40:14,487 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5135,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:40:14,726 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5060, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:14,727 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5060,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:16,486 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:16,486 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:16,687 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:16,688 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:16,920 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:40:16,920 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:40:17,157 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:17,157 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:18,040 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5060, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:40:18,041 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5060,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:40:18,041 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:40:18,294 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5135, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:18,295 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5135,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:18,418 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5135, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:40:18,419 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5135,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:40:18,703 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5050, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:18,704 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5050,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:18,795 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5050, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:40:18,796 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5050,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:40:18,987 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5110, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:40:18,988 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5110,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:40:29,331 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:29,332 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:29,898 [ 1] INFO  Unity: SetPosition:(5124, 4388, 800)
+2023-06-03 18:40:29,899 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:30,497 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:30,498 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:30,656 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:40:30,656 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:40:31,412 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:31,413 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:32,129 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:32,133 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:32,432 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:32,433 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:32,871 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:40:32,871 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:40:33,250 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:33,251 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:33,718 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:33,718 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:34,208 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:34,208 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:35,956 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{IndexOutOfRangeException: Array index is out of range., UIChat.OnClickChatLink (Candlelight.UI.HyperText text, LinkInfo link) (at Assets/Scripts/UI/Chat/UIChat.cs:73)
+UnityEngine.Events.InvokableCall`2[Candlelight.UI.HyperText,Candlelight.UI.HyperText+LinkInfo].Invoke (Candlelight.UI.HyperText args0, LinkInfo args1) (at C:/buildslave/unity/build/Runtime/Export/UnityEvent.cs:245)
+UnityEngine.Events.UnityEvent`2[Candlelight.UI.HyperText,Candlelight.UI.HyperText+LinkInfo].Invoke (Candlelight.UI.HyperText arg0, LinkInfo arg1) (at C:/buildslave/unity/build/Runtime/Export/UnityEvent_2.cs:58)
+Candlelight.UI.HyperText.OnClickLink (Candlelight.UI.Link link) (at Assets/ThirdParty/Candlelight/Library/GUI/HyperText.cs:1383)
+Candlelight.UI.HyperText.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Assets/ThirdParty/Candlelight/Library/GUI/HyperText.cs:1916)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
 UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2023-06-03 18:40:45,403 [ 1] INFO  Unity: SendChat
+2023-06-03 18:40:45,423 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:40:45,424 [ 1] ERROR Unity: Message handler exception:, The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., Assembly-CSharp,   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at ListView.RemoveAll () [0x0001d] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\ListView\ListView.cs:78 
+  at UIFriend.ClearFriendList () [0x00007] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:120 
+  at UIFriend.RefreshUI () [0x00002] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:104 
+  at Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) [0x0002c] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\Services\FriendService.cs:102 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg) [0x00000] in <filename unknown>:0 
+2023-06-03 18:40:45,424 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{MissingReferenceException: The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., ListView.RemoveAll () (at Assets/Scripts/UI/ListView/ListView.cs:78)
+UIFriend.ClearFriendList () (at Assets/Scripts/UI/Friend/UIFriend.cs:120)
+UIFriend.RefreshUI () (at Assets/Scripts/UI/Friend/UIFriend.cs:104)
+Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) (at Assets/Scripts/Services/FriendService.cs:102)
+Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg)
+}</args></log4net.Error>
+2023-06-03 18:40:54,715 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:54,716 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:55,015 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:55,015 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:55,142 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:40:55,142 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:40:55,448 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:55,449 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:55,599 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:55,599 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:55,829 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:55,830 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:56,194 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:40:56,195 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:40:56,526 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:56,527 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:40:56,605 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:40:56,606 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:40:56,784 [ 1] INFO  Unity: Stop
+2023-06-03 18:40:56,784 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:16,549 [ 1] INFO  Unity: SendTeamInviteRequest
+2023-06-03 18:41:17,529 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:41:17,531 [ 1] INFO  Unity: OnTeamInfo
+2023-06-03 18:41:20,261 [ 1] INFO  Unity: SetDirection:(-54, 84, 0)
+2023-06-03 18:41:20,261 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:20,366 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
+2023-06-03 18:41:20,367 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:20,446 [ 1] INFO  Unity: SetDirection:(-19, 98, 0)
+2023-06-03 18:41:20,447 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:20,548 [ 1] INFO  Unity: SetDirection:(1, 100, 0)
+2023-06-03 18:41:20,549 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:20,663 [ 1] INFO  Unity: SetDirection:(19, 98, 0)
+2023-06-03 18:41:20,663 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:21,079 [ 1] INFO  Unity: SetDirection:(37, 93, 0)
+2023-06-03 18:41:21,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:21,218 [ 1] INFO  Unity: SetDirection:(54, 84, 0)
+2023-06-03 18:41:21,238 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:23,137 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:41:23,138 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:41:23,352 [ 1] INFO  Unity: Stop
+2023-06-03 18:41:23,352 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:23,621 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:41:23,621 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:41:24,156 [ 1] INFO  Unity: Stop
+2023-06-03 18:41:24,157 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:24,467 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5110, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:41:24,467 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5110,4000,820),dir:(100,0,0),spd:300
 
-2023-06-01 19:29:44,923 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+2023-06-03 18:41:24,468 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:41:24,468 [ 1] ERROR Unity: Message handler exception:, The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., Assembly-CSharp,   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at ListView.RemoveAll () [0x0001d] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\ListView\ListView.cs:78 
+  at UIFriend.ClearFriendList () [0x00007] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:120 
+  at UIFriend.RefreshUI () [0x00002] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:104 
+  at Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) [0x0002c] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\Services\FriendService.cs:102 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg) [0x00000] in <filename unknown>:0 
+2023-06-03 18:41:24,468 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{MissingReferenceException: The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., ListView.RemoveAll () (at Assets/Scripts/UI/ListView/ListView.cs:78)
+UIFriend.ClearFriendList () (at Assets/Scripts/UI/Friend/UIFriend.cs:120)
+UIFriend.RefreshUI () (at Assets/Scripts/UI/Friend/UIFriend.cs:104)
+Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) (at Assets/Scripts/Services/FriendService.cs:102)
+Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg)
+}</args></log4net.Error>
+2023-06-03 18:41:24,688 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5175, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:41:24,688 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5175,4000,820),dir:(100,0,0),spd:0
 
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
-Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:55)
-Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:118)
-UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
-UnityEngine.EventSystems.EventSystem:Update()
+2023-06-03 18:41:24,956 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5175, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:41:24,956 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5175,4000,820),dir:(100,0,0),spd:-300
 
-2023-06-01 19:29:44,924 [ 1] INFO  Unity: DoConnect
-2023-06-01 19:29:44,924 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-06-01 19:29:44,925 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+2023-06-03 18:41:25,373 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5050, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:41:25,374 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5050,4000,820),dir:(100,0,0),spd:0
 
-2023-06-01 19:29:46,953 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+2023-06-03 18:41:26,158 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:41:26,158 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:41:26,310 [ 1] INFO  Unity: Stop
+2023-06-03 18:41:26,311 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:33,587 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5050, 4000, 820) DIR:(100, 0, 0) SPD:300
+2023-06-03 18:41:33,588 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveFwd entity:(10:pos:(5050,4000,820),dir:(100,0,0),spd:300
+
+2023-06-03 18:41:33,589 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:41:33,589 [ 1] ERROR Unity: Message handler exception:, The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., Assembly-CSharp,   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at ListView.RemoveAll () [0x0001d] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\ListView\ListView.cs:78 
+  at UIFriend.ClearFriendList () [0x00007] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:120 
+  at UIFriend.RefreshUI () [0x00002] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:104 
+  at Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) [0x0002c] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\Services\FriendService.cs:102 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg) [0x00000] in <filename unknown>:0 
+2023-06-03 18:41:33,589 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{MissingReferenceException: The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., ListView.RemoveAll () (at Assets/Scripts/UI/ListView/ListView.cs:78)
+UIFriend.ClearFriendList () (at Assets/Scripts/UI/Friend/UIFriend.cs:120)
+UIFriend.RefreshUI () (at Assets/Scripts/UI/Friend/UIFriend.cs:104)
+Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) (at Assets/Scripts/Services/FriendService.cs:102)
+Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg)
+}</args></log4net.Error>
+2023-06-03 18:41:33,807 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5115, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:41:33,808 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5115,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:41:34,039 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5115, 4000, 820) DIR:(100, 0, 0) SPD:-300
+2023-06-03 18:41:34,040 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:MoveBack entity:(10:pos:(5115,4000,820),dir:(100,0,0),spd:-300
+
+2023-06-03 18:41:34,425 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:41:34,426 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:Idle entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+
+2023-06-03 18:41:34,448 [ 1] INFO  Unity: OnEntityChanged : ID:10,POS:(5047, 4000, 800) DIR:(100, 0, 0) SPD:0
+2023-06-03 18:41:34,449 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
+[0]evt:None entity:(10:pos:(5047,4000,800),dir:(100,0,0),spd:0
+
+2023-06-03 18:41:34,926 [ 1] INFO  Unity: MoveForward
+2023-06-03 18:41:34,927 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-06-03 18:41:35,241 [ 1] INFO  Unity: Stop
+2023-06-03 18:41:35,241 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:35,543 [ 1] INFO  Unity: MoveBack
+2023-06-03 18:41:35,543 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-06-03 18:41:35,898 [ 1] INFO  Unity: Stop
+2023-06-03 18:41:35,899 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-06-03 18:41:40,776 [ 1] INFO  Unity: Set Channel:Team
+2023-06-03 18:41:43,054 [ 1] INFO  Unity: SendChat
+2023-06-03 18:41:43,073 [ 1] INFO  Unity: OnFriendList
+2023-06-03 18:41:43,074 [ 1] ERROR Unity: Message handler exception:, The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., Assembly-CSharp,   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at ListView.RemoveAll () [0x0001d] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\ListView\ListView.cs:78 
+  at UIFriend.ClearFriendList () [0x00007] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:120 
+  at UIFriend.RefreshUI () [0x00002] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\UI\Friend\UIFriend.cs:104 
+  at Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) [0x0002c] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\Services\FriendService.cs:102 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg) [0x00000] in <filename unknown>:0 
+2023-06-03 18:41:43,074 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{MissingReferenceException: The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., ListView.RemoveAll () (at Assets/Scripts/UI/ListView/ListView.cs:78)
+UIFriend.ClearFriendList () (at Assets/Scripts/UI/Friend/UIFriend.cs:120)
+UIFriend.RefreshUI () (at Assets/Scripts/UI/Friend/UIFriend.cs:104)
+Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) (at Assets/Scripts/Services/FriendService.cs:102)
+Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg)
+}</args></log4net.Error>
+2023-06-03 18:41:57,327 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00084] in E:\UnityProject\mymmo\Src\Client\Assets\Scripts\Network\NetClient.cs:336 
+
+2023-06-03 18:41:57,327 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:350)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
+
+2023-06-03 18:41:57,338 [ 1] INFO  Unity: DoConnect
+2023-06-03 18:41:57,339 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-06-03 18:41:57,340 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2023-06-03 18:41:59,364 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
@@ -40,7 +443,7 @@ Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
 Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
 Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
 
-2023-06-01 19:29:46,954 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+2023-06-03 18:41:59,366 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
 
   at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
   at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
@@ -50,11 +453,11 @@ Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
 Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
 Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
 
-2023-06-01 19:29:46,994 [ 1] INFO  Unity: DoConnect
-2023-06-01 19:29:46,995 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-06-01 19:29:46,995 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+2023-06-03 18:41:59,409 [ 1] INFO  Unity: DoConnect
+2023-06-03 18:41:59,410 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-06-03 18:41:59,411 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
 
-2023-06-01 19:29:49,029 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+2023-06-03 18:42:01,438 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
@@ -62,7 +465,7 @@ Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
 Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
 Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
 
-2023-06-01 19:29:49,029 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+2023-06-03 18:42:01,439 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
 
   at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
   at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
@@ -72,42 +475,33 @@ Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
 Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
 Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
 
-2023-06-01 19:29:49,030 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2023-06-01 19:29:58,636 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2023-06-01 19:29:58,637 [ 1] INFO  Unity: ConnectToServer() Start 
-2023-06-01 19:29:58,637 [ 1] INFO  Unity: DoConnect
-2023-06-01 19:29:58,638 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2023-06-01 19:29:58,639 [ 1] INFO  Unity: Connect[3] to server 127.0.0.1:8000
+2023-06-03 18:42:01,488 [ 1] INFO  Unity: DoConnect
+2023-06-03 18:42:01,489 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-06-03 18:42:01,490 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
 
-2023-06-01 19:29:58,640 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2023-06-01 19:29:59,435 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2023-06-01 19:29:59,436 [ 1] INFO  Unity: LoadLevel: CharSelect
-2023-06-01 19:29:59,672 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-06-01 19:30:00,554 [ 1] INFO  Unity: Select Char:[1]111[Warrior]
-2023-06-01 19:30:00,972 [ 1] INFO  Unity: UserSendGameEnterRequest:0
-2023-06-01 19:30:01,150 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2023-06-01 19:30:01,152 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
-2023-06-01 19:30:01,153 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
-2023-06-01 19:30:01,162 [ 1] INFO  Unity: OnGuild: Success 1:啊啊啊啊
-2023-06-01 19:30:01,162 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2023-06-01 19:30:01,164 [ 1] INFO  Unity: AddCharacter:1:111 Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2023-06-01 19:30:01,168 [ 1] INFO  Unity: LoadLevel: MainCity
-2023-06-01 19:30:01,738 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2023-06-03 18:42:03,512 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
 
-2023-06-01 19:30:01,738 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2023-06-03 18:42:03,513 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
 
-2023-06-01 19:30:01,817 [ 1] INFO  Unity: GameObjectManager[-608008] Awake
-2023-06-01 19:30:01,823 [ 1] INFO  Unity: MainPlayerCamera[163688] Awake
-2023-06-01 19:30:01,824 [ 1] INFO  Unity: UIMain[165710] Awake
-2023-06-01 19:30:01,825 [ 1] INFO  Unity: UIWorldElementManager[165838] Awake
-2023-06-01 19:30:01,862 [ 1] INFO  Unity: LevelLoadCompleted:1
-2023-06-01 19:30:18,645 [ 1] INFO  Unity: UserSendGameLeaveRequest
-2023-06-01 19:30:18,667 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:9
-2023-06-01 19:30:18,669 [ 1] INFO  Unity: RemoveCharacter:9
-2023-06-01 19:30:18,671 [ 1] INFO  Unity: OnUserGameLeave:Success  None
-2023-06-01 19:30:18,859 [ 1] INFO  Unity: Character_1_111 OnDestroy :ID:9 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2023-06-01 19:30:18,888 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-06-01 19:30:18,889 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
+
+2023-06-03 18:42:03,513 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2023-06-03 18:48:58,041 [ 1] INFO  Unity: Character_1_111 OnDestroy :ID:9 POS:(5031, 4416, 800) DIR:(54, 84, 0) SPD:0 
+2023-06-03 18:48:58,042 [ 1] INFO  Unity: Character_2_222 OnDestroy :ID:10 POS:(5047, 4000, 800) DIR:(100, 0, 0) SPD:0 
+2023-06-03 18:48:58,046 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-06-03 18:48:58,046 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)

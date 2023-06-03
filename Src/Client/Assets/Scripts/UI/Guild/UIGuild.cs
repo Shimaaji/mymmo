@@ -73,7 +73,16 @@ public class UIGuild : UIWindow {
 
 	public void OnClickChat()
 	{
-
+        if (this.selectedItem == null)
+        {
+			MessageBox.Show("请选择要私聊的成员", "私聊", MessageBoxType.Error);
+			return;
+        }
+        else
+        {
+			ChatManager.Instance.StartPrivateChate(this.selectedItem.Info.Info.Id, this.selectedItem.Info.Info.Name);
+			this.Close(WindowResult.No);
+        }
 	}
 	public void OnClickKickout()
 	{

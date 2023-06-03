@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Assets\GameDefine.cs" />
      <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
      <Compile Include="Assets\Scripts\Entities\Character.cs" />
      <Compile Include="Assets\Scripts\Entities\Entity.cs" />
@@ -90,6 +89,7 @@
      <Compile Include="Assets\Scripts\Models\User.cs" />
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\Services\ChatService.cs" />
      <Compile Include="Assets\Scripts\Services\FriendService.cs" />
      <Compile Include="Assets\Scripts\Services\GuildService.cs" />
      <Compile Include="Assets\Scripts\Services\ItemService.cs" />

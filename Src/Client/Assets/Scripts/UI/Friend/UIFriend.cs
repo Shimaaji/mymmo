@@ -53,7 +53,17 @@ public class UIFriend : UIWindow {
 
 	public void OnClickFriendChat()
     {
-		MessageBox.Show("暂未开放"); 
+		//MessageBox.Show("暂未开放"); 
+		if (this.selectedItem == null)
+        {
+			MessageBox.Show("请选择要私聊的好友", "私聊", MessageBoxType.Error);
+			return;
+        }
+        else
+        {
+			ChatManager.Instance.StartPrivateChate(this.selectedItem.Info.friendInfo.Id,this.selectedItem.Info.friendInfo.Name);
+			this.Close(WindowResult.No);
+		}
     }
 
 	public void OnClickFriendTeamInvite()
