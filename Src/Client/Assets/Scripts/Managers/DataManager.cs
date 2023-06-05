@@ -23,6 +23,7 @@ public class DataManager : Singleton<DataManager>
     public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
     public Dictionary<int, EquipDefine> Equips = null;
     public Dictionary<int, QuestDefine> Quests = null;
+    public Dictionary<int, RideDefine> Rides = null;
 
 
     public DataManager()
@@ -63,6 +64,8 @@ public class DataManager : Singleton<DataManager>
         json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
         this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
 
+        json = File.ReadAllText(this.DataPath + "RideDefine.txt");
+        this.Rides = JsonConvert.DeserializeObject<Dictionary<int, RideDefine>>(json);
     }
 
 
@@ -109,6 +112,9 @@ public class DataManager : Singleton<DataManager>
         this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
         yield return null;
 
+        json = File.ReadAllText(this.DataPath + "RideDefine.txt");
+        this.Rides = JsonConvert.DeserializeObject<Dictionary<int, RideDefine>>(json);
+        yield return null;
     }
 
 #if UNITY_EDITOR

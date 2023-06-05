@@ -92,6 +92,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(16, Name = @"guild")]
         public NGuildInfo Guild { get; set; }
 
+        [global::ProtoBuf.ProtoMember(17, Name = @"ride")]
+        public int Ride { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -211,6 +214,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(3, Name = @"entity")]
         public NEntity Entity { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"param")]
+        public int Param { get; set; }
 
     }
 
@@ -1571,6 +1577,8 @@ namespace SkillBridge.Message
         MoveBack = 3,
         [global::ProtoBuf.ProtoEnum(Name = @"JUMP")]
         Jump = 4,
+        [global::ProtoBuf.ProtoEnum(Name = @"RIDE")]
+        Ride = 5,
     }
 
     [global::ProtoBuf.ProtoContract(Name = @"ITEM_TYPE")]
@@ -1584,6 +1592,8 @@ namespace SkillBridge.Message
         Task = 2,
         [global::ProtoBuf.ProtoEnum(Name = @"EQUIP")]
         Equip = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"RIDE")]
+        Ride = 4,
     }
 
     [global::ProtoBuf.ProtoContract(Name = @"EQUIP_SLOT")]

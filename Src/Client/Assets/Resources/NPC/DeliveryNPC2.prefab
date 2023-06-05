@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 4195562925430946}
   - component: {fileID: 95285235472261664}
   - component: {fileID: 114703513191109734}
+  - component: {fileID: 65150410894577060}
   m_Layer: 0
   m_Name: DeliveryNPC2
   m_TagString: Untagged
@@ -823,15 +824,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1180679123863860}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.71340966, z: -0, w: -0.70074725}
+  m_LocalPosition: {x: 58.67, y: 7.97, z: 50.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4861332140788028}
   - {fileID: 4301173610815958}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 268.974, z: 0}
 --- !u!4 &4195940441646710
 Transform:
   m_ObjectHideFlags: 1
@@ -1321,6 +1322,18 @@ Transform:
   m_Father: {fileID: 4861332140788028}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65150410894577060
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180679123863860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1450386, y: 1.910532, z: 0.750206}
+  m_Center: {x: 0.016115189, y: 0.9870801, z: -0.0040283203}
 --- !u!95 &95285235472261664
 Animator:
   serializedVersion: 3
@@ -1350,7 +1363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514b3aa7c269130469c86ba633bd0509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcID: 2
+  npcID: 5
+  anim: {fileID: 0}
 --- !u!137 &137319738328950344
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

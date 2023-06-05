@@ -51,8 +51,7 @@ public class PlayerInputController : MonoBehaviour {
         if (character == null)
             return;
 
-        if (InputManager.Instance.IsInputMode)
-            return;
+        if (InputManager.Instance != null && InputManager.Instance.IsInputMode) return;
         
         float v = Input.GetAxis("Vertical");
         if (v > 0.01)
@@ -128,10 +127,10 @@ public class PlayerInputController : MonoBehaviour {
         this.transform.position = this.rb.transform.position;
     }
 
-    void SendEntityEvent(EntityEvent entityEvent)
+    public void SendEntityEvent(EntityEvent entityEvent, int param = 0)
     {
         if (entityController != null)
-            entityController.OnEntityEvent(entityEvent);
-        MapService.Instance.SendMapEntitySync(entityEvent, this.character.EntityData);
+            entityController.OnEntityEvent(entityEvent, param) ;
+        MapService.Instance.SendMapEntitySync(entityEvent, this.character.EntityData,param);
     }
 }
