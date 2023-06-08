@@ -40,6 +40,8 @@ public class UIRide : UIWindow {
                 (kv.Value.Define.LimitClass == CharacterClass.None || kv.Value.Define.LimitClass == User.Instance.CurrentCharacter.Class)
                 )
             {
+                if (EquipManager.Instance.Contains(kv.Key)) 
+                    continue;
                 GameObject go = Instantiate(itemPrefab, this.listMain.transform);
                 UIRideItem ui = go.GetComponent<UIRideItem>();
                 ui.SetEquipItem(kv.Value, this, false);

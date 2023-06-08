@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Assets\Config.cs" />
      <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
      <Compile Include="Assets\Scripts\Entities\Character.cs" />
      <Compile Include="Assets\Scripts\Entities\Entity.cs" />
@@ -99,6 +100,8 @@
      <Compile Include="Assets\Scripts\Services\StatusService.cs" />
      <Compile Include="Assets\Scripts\Services\TeamService.cs" />
      <Compile Include="Assets\Scripts\Services\UserService.cs" />
+     <Compile Include="Assets\Scripts\Sound\SoundDefine.cs" />
+     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\UI\Bag\UIBag.cs" />
      <Compile Include="Assets\Scripts\UI\CharEquip\UICharEquip.cs" />
@@ -147,6 +150,7 @@
      <Compile Include="Assets\Scripts\UI\UIPopCharMenu.cs" />
      <Compile Include="Assets\Scripts\UI\UIRegister.cs" />
      <Compile Include="Assets\Scripts\UI\UISetting.cs" />
+     <Compile Include="Assets\Scripts\UI\UISystemConfig.cs" />
      <Compile Include="Assets\Scripts\UI\UITest.cs" />
      <Compile Include="Assets\Scripts\UI\UIWindow.cs" />
      <Compile Include="Assets\Scripts\UI\UIWorldElement.cs" />

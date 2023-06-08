@@ -6,7 +6,8 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "MainCity",
-    "MiniMap": "zhongshengxiaozhen"
+    "MiniMap": "zhongshengxiaozhen",
+    "Music": "bgm-town"
   },
   "2": {
     "ID": 2,
@@ -15,7 +16,8 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map01",
-    "MiniMap": "heiyisenlin"
+    "MiniMap": "heiyisenlin",
+    "Music": "bgm-map01"
   },
   "3": {
     "ID": 3,
@@ -24,7 +26,8 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map02",
-    "MiniMap": "heiyisenlin"
+    "MiniMap": "heiyisenlin",
+    "Music": "bgm-map02"
   },
   "4": {
     "ID": 4,
@@ -33,6 +36,7 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map03",
-    "MiniMap": "youminggubao"
+    "MiniMap": "youminggubao",
+    "Music": "bgm-map03"
   }
 }
