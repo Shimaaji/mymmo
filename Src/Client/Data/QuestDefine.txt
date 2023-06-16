@@ -25,7 +25,11 @@
     "RewardGold": 300,
     "RewardExp": 2000,
     "RewardItem1": 3,
-    "RewardItem1Count": 5
+    "RewardItem1Count": 5,
+    "RewardItem2": 2,
+    "RewardItem2Count": 4,
+    "RewardItem3": 1001,
+    "RewardItem3Count": 1
   },
   "1002": {
     "ID": 1002,
@@ -53,7 +57,11 @@
     "RewardGold": 500,
     "RewardExp": 2000,
     "RewardItem1": 4,
-    "RewardItem1Count": 10
+    "RewardItem1Count": 10,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "1003": {
     "ID": 1003,
@@ -79,7 +87,13 @@
     "Target3ID": 0,
     "Target3Num": 0,
     "RewardGold": 700,
-    "RewardExp": 2000
+    "RewardExp": 2000,
+    "RewardItem1": 0,
+    "RewardItem1Count": 0,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "1004": {
     "ID": 1004,
@@ -105,7 +119,13 @@
     "Target3ID": 0,
     "Target3Num": 0,
     "RewardGold": 900,
-    "RewardExp": 2000
+    "RewardExp": 2000,
+    "RewardItem1": 0,
+    "RewardItem1Count": 0,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2001": {
     "ID": 2001,
@@ -132,7 +152,13 @@
     "Target3ID": 0,
     "Target3Num": 0,
     "RewardGold": 1000,
-    "RewardExp": 3000
+    "RewardExp": 3000,
+    "RewardItem1": 0,
+    "RewardItem1Count": 0,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2002": {
     "ID": 2002,
@@ -159,7 +185,13 @@
     "Target3ID": 0,
     "Target3Num": 0,
     "RewardGold": 1000,
-    "RewardExp": 5000
+    "RewardExp": 5000,
+    "RewardItem1": 0,
+    "RewardItem1Count": 0,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2003": {
     "ID": 2003,
@@ -190,7 +222,9 @@
     "RewardItem1": 1011,
     "RewardItem1Count": 1,
     "RewardItem2": 1012,
-    "RewardItem2Count": 1
+    "RewardItem2Count": 1,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2004": {
     "ID": 2004,
@@ -219,7 +253,11 @@
     "RewardGold": 10000,
     "RewardExp": 50000,
     "RewardItem1": 1013,
-    "RewardItem1Count": 1
+    "RewardItem1Count": 1,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2005": {
     "ID": 2005,
@@ -250,7 +288,9 @@
     "RewardItem1": 2011,
     "RewardItem1Count": 1,
     "RewardItem2": 2012,
-    "RewardItem2Count": 1
+    "RewardItem2Count": 1,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2006": {
     "ID": 2006,
@@ -279,7 +319,11 @@
     "RewardGold": 26000,
     "RewardExp": 130000,
     "RewardItem1": 2013,
-    "RewardItem1Count": 1
+    "RewardItem1Count": 1,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2007": {
     "ID": 2007,
@@ -310,7 +354,9 @@
     "RewardItem1": 3011,
     "RewardItem1Count": 1,
     "RewardItem2": 3012,
-    "RewardItem2Count": 1
+    "RewardItem2Count": 1,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "2008": {
     "ID": 2008,
@@ -339,7 +385,11 @@
     "RewardGold": 42000,
     "RewardExp": 210000,
     "RewardItem1": 3013,
-    "RewardItem1Count": 1
+    "RewardItem1Count": 1,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   },
   "3001": {
     "ID": 3001,
@@ -367,6 +417,10 @@
     "RewardGold": 1000,
     "RewardExp": 3000,
     "RewardItem1": 9,
-    "RewardItem1Count": 1
+    "RewardItem1Count": 1,
+    "RewardItem2": 0,
+    "RewardItem2Count": 0,
+    "RewardItem3": 0,
+    "RewardItem3Count": 0
   }
 }

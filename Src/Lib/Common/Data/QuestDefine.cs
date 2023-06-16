@@ -42,11 +42,11 @@ namespace Common.Data
         public QuestTarget Target1 { get; set; }
         public int Target1ID { get; set; }
         public int Target1Num { get; set; }
-        public QuestTarget Tatget2 { get; set; }
+        public QuestTarget Target2 { get; set; }
         public int Target2ID { get; set; }
         public int Target2Num { get; set; }
 
-        public QuestTarget Tatget3 { get; set; }
+        public QuestTarget Target3 { get; set; }
         public int Target3ID { get; set; }
         public int Target3Num { get; set; }
 

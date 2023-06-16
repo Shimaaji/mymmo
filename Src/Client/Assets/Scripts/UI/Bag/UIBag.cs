@@ -74,4 +74,6 @@ public class UIBag : UIWindow
         this.Clear();
         StartCoroutine(InitBags());
     }
+
+    
 }

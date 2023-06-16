@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Managers;
+using Models;
 using Network;
 using SkillBridge.Message;
 using System;
@@ -6,11 +7,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Services
 {
     class ItemService : Singleton<ItemService>, IDisposable
     {
+        public UnityAction OnShopItemUpdate;
         public ItemService()
         {
             MessageDistributer.Instance.Subscribe<ItemBuyResponse>(this.OnItemBuy);
@@ -24,10 +27,12 @@ namespace Services
 
         }
 
+
+        int ShopId = 0;
         public void SendBuyItem(int shopId, int shopItemId)
         {
             Debug.LogFormat("SendButItem");
-
+            ShopId = shopId;
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
             message.Request.itemBuy = new ItemBuyRequest();
@@ -39,7 +44,10 @@ namespace Services
 
         private void OnItemBuy(object sender, ItemBuyResponse response)
         {
-            MessageBox.Show("购买结果:" + response.Result + "\n" + response.Errormsg, "购买完成");
+            MessageBox.Show("购买结果:" + response.Result + "\n" + response.Errormsg, "购买完成", MessageBoxType.Information).OnYes = () =>
+            {
+                ShopManager.Instance.ShowShop(ShopId);
+            };
         }
 
         Item pendingEquip = null;

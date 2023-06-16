@@ -15,5 +15,5 @@ class InputBox
         inputBox.Init(title, message, btnOK, btnCancel, emptyTips);
         return inputBox;
     }
-
+    
 }

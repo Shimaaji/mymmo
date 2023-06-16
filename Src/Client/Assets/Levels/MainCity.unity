@@ -13408,48 +13408,44 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1236463245}
     m_Modifications:
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalPosition.x
       value: 58.67
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalPosition.y
       value: 7.97
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalPosition.z
       value: 50.72
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0.71340966
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_LocalRotation.w
       value: -0.70074725
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+    - target: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1180679123863860, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
-      propertyPath: m_Name
-      value: NPC_Shop_Ride
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 71021525d3819ec41891409ea8e439a1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &375299744 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800,
+  m_CorrespondingSourceObject: {fileID: 4580986680348490, guid: 71021525d3819ec41891409ea8e439a1,
     type: 2}
   m_PrefabInternal: {fileID: 375299743}
 --- !u!1 &375396591
@@ -47741,10 +47737,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4195562925430946, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ae40e410251d5b45b0baba6e7017800, type: 2}
   m_IsPrefabAsset: 0
@@ -59400,23 +59392,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!1 &1781315597 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1180679123863860, guid: 1ae40e410251d5b45b0baba6e7017800,
-    type: 2}
-  m_PrefabInternal: {fileID: 1412012653}
---- !u!65 &1781315598
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1781315597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1450386, y: 1.910532, z: 0.750206}
-  m_Center: {x: 0.016115189, y: 0.9870801, z: -0.0040283203}
 --- !u!1 &1784769421
 GameObject:
   m_ObjectHideFlags: 0

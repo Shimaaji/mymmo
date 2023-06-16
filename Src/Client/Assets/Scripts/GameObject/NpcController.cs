@@ -10,7 +10,7 @@ public class NpcController : MonoBehaviour {
 
 	public int npcID;
 
-	SkinnedMeshRenderer renderer;
+	new SkinnedMeshRenderer renderer;
 	public Animator anim;
 	Color orignColor;
 

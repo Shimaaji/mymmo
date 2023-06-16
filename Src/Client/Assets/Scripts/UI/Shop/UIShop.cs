@@ -1,6 +1,7 @@
 ﻿using Common.Data;
 using Managers;
 using Models;
+using Services;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -68,9 +69,11 @@ public class UIShop : UIWindow {
 			MessageBox.Show("请选择要购买的道具", "购买提示");
 			return;
         }
+
         if (!ShopManager.Instance.BuyItem(this.shop.ID,this.selectedItem.ShopItemID))
         {
-
+			
         }
     }
+
 }
