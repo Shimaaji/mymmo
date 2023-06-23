@@ -1,7 +1,8 @@
-2023-06-11 18:06:16,697 [ 1] INFO  Unity: LoadingManager start
-2023-06-11 18:06:19,826 [ 1] INFO  Unity: DataManager > DataManager()
-2023-06-11 18:06:25,168 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2023-06-11 18:06:25,170 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-06-20 13:55:42,124 [ 1] INFO  Unity: LoadingManager start
+2023-06-20 13:55:45,328 [ 1] INFO  Unity: DataManager > DataManager()
+2023-06-20 13:55:46,270 [ 1] INFO  Unity: Start Play Music:bgm-login
+2023-06-20 13:55:55,422 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-06-20 13:55:55,423 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)

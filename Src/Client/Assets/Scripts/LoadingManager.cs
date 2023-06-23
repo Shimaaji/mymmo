@@ -8,6 +8,7 @@ using SkillBridge.Message;
 using ProtoBuf;
 using Services;
 using Managers;
+using System;
 
 public class LoadingManager : MonoBehaviour {
 
@@ -49,12 +50,13 @@ public class LoadingManager : MonoBehaviour {
         GuildService.Instance.Init();
         ShopManager.Instance.Init();
         ChatService.Instance.Init();
-        //SoundManager.Instance.PlayMusic(SoundDefine.Music_Login);
+        SoundManager.Instance.PlayMusic(SoundDefine.Music_Login);
         // Fake Loading Simulate
         for (float i = 50; i < 100;)
         {
-            i += Random.Range(0.1f, 1.5f);
+            i += UnityEngine.Random.Range(0.1f, 1.5f);
             progressBar.value = i;
+            progressNumber.text = Math.Truncate(i).ToString() + "%";
             yield return new WaitForEndOfFrame();
         }        
         UILoading.SetActive(false);
