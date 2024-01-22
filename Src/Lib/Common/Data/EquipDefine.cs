@@ -14,8 +14,8 @@ namespace Common.Data
         public float STR { get; set; }
         public float INT { get; set; }
         public float DEX { get; set; }
-        public float HP { get; set; }
-        public float MP { get; set; }
+        public float MaxHP { get; set; }
+        public float MaxMP { get; set; }
         public float AD { get; set; }
         public float AP { get; set; }
         public float DEF { get; set; }

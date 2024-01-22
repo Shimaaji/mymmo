@@ -112,6 +112,8 @@ namespace GameServer.Services
                 MapPosY = 4000,
                 MapPosZ = 820,
                 Gold = 100000,//初始金币
+                HP = 1000,
+                MP = 1000,
                 Equips = new byte[28]
             };
             //为角色创建背包

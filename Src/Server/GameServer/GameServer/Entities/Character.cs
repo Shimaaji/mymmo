@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
-    class Character : CharacterBase, IPostResponser
+    class Character : Creature, IPostResponser
     {
        
         public TCharacter Data;
@@ -31,24 +31,19 @@ namespace GameServer.Entities
 
         public Chat Chat;
         public Character(CharacterType type,TCharacter cha):
-            base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
+            base(type, cha.TID, cha.Level, new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
-            this.Data = cha;
             this.Id = cha.ID;
-            this.Info = new NCharacterInfo();
-            this.Info.Type = type;
-            this.Info.Id = cha.ID;
-            this.Info.EntityId = this.entityId;
             this.Info.Name = cha.Name;
-            this.Info.Level = 10;//cha.Level;
-            this.Info.ConfigId = cha.TID;
+            this.Info.Id = cha.ID;
+            this.Info.Exp = cha.Exp;
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
             this.Info.Gold = cha.Gold;
             this.Info.Ride = 0;
-            this.Info.Entity = this.EntityData;
-            this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
+            
 
+            this.Data = cha;
             this.ItemManager = new ItemManager(this);
             this.ItemManager.GetItemInfos(this.Info.Items);
 
@@ -68,6 +63,33 @@ namespace GameServer.Entities
             this.Guild = GuildManager.Instance.GetGuild(this.Data.GuildId);
 
             this.Chat = new Chat(this);
+
+            this.Info.attrDynamic = new NAttributeDynamic();
+            this.Info.attrDynamic.Hp = cha.HP;
+            this.Info.attrDynamic.Mp = cha.MP;
+        }
+
+        internal void AddExp(int exp)
+        {
+            this.Exp += exp;
+            this.CheckLevelUp();
+        }
+
+        private void CheckLevelUp()
+        {
+            //经验公式：EXP = POWER(LV,3) * 10 + LV * 40 + 50
+            long needExp = (long)Math.Pow(this.Level, 3) * 10 + this.Level * 40 + 50;
+            if(this.Exp > needExp)
+            {
+                this.LevelUp();
+            }
+        }
+
+        private void LevelUp()
+        {
+            this.Level += 1;
+            Log.InfoFormat("Character[{0}:{1}] LevelUp:{2}", this.Id, this.Info.Name, this.Level);
+            CheckLevelUp();
         }
 
         public long Gold
@@ -82,6 +104,33 @@ namespace GameServer.Entities
                     return;
                 this.StatusManager.AddGoldChange((int)(value - this.Data.Gold));
                 this.Data.Gold = value;
+                this.Info.Gold = value;
+            }
+        }
+
+        public long Exp
+        {
+            get { return this.Data.Exp;}
+            private set
+            {
+                if (this.Data.Exp == value)
+                    return;
+                this.StatusManager.AddExpChange((int)(value - this.Data.Exp));
+                this.Data.Exp = value;
+                this.Info.Exp = value;
+            }
+        }
+
+        public int Level
+        {
+            get { return this.Data.Level; }
+            private set
+            {
+                if (this.Data.Level == value)
+                    return;
+                this.StatusManager.AddLevelUp((int)(value - this.Data.Level));
+                this.Data.Level = value;
+                this.Info.Level = value;
             }
         }
 

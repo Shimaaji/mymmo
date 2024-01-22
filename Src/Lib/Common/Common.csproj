@@ -51,7 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battle\AttributeData.cs" />
+    <Compile Include="Battle\Attributes.cs" />
+    <Compile Include="Battle\Define.cs" />
     <Compile Include="BufferUtility.cs" />
+    <Compile Include="Data\BuffDefine.cs" />
     <Compile Include="Data\CharacterDefine.cs" />
     <Compile Include="Data\EquipDefine.cs" />
     <Compile Include="Data\ItemDefine.cs" />
@@ -59,6 +63,7 @@
     <Compile Include="Data\RideDefine.cs" />
     <Compile Include="Data\ShopDefine.cs" />
     <Compile Include="Data\ShopItemDefine.cs" />
+    <Compile Include="Data\SkillDefine.cs" />
     <Compile Include="Data\SpawnRuleDefine.cs" />
     <Compile Include="Data\SpawnPointDefine.cs" />
     <Compile Include="Data\SpawnType.cs" />

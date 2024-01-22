@@ -5,7 +5,7 @@ using UnityEngine;
 using Entities;
 using Managers;
 
-public class EntityController : MonoBehaviour,IEntityNotify
+public class EntityController : MonoBehaviour, IEntityNotify, IEntityController
 {
 
     public Animator anim;
@@ -153,5 +153,23 @@ public class EntityController : MonoBehaviour,IEntityNotify
     public void SetRidePosition(Vector3 position)
     {
         this.anim.transform.position = position + (this.anim.transform.position - this.rideBone.position);
+    }
+
+    private void OnMouseDown()
+    {
+        Creature target = this.entity as Creature;
+        if (target.IsCurrentPlayer)
+            return;
+        BattleManager.Instance.CurrentTarget = this.entity as Creature;
+    }
+
+    public void PlayAnim(string name)
+    {
+        this.anim.SetTrigger(name);
+    }
+
+    public void SetStandby(bool standby)
+    {
+        this.anim.SetBool("Standby", standby);
     }
 }

@@ -88,9 +88,11 @@ public class UIQuestSystem : UIWindow {
 	}
 	*/
 
+	
 	private void OnQuestSelected(ListView.ListViewItem item)
 	{
 		UIQuestItem questItem = item as UIQuestItem;
 		this.questInfo.SetQuestInfo(questItem.quest);
 	}
+	
 }

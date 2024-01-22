@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using Common.Battle;
+using Managers;
 using Models;
 using SkillBridge.Message;
 using System;
@@ -14,10 +15,18 @@ public class UICharEquip : UIWindow {
 
 	public GameObject itemPrefab;
 	public GameObject itemEquipPrefab;
-
-	public Transform itemListRoot;
+    
+    public Transform itemListRoot;
 
 	public List<Transform> slots;
+
+    public Text hp;
+    public Slider hpBar;
+
+    public Text mp;
+    public Slider mpBar;
+
+    public Text[] attrs;
 
 	// Use this for initialization
 	void Start () {
@@ -36,14 +45,16 @@ public class UICharEquip : UIWindow {
 		InitAllEquipItems();
 		ClearEquipedList();
 		InitEquipedItems();
-		this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+		this.money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
+
+        InitAttributes();
 	}
 
     private void InitAllEquipItems()
     {
         foreach (var kv in ItemManager.Instance.Items)
         {
-            if (kv.Value.Define.Type == ItemType.Equip && kv.Value.Define.LimitClass == User.Instance.CurrentCharacter.Class)
+            if (kv.Value.Define.Type == ItemType.Equip && kv.Value.Define.LimitClass == User.Instance.CurrentCharacterInfo.Class)
             {
                 //已装备的不显示
                 if (EquipManager.Instance.Contains(kv.Key))
@@ -96,5 +107,26 @@ public class UICharEquip : UIWindow {
     public void UnEquip(Item item)
     {
         EquipManager.Instance.UnEquipItem(item);
+    }
+
+    private void InitAttributes()
+    {
+        var charattr = User.Instance.CurrentCharacter.Attributes;
+        this.hp.text = string.Format("{0}/{1}", charattr.HP, charattr.MaxHP);
+        this.mp.text = string.Format("{0}/{1}", charattr.MP, charattr.MaxMP);
+        this.hpBar.maxValue = charattr.MaxHP;
+        this.hpBar.value = charattr.HP;
+        this.mpBar.maxValue = charattr.MaxMP;
+        this.mpBar.value = charattr.MP;
+
+        for(int i = (int)AttributeType.STR; i < (int)AttributeType.MAX; i++)
+        {
+            //判断暴击，百分比显示
+            if (i == (int)AttributeType.CRI)
+                this.attrs[i - 2].text = string.Format("{0:f2}%", charattr.Final.Data[i] * 100);
+            else
+                this.attrs[i - 2].text = ((int)charattr.Final.Data[i]).ToString();
+        }
+        
     }
 }

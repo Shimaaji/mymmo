@@ -34,12 +34,12 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
     }
 
     
-    void OnCharacterEnter(Character cha)
+    void OnCharacterEnter(Creature cha)
     {
         CreateCharacterObject(cha);
     }
 
-    void OnCharacterLeave(Character character)
+    void OnCharacterLeave(Creature character)
     {
         if (!Characters.ContainsKey(character.entityId))
         {
@@ -61,7 +61,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         }
     }
 
-    private void CreateCharacterObject(Character character)
+    private void CreateCharacterObject(Creature character)
     {
         if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
         {
@@ -81,7 +81,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         this.InitGameObject(Characters[character.entityId], character);
     }
 
-    private void InitGameObject(GameObject go, Character character)
+    private void InitGameObject(GameObject go, Creature character)
     {
         go.transform.position = GameObjectTool.LogicToWorld(character.position);
         go.transform.forward = GameObjectTool.LogicToWorld(character.direction);
@@ -91,6 +91,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             ec.entity = character;
             ec.isPlayer = character.IsCurrentPlayer;
             ec.Ride(character.Info.Ride);
+            character.Controller = ec;
         }
 
         PlayerInputController pc = go.GetComponent<PlayerInputController>();

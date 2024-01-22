@@ -85,24 +85,40 @@ message NCharacterInfo {
 	CHARACTER_TYPE type = 5;
 	CHARACTER_CLASS class = 6;
 	int32 level = 7;
+	int64 exp = 8;
+	NAttributeDynamic attrDynamic = 9;
+	int32 mapId = 10;
+	NEntity entity = 11;
+	int64 gold = 12;
 
-	int32 mapId = 8;
-	NEntity entity = 9;
-	int64 gold = 10;
+	repeated NItemInfo Items = 13;
+	NBagInfo Bag = 14;
+	bytes Equips = 15;
+	repeated NQuestInfo quests = 16;
+	repeated NFriendInfo friends = 17;
+	NGuildInfo guild = 18;
+	int32 ride = 19; //坐骑id
 
-	repeated NItemInfo Items = 11;
-	NBagInfo Bag = 12;
-	bytes Equips = 13;
-	repeated NQuestInfo quests = 14;
-	repeated NFriendInfo friends = 15;
-	NGuildInfo guild = 16;
-	int32 ride = 17; //坐骑id
+	repeated NSkillInfo Skills = 20;
+}
+
+//动态属性，需要做同步
+message NAttributeDynamic
+{
+	int32 HP = 1;
+	int32 MP = 2;
 }
 
 message NItemInfo
 {
 	int32 id = 1;
 	int32 count = 2;
+}
+
+message NSkillInfo
+{
+	int32 id = 1;
+	int32 level = 2;
 }
 
 message NVector3
@@ -129,8 +145,9 @@ enum STATUS_TYPE
 {
 	MONEY = 0;
 	EXP = 1;
-	SKILL_POINT = 2;
-	ITEM = 3;
+	LEVEL = 2;
+	SKILL_POINT = 3;
+	ITEM = 4;
 }
 
 enum STATUS_SOURCE
@@ -224,6 +241,8 @@ message NetMessageRequest{
 	GuildAdminRequest guildAdmin = 29;
 
 	ChatRequest chat = 30;
+
+	SkillCastRequest skillCast = 50;
 }
 
 message NetMessageResponse{
@@ -264,6 +283,8 @@ message NetMessageResponse{
 	GuildAdminResponse guildAdmin = 29;
 
 	ChatResponse chat = 30;
+	
+	SkillCastResponse skillCast = 50;
 
 	StatusNotify statusNotify = 100;
 	
@@ -746,4 +767,38 @@ message ChatResponse
 	repeated ChatMessage privateMessage = 6;
 	repeated ChatMessage teamMessage = 7;
 	repeated ChatMessage guildMessage = 8;
+}
+
+/////////////////////////////////////////////////////////
+//
+// Battle
+//
+////////////////////////////////////////////////////////
+
+enum SKILL_RESULT
+{
+	OK = 0;				//成功
+    OUT_OF_MP = 1;		//本地
+    COOL_DOWN = 2;		//冷却中
+    INVALID_TARGET = 3;	//无效目标
+}
+
+message NSkillCastInfo
+{
+	int32 skillId = 1;
+	int32 casterId = 2;
+	int32 targetId = 3;
+	NVector3 position = 4;
+}
+
+message SkillCastRequest
+{
+	NSkillCastInfo castInfo = 1;
+}
+
+message SkillCastResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NSkillCastInfo castInfo = 3;
 }

@@ -1,4 +1,5 @@
 ﻿using Common.Data;
+using Entities;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,9 @@ namespace Models
         }
 
         public MapDefine CurrentMapData { get; set; }
-        public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
+
+        public Character CurrentCharacter { get;set; }
+        public SkillBridge.Message.NCharacterInfo CurrentCharacterInfo { get; set; }
 
         public PlayerInputController CurrentCharacterObject { get; set; }
 
@@ -33,7 +36,7 @@ namespace Models
 
         public void AddGold(int gold)
         {
-            this.CurrentCharacter.Gold += gold;
+            this.CurrentCharacterInfo.Gold += gold;
         }
 
         public int CurrentRide = 0;

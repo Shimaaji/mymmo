@@ -47,6 +47,15 @@ namespace GameServer.Managers
                 this.AddStatus(StatusType.Money, 0, -goldDelta, StatusAction.Delete);
             }
         }
+        public void AddExpChange(int expDelta)
+        {
+            this.AddStatus(StatusType.Exp, 0, expDelta, StatusAction.Add);
+        }
+
+        public void AddLevelUp(int levelDelta)
+        {
+            this.AddStatus(StatusType.Level, 0, levelDelta, StatusAction.Add);
+        }
 
         public void AddItemChange(int id, int count, StatusAction action)
         {
@@ -65,5 +74,7 @@ namespace GameServer.Managers
             }
             this.Status.Clear();
         }
+
+
     }
 }

@@ -1,7 +1,9 @@
-﻿using Managers;
+﻿using Common.Data;
+using Managers;
 using Models;
 using Services;
 using SkillBridge.Message;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -96,4 +98,14 @@ public class EquipManager : Singleton<EquipManager>
         }
     }
 
+    public List<EquipDefine> GetEquipedDefines()
+    {
+        List<EquipDefine> result = new List<EquipDefine>();
+        for(int i = 0; i < (int)EquipSlot.SlotMax; i++)
+        {
+            if (Equips[i] != null)
+                result.Add(Equips[i].EquipInfo);
+        }
+        return result;
+    }
 }

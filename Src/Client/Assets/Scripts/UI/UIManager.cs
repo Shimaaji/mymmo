@@ -33,6 +33,7 @@ public class UIManager : Singleton<UIManager> {
         this.UIResources.Add(typeof(UIPopCharMenu), new UIElement() { Resources = "UI/UIPopCharMenu", Cache = false });
         this.UIResources.Add(typeof(UIRide), new UIElement() { Resources = "UI/UIRide", Cache = false });
         this.UIResources.Add(typeof(UISystemConfig), new UIElement() { Resources = "UI/UISystemConfig", Cache = false });
+        this.UIResources.Add(typeof(UISkill), new UIElement() { Resources = "UI/UISkill", Cache = false });
     }
 
     ~UIManager()
@@ -83,5 +84,10 @@ public class UIManager : Singleton<UIManager> {
                 info.Instance = null;
             }
         }
+    }
+
+    public void Close<T>()
+    {
+        this.Close(typeof(T));
     }
 }

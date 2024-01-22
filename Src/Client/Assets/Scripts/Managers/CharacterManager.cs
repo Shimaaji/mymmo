@@ -1,25 +1,20 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Common;
-using Network;
 using UnityEngine;
 using UnityEngine.Events;
 
-using Entities;
-using SkillBridge.Message;
-using Managers;
 
 namespace Managers
 {
     class CharacterManager : Singleton<CharacterManager>, IDisposable
     {
-        public Dictionary<int, Character> Characters = new Dictionary<int, Character>();
+        public Dictionary<int, Creature> Characters = new Dictionary<int, Creature>();
 
 
-        public UnityAction<Character> OnCharacterEnter;
-        public UnityAction<Character> OncharacterLeave;
+        public UnityAction<Creature> OnCharacterEnter;
+        public UnityAction<Creature> OncharacterLeave;
         public CharacterManager()
         {
 
@@ -44,11 +39,10 @@ namespace Managers
             this.Characters.Clear();
         }
 
-        public void AddCharacter(SkillBridge.Message.NCharacterInfo cha)
+        public void AddCharacter(Character character)
         {
-            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3}", cha.Id, cha.Name, cha.mapId, cha.Entity.String());
-            Character character = new Character(cha);
-            this.Characters[cha.EntityId] = character;
+            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3}", character.Id, character.Name, character.Info.mapId, character.Info.Entity);
+            this.Characters[character.entityId] = character;
             EntityManager.Instance.AddEntity(character);
             if (OnCharacterEnter!=null)
             {
@@ -71,9 +65,9 @@ namespace Managers
             }
         }
 
-        public Character GetCharacter(int id)
+        public Creature GetCharacter(int id)
         {
-            Character character;
+            Creature character;
             this.Characters.TryGetValue(id, out character);
             return character;
         }

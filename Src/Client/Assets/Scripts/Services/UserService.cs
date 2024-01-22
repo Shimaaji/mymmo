@@ -220,7 +220,7 @@ namespace Services
             {
                 if (response.Character != null)
                 {
-                    User.Instance.CurrentCharacter = response.Character;
+                    User.Instance.CurrentCharacterInfo = response.Character;
                     ItemManager.Instance.Init(response.Character.Items);
                     BagManager.Instance.Init(response.Character.Bag);
                     EquipManager.Instance.Init(response.Character.Equips);
@@ -235,7 +235,7 @@ namespace Services
         {
             Debug.LogFormat("OnMapCharacterEmter:{0}", message.mapId);
             NCharacterInfo info = message.Characters[0];
-            User.Instance.CurrentCharacter = info;
+            User.Instance.CurrentCharacterInfo = info;
             SceneManager.Instance.LoadScene(DataManager.Instance.Maps[message.mapId].Resource);
         }
 
@@ -254,7 +254,7 @@ namespace Services
         {
             //角色退出时重置角色所在地图ID
             MapService.Instance.CurrentMapId = 0;
-            User.Instance.CurrentCharacter = null;
+            User.Instance.CurrentCharacterInfo = null;
             Debug.LogFormat("OnUserGameLeave:{0}  {1}", response.Result, response.Errormsg);
             if (this.isQuitGame)
             {

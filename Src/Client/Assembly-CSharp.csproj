@@ -55,13 +55,19 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Assets\Config.cs" />
      <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
+     <Compile Include="Assets\Scripts\Battle\Skill.cs" />
+     <Compile Include="Assets\Scripts\Battle\SkillManager.cs" />
      <Compile Include="Assets\Scripts\Entities\Character.cs" />
+     <Compile Include="Assets\Scripts\Entities\Creature.cs" />
      <Compile Include="Assets\Scripts\Entities\Entity.cs" />
+     <Compile Include="Assets\Scripts\Entities\IEntityController.cs" />
+     <Compile Include="Assets\Scripts\Entities\Monster.cs" />
      <Compile Include="Assets\Scripts\GameObject\EntityController.cs" />
      <Compile Include="Assets\Scripts\GameObject\GameObjectManager.cs" />
      <Compile Include="Assets\Scripts\GameObject\GameObjectTool.cs" />
      <Compile Include="Assets\Scripts\GameObject\MainPlayerCamera.cs" />
      <Compile Include="Assets\Scripts\GameObject\MapControlller.cs" />
+     <Compile Include="Assets\Scripts\GameObject\NavPathRenderer.cs" />
      <Compile Include="Assets\Scripts\GameObject\NpcController.cs" />
      <Compile Include="Assets\Scripts\GameObject\PlayerInputController.cs" />
      <Compile Include="Assets\Scripts\GameObject\RideController.cs" />
@@ -70,6 +76,7 @@
      <Compile Include="Assets\Scripts\LoadingManager.cs" />
      <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
      <Compile Include="Assets\Scripts\Managers\BagManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\BattleManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CharacterManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ChatManager.cs" />
      <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
@@ -91,6 +98,7 @@
      <Compile Include="Assets\Scripts\Models\User.cs" />
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\Services\BattleService.cs" />
      <Compile Include="Assets\Scripts\Services\ChatService.cs" />
      <Compile Include="Assets\Scripts\Services\FriendService.cs" />
      <Compile Include="Assets\Scripts\Services\GuildService.cs" />
@@ -131,6 +139,10 @@
      <Compile Include="Assets\Scripts\UI\Ride\UIRideItem.cs" />
      <Compile Include="Assets\Scripts\UI\Shop\UIShop.cs" />
      <Compile Include="Assets\Scripts\UI\Shop\UIShopItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Skill\UISkill.cs" />
+     <Compile Include="Assets\Scripts\UI\Skill\UISkillItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Skill\UISkillSlot.cs" />
+     <Compile Include="Assets\Scripts\UI\Skill\UISkillSlots.cs" />
      <Compile Include="Assets\Scripts\UI\SpriteManager.cs" />
      <Compile Include="Assets\Scripts\UI\TabView\TabButton.cs" />
      <Compile Include="Assets\Scripts\UI\TabView\TabView.cs" />
@@ -140,6 +152,7 @@
      <Compile Include="Assets\Scripts\UI\UICharacterSelect.cs" />
      <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />
      <Compile Include="Assets\Scripts\UI\UICharInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UICreatureInfo.cs" />
      <Compile Include="Assets\Scripts\UI\UIIconItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIInputBox.cs" />
      <Compile Include="Assets\Scripts\UI\UILogin.cs" />

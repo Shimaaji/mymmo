@@ -46,14 +46,14 @@ public class UIBag : UIWindow
         {
 			slots[i].color = Color.gray;
         }
-		this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+		this.money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
 
 		yield return null;
     }
 
 	public void SetTitle(string title)
     {
-		this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+		this.money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
     }
 
 	void Clear()
