@@ -84,5 +84,9 @@ namespace GameServer.Entities
             this.speed = entity.Speed;
         }
 
+        public virtual void Update()
+        {
+
+        }
     }
 }

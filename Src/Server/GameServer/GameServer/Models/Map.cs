@@ -21,7 +21,6 @@ namespace GameServer.Models
         {
             public NetConnection<NetSession> connection;
             public Character character;
-
             public MapCharacter(NetConnection<NetSession> conn, Character cha)
             {
                 this.connection = conn;
@@ -46,18 +45,23 @@ namespace GameServer.Models
         /// </summary>
         SpawnManager SpawnManager = new SpawnManager();
 
+        public Battle.Battle Battle;
+
         public MonsterManager MonsterManager = new MonsterManager();
+
 
         internal Map(MapDefine define)
         {
             this.Define = define;
             this.SpawnManager.Init(this);
             this.MonsterManager.Init(this);
+            this.Battle = new Battle.Battle(this);
         }
 
         internal void Update()
         {
             SpawnManager.Update();
+            this.Battle.Update();
         }
 
         /// <summary>

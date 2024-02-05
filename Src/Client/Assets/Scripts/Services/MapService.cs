@@ -46,9 +46,10 @@ namespace Services
                         User.Instance.CurrentCharacter.UpdateInfo(cha);
 
                     CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacter);
+                    continue;
                 }
                 CharacterManager.Instance.AddCharacter(new Character(cha));
-                continue;
+
             }
             if (CurrentMapId != response.mapId)
             {

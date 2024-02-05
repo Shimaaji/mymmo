@@ -1591,6 +1591,24 @@ namespace SkillBridge.Message
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class NDamageInfo : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int entityId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"damage")]
+        public int Damage { get; set; }
+
+        [global::ProtoBuf.ProtoMember(3, Name = @"will_dead")]
+        public bool WillDead { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class SkillCastRequest : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -1618,6 +1636,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(3)]
         public NSkillCastInfo castInfo { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"damage")]
+        public NDamageInfo Damage { get; set; }
 
     }
 
@@ -1840,6 +1861,8 @@ namespace SkillBridge.Message
         CoolDown = 2,
         [global::ProtoBuf.ProtoEnum(Name = @"INVALID_TARGET")]
         InvalidTarget = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"OUT_OF_RANGE")]
+        OutOfRange = 4,
     }
 
 }
