@@ -1,4 +1,5 @@
-﻿using GameServer.Entities;
+﻿using GameServer.Core;
+using GameServer.Entities;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,10 @@ namespace GameServer.Battle
 {
     class BattleContext
     {
-        public Battle battle;
+        public Battle Battle;
         public Creature Caster;
         public Creature Target;
-
+        public Vector3Int Position; 
         public NSkillCastInfo CastSkill;
         public NDamageInfo Damage;
 
@@ -21,7 +22,7 @@ namespace GameServer.Battle
 
         public BattleContext(Battle battle)
         {
-            this.battle = battle;
+            this.Battle = battle;
         }
     }
 }

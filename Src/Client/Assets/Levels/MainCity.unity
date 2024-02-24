@@ -49110,6 +49110,7 @@ MonoBehaviour:
   - {fileID: 447815557}
   TeamWindow: {fileID: 1568872118}
   targetUI: {fileID: 169505915}
+  skillSlots: {fileID: 155815123}
 --- !u!114 &1415483397
 MonoBehaviour:
   m_ObjectHideFlags: 0

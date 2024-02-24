@@ -255,6 +255,7 @@ namespace Services
             //角色退出时重置角色所在地图ID
             MapService.Instance.CurrentMapId = 0;
             User.Instance.CurrentCharacterInfo = null;
+            User.Instance.CurrentCharacter = null;
             Debug.LogFormat("OnUserGameLeave:{0}  {1}", response.Result, response.Errormsg);
             if (this.isQuitGame)
             {

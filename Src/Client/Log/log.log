@@ -1,618 +1,625 @@
-2024-02-04 23:59:45,396 [ 1] INFO  Unity: LoadingManager start
-2024-02-04 23:59:48,517 [ 1] INFO  Unity: DataManager > DataManager()
-2024-02-04 23:59:49,396 [ 1] INFO  Unity: Start Play Music:bgm-login
-2024-02-05 00:00:08,614 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
-2024-02-05 00:00:08,616 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-02-05 00:00:08,637 [ 1] INFO  Unity: DoConnect
-2024-02-05 00:00:08,639 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-02-05 00:00:08,643 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-02-22 23:15:38,797 [ 1] INFO  Unity: LoadingManager start
+2024-02-22 23:15:42,034 [ 1] INFO  Unity: DataManager > DataManager()
+2024-02-22 23:15:43,007 [ 1] INFO  Unity: Start Play Music:bgm-login
+2024-02-22 23:15:46,092 [ 1] INFO  Unity: UserLoginRequest::user :test psw:111
+2024-02-22 23:15:46,093 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-02-22 23:15:46,099 [ 1] INFO  Unity: DoConnect
+2024-02-22 23:15:46,102 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-02-22 23:15:46,107 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-02-05 00:00:08,648 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-02-05 00:00:08,798 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2024-02-05 00:00:08,800 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-02-05 00:00:09,052 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-02-05 00:00:09,083 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,121 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,133 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,133 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,134 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,152 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,153 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,163 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,171 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,172 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,181 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,182 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,190 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,198 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,199 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,208 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,216 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,217 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,225 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,234 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,235 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,247 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,260 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,261 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,275 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,276 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,288 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,290 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,301 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,302 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,315 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,316 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,327 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,339 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,341 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,376 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,376 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,377 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,389 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,391 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,401 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,402 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,413 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,423 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,424 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,434 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,435 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,448 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,457 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,458 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,468 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,469 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,479 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,489 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,490 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,500 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,501 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,513 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,526 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,527 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,536 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,537 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,547 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,564 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,565 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,576 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,577 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,587 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,588 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,596 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,604 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,605 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,612 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,621 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,622 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,629 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,635 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,636 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,643 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,649 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,650 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,659 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,667 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,668 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,677 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,687 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,689 [ 1] INFO  Unity: Select Char:[1003]111[Warrior]
-2024-02-05 00:00:09,691 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,701 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,703 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,714 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,725 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,726 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,737 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,738 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,747 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,758 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,760 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,772 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,774 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,786 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,788 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,799 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,800 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,812 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,823 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,824 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,835 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,836 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,844 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,852 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,853 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,861 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,868 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,869 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,878 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,884 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,885 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,893 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,899 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,900 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,907 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,914 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,921 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,922 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,930 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,937 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,938 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,946 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,954 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,955 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,971 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,972 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,986 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:09,987 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,005 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,007 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,018 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,019 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,031 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,041 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,042 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,054 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,055 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,066 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,067 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,082 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,093 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,094 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,104 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,105 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,115 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,116 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,128 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,139 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,140 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,149 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,150 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,160 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,173 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,174 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,188 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,189 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,198 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,210 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,211 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,221 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,221 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,229 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,237 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,238 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,244 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,251 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,252 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,259 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,266 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,266 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,274 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,283 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,284 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,291 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,299 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,300 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,308 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,317 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,318 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,325 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,333 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,333 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,341 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,349 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,350 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,357 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,365 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,374 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,375 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,383 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,385 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,395 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,404 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,405 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,412 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,418 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,418 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,428 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,435 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,436 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,442 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,449 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,456 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,458 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,465 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,473 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,474 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,482 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,490 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,491 [ 1] INFO  Unity: UserSendGameEnterRequest:1
-2024-02-05 00:00:10,494 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,500 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,501 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,509 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,516 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:10,531 [ 1] INFO  Unity: OnUserGameEnter:Success  None
-2024-02-05 00:00:10,533 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
-2024-02-05 00:00:10,533 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
-2024-02-05 00:00:10,545 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2024-02-05 00:00:10,551 [ 1] INFO  Unity: AddCharacter:2003:hgfhgf Map:1 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:10,553 [ 1] INFO  Unity: AddCharacter:1003:111 Map:1 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:10,555 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-02-05 00:00:11,085 [ 1] INFO  Unity: Start Play Music:bgm-town
-2024-02-05 00:00:11,085 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,130 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,131 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,131 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,132 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,132 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,133 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,665 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,665 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,665 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,666 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,666 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,666 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,667 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,682 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,683 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,683 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,695 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,696 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,724 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,725 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,726 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,732 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,733 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
-2024-02-05 00:00:11,824 [ 1] INFO  Unity: GameObjectManager[-359168] Awake
-2024-02-05 00:00:11,836 [ 1] INFO  Unity: MainPlayerCamera[180202] Awake
-2024-02-05 00:00:11,839 [ 1] INFO  Unity: UIMain[182516] Awake
-2024-02-05 00:00:11,841 [ 1] INFO  Unity: UIWorldElementManager[182654] Awake
-2024-02-05 00:00:11,885 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-02-05 00:00:11,965 [ 1] INFO  Unity: Set Channel:Local
-2024-02-05 00:00:12,888 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2024-02-05 00:00:12,889 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:12,985 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
-2024-02-05 00:00:12,985 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:13,069 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2024-02-05 00:00:13,070 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:13,169 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
-2024-02-05 00:00:13,169 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:13,261 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
-2024-02-05 00:00:13,262 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:13,311 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:00:13,312 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:13,360 [ 1] INFO  Unity: SetDirection:(38, -93, 0)
-2024-02-05 00:00:13,361 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:13,463 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
-2024-02-05 00:00:13,463 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:13,561 [ 1] INFO  Unity: SetDirection:(0, -100, 0)
-2024-02-05 00:00:13,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:13,767 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
-2024-02-05 00:00:13,768 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:14,621 [ 1] INFO  Unity: SetDirection:(-35, -94, 0)
-2024-02-05 00:00:14,622 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:14,820 [ 1] INFO  Unity: SetDirection:(-52, -86, 0)
-2024-02-05 00:00:14,820 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:15,404 [ 1] INFO  Unity: SetDirection:(-67, -74, 0)
-2024-02-05 00:00:15,405 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:15,527 [ 1] INFO  Unity: SetDirection:(-79, -61, 0)
-2024-02-05 00:00:15,528 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:16,239 [ 1] INFO  Unity: SetDirection:(-89, -46, 0)
-2024-02-05 00:00:16,239 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:16,408 [ 1] INFO  Unity: SetDirection:(-96, -30, 0)
-2024-02-05 00:00:16,409 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:17,819 [ 1] INFO  Unity: Stop
-2024-02-05 00:00:17,820 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:18,023 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(5136, 3477, 820) DIR:(-51, -86, 0) SPD:300
-2024-02-05 00:00:18,024 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:MoveFwd entity:(9:pos:(5136,3477,820),dir:(-51,-86,0),spd:300
-
-2024-02-05 00:00:18,786 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4998, 3293, 820) DIR:(-66, -75, 0) SPD:300
-2024-02-05 00:00:18,787 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4998,3293,820),dir:(-66,-75,0),spd:300
-
-2024-02-05 00:00:19,743 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4827, 3065, 820) DIR:(-79, -62, 0) SPD:300
-2024-02-05 00:00:19,744 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4827,3065,820),dir:(-79,-62,0),spd:300
-
-2024-02-05 00:00:19,791 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4815, 3056, 820) DIR:(-79, -62, 0) SPD:0
-2024-02-05 00:00:19,791 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:Idle entity:(9:pos:(4815,3056,820),dir:(-79,-62,0),spd:0
-
-2024-02-05 00:00:21,833 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:00:21,834 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:23,270 [ 1] INFO  Unity: SetPosition:(3781, 2941, 805)
-2024-02-05 00:00:23,270 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:24,855 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
-2024-02-05 00:00:24,855 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,021 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
-2024-02-05 00:00:25,022 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,120 [ 1] INFO  Unity: SetDirection:(-97, 25, 0)
-2024-02-05 00:00:25,121 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,225 [ 1] INFO  Unity: SetDirection:(-90, 43, 0)
-2024-02-05 00:00:25,226 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,275 [ 1] INFO  Unity: SetPosition:(3183, 2803, 805)
-2024-02-05 00:00:25,275 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,384 [ 1] INFO  Unity: SetDirection:(-81, 59, 0)
-2024-02-05 00:00:25,384 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,889 [ 1] INFO  Unity: SetDirection:(-91, 42, 0)
-2024-02-05 00:00:25,890 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:25,989 [ 1] INFO  Unity: SetDirection:(-97, 24, 0)
-2024-02-05 00:00:25,990 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:26,087 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
-2024-02-05 00:00:26,087 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:26,575 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2024-02-05 00:00:26,575 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:26,774 [ 1] INFO  Unity: SetDirection:(-95, -30, 0)
-2024-02-05 00:00:26,775 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:26,925 [ 1] INFO  Unity: SetDirection:(-89, -46, 0)
-2024-02-05 00:00:26,925 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:27,589 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
-2024-02-05 00:00:27,590 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:27,742 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2024-02-05 00:00:27,742 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:28,866 [ 1] INFO  Unity: SetDirection:(-95, -30, 0)
-2024-02-05 00:00:28,866 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:28,981 [ 1] INFO  Unity: SetPosition:(2104, 2757, 805)
-2024-02-05 00:00:28,981 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:30,433 [ 1] INFO  Unity: TeleporterObject: Character [111] Enter Teleporter [3:主城传入点1]
-2024-02-05 00:00:30,745 [ 1] INFO  Unity: SetPosition:(1588, 2594, 805)
-2024-02-05 00:00:30,746 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:31,186 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
-2024-02-05 00:00:31,187 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:31,918 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2024-02-05 00:00:31,919 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:32,772 [ 1] INFO  Unity: SetPosition:(971, 2547, 805)
-2024-02-05 00:00:32,773 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:33,137 [ 1] INFO  Unity: TeleporterObject: Character [111] Enter Teleporter [1:主城->野外]
-2024-02-05 00:00:33,138 [ 1] INFO  Unity: MapTeleporterRequest:teleporterID:1
-2024-02-05 00:00:33,162 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:10
-2024-02-05 00:00:33,164 [ 1] INFO  Unity: RemoveCharacter:9
-2024-02-05 00:00:33,167 [ 1] INFO  Unity: RemoveCharacter:10
-2024-02-05 00:00:33,168 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
-2024-02-05 00:00:33,169 [ 1] INFO  Unity: AddCharacter:1003:111 Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:33,170 [ 1] INFO  Unity: AddCharacter:0:恶鬼 Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:33,190 [ 1] INFO  Unity: AddCharacter:0:山丘巨人 Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:33,210 [ 1] INFO  Unity: AddCharacter:0:小恶魔 Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:33,226 [ 1] INFO  Unity: AddCharacter:0:死神 Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:33,255 [ 1] INFO  Unity: LoadLevel: Map01
-2024-02-05 00:00:33,479 [ 1] INFO  Unity: Start Play Music:bgm-map01
-2024-02-05 00:00:33,480 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
+2024-02-22 23:15:46,112 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-02-22 23:15:46,608 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2024-02-22 23:15:46,609 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-02-22 23:15:46,919 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-02-22 23:15:46,956 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,003 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,011 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,013 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,013 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,028 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,029 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,041 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,047 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,049 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,058 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,067 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,068 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,078 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,079 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,088 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,099 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,100 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,107 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,113 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,115 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,126 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,135 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,136 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,144 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,154 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,155 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,167 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,168 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,178 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,227 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,228 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,228 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,229 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,274 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,275 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,275 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,276 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,326 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,327 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,328 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,329 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,361 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,361 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,362 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,375 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,376 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,391 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,392 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,404 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,406 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,420 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,421 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,430 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,431 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,439 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,448 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,449 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,456 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,462 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,463 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,470 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,478 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,488 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,488 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,495 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,501 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,502 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,513 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,514 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,549 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,550 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,551 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,565 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,566 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,579 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,579 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,591 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,605 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,607 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,614 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,615 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,626 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,635 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,637 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,646 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,647 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,656 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,667 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,669 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,681 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,682 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,696 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,698 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,706 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,712 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,720 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,721 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,730 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,731 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,743 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,753 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,755 [ 1] INFO  Unity: Select Char:[1002]qqqq[Archer]
+2024-02-22 23:15:47,756 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,764 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,765 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,774 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,781 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,783 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,792 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,806 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,807 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,818 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,819 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,830 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,831 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,843 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,855 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,856 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,876 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,877 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,897 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,897 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,898 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,944 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,945 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,946 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,978 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,979 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,980 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,997 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,997 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:47,998 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,010 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,023 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,024 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,033 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,034 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,043 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,053 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,055 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,061 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,068 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,069 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,076 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,082 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,083 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,094 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,101 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,102 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,112 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,123 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,124 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,131 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,132 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,144 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,159 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,160 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,172 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,173 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,183 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,183 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,195 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,204 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,204 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,213 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,222 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,223 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,230 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,239 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,239 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,246 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,248 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,258 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,264 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,265 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,273 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,282 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,283 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,290 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,297 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,303 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,304 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,315 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,317 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,324 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,330 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,332 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,345 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,355 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,355 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,362 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,369 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,370 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,377 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,384 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,385 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,395 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,400 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,402 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,409 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,418 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,419 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,425 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,431 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,432 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,440 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,446 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,453 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,454 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,461 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,471 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,473 [ 1] INFO  Unity: UserSendGameEnterRequest:0
+2024-02-22 23:15:48,474 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,481 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,482 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,491 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,498 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,500 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,509 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,518 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,519 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,527 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,533 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,536 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,546 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,556 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,557 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,565 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,567 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,577 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,584 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,585 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,592 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,603 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,604 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,611 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,617 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:48,629 [ 1] INFO  Unity: OnUserGameEnter:Success  None
+2024-02-22 23:15:48,631 [ 1] INFO  Unity: ItemManager: Init[Id: 1,Count: 20]
+2024-02-22 23:15:48,632 [ 1] INFO  Unity: ItemManager: Init[Id: 2,Count: 20]
+2024-02-22 23:15:48,633 [ 1] INFO  Unity: ItemManager: Init[Id: 3001,Count: 1]
+2024-02-22 23:15:48,633 [ 1] INFO  Unity: ItemManager: Init[Id: 3002,Count: 1]
+2024-02-22 23:15:48,643 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2024-02-22 23:15:48,650 [ 1] INFO  Unity: AddCharacter:1002:qqqq Map:1 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:15:48,653 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-02-22 23:15:49,151 [ 1] INFO  Unity: Start Play Music:bgm-town
+2024-02-22 23:15:49,153 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,164 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,164 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,165 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,165 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,166 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,166 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,167 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,742 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,742 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,743 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,743 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,744 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,744 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,746 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,800 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,801 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,801 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,802 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,803 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,814 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,816 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,831 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,832 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,857 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,858 [ 1] INFO  Unity: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+2024-02-22 23:15:49,947 [ 1] INFO  Unity: GameObjectManager[-49356] Awake
+2024-02-22 23:15:49,955 [ 1] INFO  Unity: MainPlayerCamera[38168] Awake
+2024-02-22 23:15:49,958 [ 1] INFO  Unity: UIMain[40482] Awake
+2024-02-22 23:15:49,962 [ 1] INFO  Unity: UIWorldElementManager[40620] Awake
+2024-02-22 23:15:50,018 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-02-22 23:15:50,118 [ 1] INFO  Unity: Set Channel:Local
+2024-02-22 23:15:51,053 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2024-02-22 23:15:51,055 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:15:51,160 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2024-02-22 23:15:51,161 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:15:51,185 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:15:51,187 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:51,260 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
+2024-02-22 23:15:51,260 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:51,340 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2024-02-22 23:15:51,341 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:51,435 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
+2024-02-22 23:15:51,436 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:51,518 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
+2024-02-22 23:15:51,519 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:51,646 [ 1] INFO  Unity: SetDirection:(23, -97, 0)
+2024-02-22 23:15:51,647 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:52,071 [ 1] INFO  Unity: SetDirection:(6, -100, 0)
+2024-02-22 23:15:52,072 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:52,237 [ 1] INFO  Unity: SetDirection:(-13, -99, 0)
+2024-02-22 23:15:52,238 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:52,337 [ 1] INFO  Unity: SetDirection:(-32, -95, 0)
+2024-02-22 23:15:52,338 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:52,448 [ 1] INFO  Unity: SetDirection:(-50, -87, 0)
+2024-02-22 23:15:52,448 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:52,592 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
+2024-02-22 23:15:52,593 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:53,727 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
+2024-02-22 23:15:53,728 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:54,825 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
+2024-02-22 23:15:54,826 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:56,043 [ 1] INFO  Unity: SetDirection:(-95, -30, 0)
+2024-02-22 23:15:56,044 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:58,528 [ 1] INFO  Unity: SetPosition:(3588, 2761, 805)
+2024-02-22 23:15:58,528 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:15:59,709 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
+2024-02-22 23:15:59,710 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:00,455 [ 1] INFO  Unity: SetPosition:(3012, 2624, 805)
+2024-02-22 23:16:00,455 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:02,594 [ 1] INFO  Unity: SetPosition:(2361, 2545, 805)
+2024-02-22 23:16:02,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:04,049 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
+2024-02-22 23:16:04,050 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:04,246 [ 1] INFO  Unity: SetDirection:(-97, 23, 0)
+2024-02-22 23:16:04,247 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:04,816 [ 1] INFO  Unity: TeleporterObject: Character [qqqq] Enter Teleporter [3:主城传入点1]
+2024-02-22 23:16:05,313 [ 1] INFO  Unity: SetPosition:(1532, 2571, 805)
+2024-02-22 23:16:05,314 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:06,132 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
+2024-02-22 23:16:06,134 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:07,522 [ 1] INFO  Unity: TeleporterObject: Character [qqqq] Enter Teleporter [1:主城->野外]
+2024-02-22 23:16:07,523 [ 1] INFO  Unity: MapTeleporterRequest:teleporterID:1
+2024-02-22 23:16:07,556 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:9
+2024-02-22 23:16:07,558 [ 1] INFO  Unity: RemoveCharacter:9
+2024-02-22 23:16:07,559 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
+2024-02-22 23:16:07,561 [ 1] INFO  Unity: AddCharacter:1002:qqqq Map:2 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:16:07,571 [ 1] INFO  Unity: AddCharacter:0:恶鬼 Map:2 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:16:07,591 [ 1] INFO  Unity: AddCharacter:0:山丘巨人 Map:2 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:16:07,610 [ 1] INFO  Unity: AddCharacter:0:小恶魔 Map:2 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:16:07,625 [ 1] INFO  Unity: AddCharacter:0:死神 Map:2 Entity:SkillBridge.Message.NEntity
+2024-02-22 23:16:07,649 [ 1] INFO  Unity: LoadLevel: Map01
+2024-02-22 23:16:07,870 [ 1] INFO  Unity: Start Play Music:bgm-map01
+2024-02-22 23:16:07,871 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
 UnityEngine.GameObject:AddComponent()
 PlayerInputController:Start() (at Assets/Scripts/GameObject/PlayerInputController.cs:53)
 
-2024-02-05 00:00:33,481 [ 1] INFO  Unity: Character_2003_hgfhgf OnDestroy :ID:9 POS:(4815, 3056, 820) DIR:(-79, -62, 0) SPD:0 
-2024-02-05 00:00:33,481 [ 1] INFO  Unity: Character_1003_111 OnDestroy :ID:10 POS:(2700, 4000, 0) DIR:(100, 0, 0) SPD:300 
-2024-02-05 00:00:33,791 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:00:33,792 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:33,795 [ 1] INFO  Unity: SetPosition:(2719, 4000, 50)
-2024-02-05 00:00:33,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:33,970 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-02-05 00:00:33,973 [ 1] INFO  Unity: Stop
-2024-02-05 00:00:33,974 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:33,976 [ 1] INFO  Unity: TeleporterObject: Character [111] Enter Teleporter [6:野外传入点]
-2024-02-05 00:00:34,400 [ 1] INFO  Unity: SetPosition:(2719, 4000, 0)
-2024-02-05 00:00:34,401 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:36,243 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:00:36,243 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:37,582 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
-2024-02-05 00:00:37,582 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:38,739 [ 1] INFO  Unity: Stop
-2024-02-05 00:00:38,739 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:38,740 [ 1] INFO  Unity: SetDirection:(100, -1, 0)
-2024-02-05 00:00:38,740 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:38,818 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2024-02-05 00:00:38,818 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:38,918 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
-2024-02-05 00:00:38,918 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,020 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
-2024-02-05 00:00:39,021 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,106 [ 1] INFO  Unity: SetDirection:(71, -71, 0)
-2024-02-05 00:00:39,107 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,204 [ 1] INFO  Unity: SetDirection:(55, -84, 0)
-2024-02-05 00:00:39,205 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,284 [ 1] INFO  Unity: SetDirection:(39, -92, 0)
-2024-02-05 00:00:39,285 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,389 [ 1] INFO  Unity: SetDirection:(19, -98, 0)
-2024-02-05 00:00:39,390 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,493 [ 1] INFO  Unity: SetDirection:(-1, -100, 0)
-2024-02-05 00:00:39,494 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,572 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
-2024-02-05 00:00:39,573 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,673 [ 1] INFO  Unity: SetDirection:(-39, -92, 0)
-2024-02-05 00:00:39,674 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:39,772 [ 1] INFO  Unity: SetDirection:(-55, -84, 0)
-2024-02-05 00:00:39,772 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:52,389 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
-2024-02-05 00:00:52,391 [ 1] INFO  Unity: AddCharacter:2003:hgfhgf Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:52,631 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
-2024-02-05 00:00:52,633 [ 1] INFO  Unity: AddCharacter:2003:hgfhgf Map:2 Entity:SkillBridge.Message.NEntity
-2024-02-05 00:00:52,654 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2719, 4000, 50) DIR:(100, 0, 0) SPD:300
-2024-02-05 00:00:52,655 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:MoveFwd entity:(9:pos:(2719,4000,50),dir:(100,0,0),spd:300
-
-2024-02-05 00:00:52,658 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2719, 4000, 50) DIR:(100, 0, 0) SPD:300
-2024-02-05 00:00:52,658 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(2719,4000,50),dir:(100,0,0),spd:300
-
-2024-02-05 00:00:52,744 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2714, 4000, 50) DIR:(100, 0, 0) SPD:300
-2024-02-05 00:00:52,745 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(2714,4000,50),dir:(100,0,0),spd:300
-
-2024-02-05 00:00:53,031 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2779, 4000, 50) DIR:(100, 0, 0) SPD:0
-2024-02-05 00:00:53,032 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:Idle entity:(9:pos:(2779,4000,50),dir:(100,0,0),spd:0
-
-2024-02-05 00:00:53,339 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2774, 4000, -2) DIR:(100, 0, 0) SPD:0
-2024-02-05 00:00:53,340 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(2774,4000,-2),dir:(100,0,0),spd:0
-
-2024-02-05 00:00:54,687 [ 1] INFO  Unity: SetDirection:(-38, -93, 0)
-2024-02-05 00:00:54,688 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:54,768 [ 1] INFO  Unity: SetDirection:(-21, -98, 0)
-2024-02-05 00:00:54,769 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:54,859 [ 1] INFO  Unity: SetDirection:(-4, -100, 0)
-2024-02-05 00:00:54,860 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:54,939 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
-2024-02-05 00:00:54,939 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:54,968 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:00:54,968 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:55,030 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2024-02-05 00:00:55,031 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:55,236 [ 1] INFO  Unity: SetDirection:(48, -88, 0)
-2024-02-05 00:00:55,237 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:55,799 [ 1] INFO  Unity: SetDirection:(64, -77, 0)
-2024-02-05 00:00:55,799 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:55,905 [ 1] INFO  Unity: SetDirection:(77, -64, 0)
-2024-02-05 00:00:55,906 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:56,000 [ 1] INFO  Unity: SetDirection:(88, -47, 0)
-2024-02-05 00:00:56,001 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:56,083 [ 1] INFO  Unity: SetDirection:(95, -31, 0)
-2024-02-05 00:00:56,084 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:56,191 [ 1] INFO  Unity: SetDirection:(99, -12, 0)
-2024-02-05 00:00:56,192 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:56,332 [ 1] INFO  Unity: SetDirection:(100, 6, 0)
-2024-02-05 00:00:56,332 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:57,239 [ 1] INFO  Unity: SetDirection:(99, -12, 0)
-2024-02-05 00:00:57,239 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:57,826 [ 1] INFO  Unity: SetDirection:(95, -30, 0)
-2024-02-05 00:00:57,826 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:57,953 [ 1] INFO  Unity: SetDirection:(88, -47, 0)
-2024-02-05 00:00:57,954 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:58,059 [ 1] INFO  Unity: SetDirection:(78, -62, 0)
-2024-02-05 00:00:58,060 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:58,202 [ 1] INFO  Unity: SetDirection:(66, -75, 0)
-2024-02-05 00:00:58,203 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:00:58,712 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
-2024-02-05 00:00:59,489 [ 1] INFO  Unity: Stop
-2024-02-05 00:00:59,489 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:00:59,698 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2774, 4000, -2) DIR:(100, 0, 0) SPD:300
-2024-02-05 00:00:59,698 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:MoveFwd entity:(9:pos:(2774,4000,-2),dir:(100,0,0),spd:300
-
-2024-02-05 00:01:00,363 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(2974, 4000, -2) DIR:(98, -19, 0) SPD:300
-2024-02-05 00:01:00,363 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(2974,4000,-2),dir:(98,-19,0),spd:300
-
-2024-02-05 00:01:01,746 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(3389, 3917, -2) DIR:(93, -37, 0) SPD:300
-2024-02-05 00:01:01,747 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(3389,3917,-2),dir:(93,-37,0),spd:300
-
-2024-02-05 00:01:01,860 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(3424, 3903, -2) DIR:(84, -55, 0) SPD:300
-2024-02-05 00:01:01,860 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(3424,3903,-2),dir:(84,-55,0),spd:300
-
-2024-02-05 00:01:01,951 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(3444, 3888, -2) DIR:(73, -69, 0) SPD:300
-2024-02-05 00:01:01,952 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(3444,3888,-2),dir:(73,-69,0),spd:300
-
-2024-02-05 00:01:02,043 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(3468, 3870, -2) DIR:(60, -80, 0) SPD:300
-2024-02-05 00:01:02,044 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(3468,3870,-2),dir:(60,-80,0),spd:300
-
-2024-02-05 00:01:03,296 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(3693, 3570, -2) DIR:(73, -68, 0) SPD:300
-2024-02-05 00:01:03,297 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(3693,3570,-2),dir:(73,-68,0),spd:300
-
-2024-02-05 00:01:04,851 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4028, 3256, 0) DIR:(73, -68, 0) SPD:300
-2024-02-05 00:01:04,851 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4028,3256,0),dir:(73,-68,0),spd:300
-
-2024-02-05 00:01:05,032 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4072, 3223, 0) DIR:(84, -54, 0) SPD:300
-2024-02-05 00:01:05,033 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4072,3223,0),dir:(84,-54,0),spd:300
-
-2024-02-05 00:01:05,221 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4116, 3190, 0) DIR:(93, -37, 0) SPD:300
-2024-02-05 00:01:05,222 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4116,3190,0),dir:(93,-37,0),spd:300
-
-2024-02-05 00:01:05,407 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4171, 3168, 0) DIR:(98, -20, 0) SPD:300
-2024-02-05 00:01:05,408 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:None entity:(9:pos:(4171,3168,0),dir:(98,-20,0),spd:300
-
-2024-02-05 00:01:05,820 [ 1] INFO  Unity: OnEntityChanged : ID:9,POS:(4296, 3143, 0) DIR:(98, -20, 0) SPD:0
-2024-02-05 00:01:05,821 [ 1] INFO  Unity: MapEntityUpdateResponse:Entity1
-[0]evt:Idle entity:(9:pos:(4296,3143,0),dir:(98,-20,0),spd:0
-
-2024-02-05 00:01:06,590 [ 1] INFO  Unity: SetDirection:(79, -61, 0)
-2024-02-05 00:01:06,590 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:06,770 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:01:06,770 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:06,795 [ 1] INFO  Unity: SetDirection:(89, -46, 0)
-2024-02-05 00:01:06,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:07,238 [ 1] INFO  Unity: SetDirection:(79, -62, 0)
-2024-02-05 00:01:07,239 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:07,342 [ 1] INFO  Unity: SetDirection:(66, -75, 0)
-2024-02-05 00:01:07,343 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:07,443 [ 1] INFO  Unity: SetDirection:(49, -87, 0)
-2024-02-05 00:01:07,444 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:07,574 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2024-02-05 00:01:07,575 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:07,778 [ 1] INFO  Unity: Stop
-2024-02-05 00:01:07,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:08,466 [ 1] INFO  Unity: MoveForward
-2024-02-05 00:01:08,467 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2024-02-05 00:01:09,191 [ 1] INFO  Unity: Stop
-2024-02-05 00:01:09,192 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:10,363 [ 1] INFO  Unity: SendSkillCast: skill:101 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:10,404 [ 1] INFO  Unity: OnSkillCast: skill:101 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:10,899 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:13,593 [ 1] INFO  Unity: SendSkillCast: skill:102 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:13,613 [ 1] INFO  Unity: OnSkillCast: skill:102 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:14,106 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:15,193 [ 1] INFO  Unity: SendSkillCast: skill:103 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:15,279 [ 1] INFO  Unity: OnSkillCast: skill:103 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:15,778 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:16,644 [ 1] INFO  Unity: SendSkillCast: skill:101 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:16,721 [ 1] INFO  Unity: OnSkillCast: skill:101 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:17,211 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:19,761 [ 1] INFO  Unity: SendSkillCast: skill:104 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:19,812 [ 1] INFO  Unity: OnSkillCast: skill:104 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:20,305 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:23,419 [ 1] INFO  Unity: SendSkillCast: skill:102 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:23,462 [ 1] INFO  Unity: OnSkillCast: skill:102 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:23,960 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:24,797 [ 1] INFO  Unity: SendSkillCast: skill:101 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:24,896 [ 1] INFO  Unity: OnSkillCast: skill:101 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:25,390 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:27,012 [ 1] INFO  Unity: SendSkillCast: skill:103 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:27,110 [ 1] INFO  Unity: OnSkillCast: skill:103 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:27,600 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:29,329 [ 1] INFO  Unity: SendSkillCast: skill:101 caster:10 target:3 pos:SkillBridge.Message.NVector3
-2024-02-05 00:01:29,427 [ 1] INFO  Unity: OnSkillCast: skill:101 caster:10 target :3 pos:SkillBridge.Message.NVector3 result:Success
-2024-02-05 00:01:29,922 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
-2024-02-05 00:01:31,846 [ 1] INFO  Unity: OnMapCharacterLeave:CharID:9
-2024-02-05 00:01:31,847 [ 1] INFO  Unity: RemoveCharacter:9
-2024-02-05 00:01:31,848 [ 1] INFO  Unity: Character_2003_hgfhgf OnDestroy :ID:9 POS:(4296, 3143, 0) DIR:(98, -20, 0) SPD:0 
-2024-02-05 00:01:32,661 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
-2024-02-05 00:01:32,662 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:32,778 [ 1] INFO  Unity: SetDirection:(-4, -100, 0)
-2024-02-05 00:01:32,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:32,873 [ 1] INFO  Unity: SetDirection:(-25, -97, 0)
-2024-02-05 00:01:32,874 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:32,972 [ 1] INFO  Unity: SetDirection:(-44, -90, 0)
-2024-02-05 00:01:32,972 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,058 [ 1] INFO  Unity: SetDirection:(-59, -81, 0)
-2024-02-05 00:01:33,058 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,143 [ 1] INFO  Unity: SetDirection:(-72, -69, 0)
-2024-02-05 00:01:33,143 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,233 [ 1] INFO  Unity: SetDirection:(-83, -56, 0)
-2024-02-05 00:01:33,234 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,312 [ 1] INFO  Unity: SetDirection:(-92, -40, 0)
-2024-02-05 00:01:33,313 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,408 [ 1] INFO  Unity: SetDirection:(-98, -20, 0)
-2024-02-05 00:01:33,409 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:33,528 [ 1] INFO  Unity: SetDirection:(-100, -1, 0)
-2024-02-05 00:01:33,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:10,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2024-02-05 00:01:35,315 [ 1] INFO  Unity: Character_1003_111 OnDestroy :ID:10 POS:(4759, 2968, 0) DIR:(-100, -1, 0) SPD:0 
-2024-02-05 00:01:35,316 [ 1] INFO  Unity: Character_0_恶鬼 OnDestroy :ID:1 POS:(5887, 1573, 7) DIR:(5887, 1573, 7) SPD:0 
-2024-02-05 00:01:35,317 [ 1] INFO  Unity: Character_0_山丘巨人 OnDestroy :ID:2 POS:(5540, 1682, 4) DIR:(5540, 1682, 4) SPD:0 
-2024-02-05 00:01:35,317 [ 1] INFO  Unity: Character_0_小恶魔 OnDestroy :ID:3 POS:(4775, 2865, 14) DIR:(4775, 2865, 14) SPD:0 
-2024-02-05 00:01:35,318 [ 1] INFO  Unity: Character_0_死神 OnDestroy :ID:4 POS:(5683, 4173, 0) DIR:(5683, 4173, 0) SPD:0 
-2024-02-05 00:01:35,319 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-02-05 00:01:35,320 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-02-22 23:16:07,871 [ 1] INFO  Unity: Character_1002_qqqq OnDestroy :ID:9 POS:(2700, 4000, 0) DIR:(100, 0, 0) SPD:300 
+2024-02-22 23:16:08,151 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:16:08,152 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:08,156 [ 1] INFO  Unity: SetPosition:(2719, 4000, 50)
+2024-02-22 23:16:08,157 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:08,388 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-02-22 23:16:08,393 [ 1] INFO  Unity: Stop
+2024-02-22 23:16:08,394 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:08,396 [ 1] INFO  Unity: TeleporterObject: Character [qqqq] Enter Teleporter [6:野外传入点]
+2024-02-22 23:16:08,778 [ 1] INFO  Unity: SetPosition:(2719, 4000, -2)
+2024-02-22 23:16:08,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:08,948 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2024-02-22 23:16:08,949 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:08,996 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:16:08,997 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:09,110 [ 1] INFO  Unity: SetDirection:(94, 35, 0)
+2024-02-22 23:16:09,111 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:10,095 [ 1] INFO  Unity: SetDirection:(99, 17, 0)
+2024-02-22 23:16:10,095 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:10,212 [ 1] INFO  Unity: SetDirection:(100, -2, 0)
+2024-02-22 23:16:10,213 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:10,682 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2024-02-22 23:16:10,684 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:11,235 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2024-02-22 23:16:11,235 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:12,755 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
+2024-02-22 23:16:12,755 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:12,939 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2024-02-22 23:16:12,940 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:13,256 [ 1] INFO  Unity: SetPosition:(3914, 3826, 0)
+2024-02-22 23:16:13,256 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:13,671 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2024-02-22 23:16:13,671 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:16:15,838 [ 1] INFO  Unity: Stop
+2024-02-22 23:16:15,839 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:15,943 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:16:18,882 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:18,968 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:19,692 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:19,762 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:20,305 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:20,451 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:20,452 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:16:22,328 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:22,409 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:23,127 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:23,202 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:23,726 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:23,890 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:23,890 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:16:25,895 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:16:26,829 [ 1] INFO  Unity: SendSkillCast: skill:304 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:26,950 [ 1] INFO  Unity: OnSkillCast: skill:304 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:28,471 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2024-02-22 23:16:29,065 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:29,067 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:29,676 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:29,727 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:29,753 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:29,778 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:30,391 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:30,403 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:30,477 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:30,495 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:31,098 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:31,155 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:31,155 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2024-02-22 23:16:32,420 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2024-02-22 23:16:32,421 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:32,524 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2024-02-22 23:16:32,524 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:32,627 [ 1] INFO  Unity: SetDirection:(100, -2, 0)
+2024-02-22 23:16:32,627 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:32,804 [ 1] INFO  Unity: SetDirection:(99, 16, 0)
+2024-02-22 23:16:32,805 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:33,146 [ 1] INFO  Unity: SetDirection:(100, -3, 0)
+2024-02-22 23:16:33,146 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:33,244 [ 1] INFO  Unity: SetDirection:(97, -22, 0)
+2024-02-22 23:16:33,244 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:33,328 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
+2024-02-22 23:16:33,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:33,432 [ 1] INFO  Unity: SetDirection:(83, -56, 0)
+2024-02-22 23:16:33,433 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:33,573 [ 1] INFO  Unity: SetDirection:(72, -70, 0)
+2024-02-22 23:16:33,574 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:34,276 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:16:35,807 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:35,923 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:36,640 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:36,719 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:37,244 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:37,401 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:37,402 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:16:40,832 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
+2024-02-22 23:16:40,832 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:40,943 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2024-02-22 23:16:40,943 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:41,456 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2024-02-22 23:16:41,456 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:41,645 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2024-02-22 23:16:41,645 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:42,192 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:16:43,131 [ 1] INFO  Unity: SendSkillCast: skill:304 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:43,167 [ 1] INFO  Unity: OnSkillCast: skill:304 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:44,690 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2024-02-22 23:16:45,283 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:45,296 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:45,912 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:45,932 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:45,971 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:46,007 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:46,621 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:46,687 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:46,726 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:47,331 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:47,371 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:47,371 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2024-02-22 23:16:52,765 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:16:53,774 [ 1] INFO  Unity: SendSkillCast: skill:302 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:53,864 [ 1] INFO  Unity: OnSkillCast: skill:302 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:54,888 [ 1] INFO  Unity: Skill[流血箭].UpdateCasting Finish
+2024-02-22 23:16:55,679 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:55,690 [ 1] INFO  Unity: Skill[流血箭].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:56,290 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:56,368 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:56,369 [ 1] INFO  Unity: Skill[流血箭].UpdateSkill Finish
+2024-02-22 23:16:56,807 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:56,905 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:16:57,611 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:57,703 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:16:58,213 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:16:58,404 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:16:58,405 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:16:59,073 [ 1] INFO  Unity: SetDirection:(61, -80, 0)
+2024-02-22 23:16:59,074 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:16:59,309 [ 1] INFO  Unity: SendSkillCast: skill:304 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:16:59,421 [ 1] INFO  Unity: OnSkillCast: skill:304 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:17:00,610 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:17:00,611 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:00,934 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2024-02-22 23:17:01,098 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2024-02-22 23:17:01,099 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,195 [ 1] INFO  Unity: SetDirection:(86, -52, 0)
+2024-02-22 23:17:01,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,221 [ 1] INFO  Unity: Stop
+2024-02-22 23:17:01,221 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:01,282 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2024-02-22 23:17:01,282 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:01,365 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2024-02-22 23:17:01,366 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:01,462 [ 1] INFO  Unity: SetDirection:(100, 2, 0)
+2024-02-22 23:17:01,463 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:01,544 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:01,544 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:17:01,545 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,547 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:01,571 [ 1] INFO  Unity: SetDirection:(97, 22, 0)
+2024-02-22 23:17:01,571 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,652 [ 1] INFO  Unity: SetDirection:(92, 39, 0)
+2024-02-22 23:17:01,653 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,755 [ 1] INFO  Unity: SetDirection:(82, 57, 0)
+2024-02-22 23:17:01,756 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,853 [ 1] INFO  Unity: SetDirection:(71, 71, 0)
+2024-02-22 23:17:01,854 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:01,965 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:02,016 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:02,186 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:02,259 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:02,445 [ 1] INFO  Unity: Stop
+2024-02-22 23:17:02,446 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:02,668 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:02,774 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:02,936 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:02,975 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:03,578 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:03,600 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:03,601 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2024-02-22 23:17:05,213 [ 1] INFO  Unity: SetDirection:(84, 55, 0)
+2024-02-22 23:17:05,213 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,307 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
+2024-02-22 23:17:05,307 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,400 [ 1] INFO  Unity: SetDirection:(98, 20, 0)
+2024-02-22 23:17:05,401 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,476 [ 1] INFO  Unity: SetDirection:(100, 3, 0)
+2024-02-22 23:17:05,477 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,562 [ 1] INFO  Unity: SetDirection:(99, -15, 0)
+2024-02-22 23:17:05,563 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,653 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2024-02-22 23:17:05,654 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,755 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
+2024-02-22 23:17:05,755 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:05,906 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
+2024-02-22 23:17:05,906 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:06,031 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:17:06,031 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:06,612 [ 1] INFO  Unity: Stop
+2024-02-22 23:17:06,613 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:06,678 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
+2024-02-22 23:17:06,679 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:06,779 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
+2024-02-22 23:17:06,780 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:06,878 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
+2024-02-22 23:17:06,879 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:06,990 [ 1] INFO  Unity: SetDirection:(10, -100, 0)
+2024-02-22 23:17:06,991 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:07,034 [ 1] INFO  Unity: MoveForward
+2024-02-22 23:17:07,035 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2024-02-22 23:17:07,344 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:07,408 [ 1] INFO  Unity: Stop
+2024-02-22 23:17:07,409 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:08,244 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:17:09,658 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:10,302 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:10,607 [ 1] INFO  Unity: MoveBack
+2024-02-22 23:17:10,607 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2024-02-22 23:17:10,987 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:17:11,341 [ 1] INFO  Unity: Stop
+2024-02-22 23:17:11,341 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:9,POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2024-02-22 23:17:12,130 [ 1] INFO  Unity: SendSkillCast: skill:304 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:17:14,646 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:17:14,750 [ 1] INFO  Unity: OnSkillCast: skill:304 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:17:14,848 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Failed
+2024-02-22 23:17:15,358 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:15,448 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:16,062 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:16,166 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:16,167 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:17:16,263 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2024-02-22 23:17:16,366 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:16,865 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:16,867 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:17,511 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:17,590 [ 1] INFO  Unity: OnSkillHit: count:2
+2024-02-22 23:17:18,267 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:18,307 [ 1] INFO  Unity: OnSkillHit: count:2
+2024-02-22 23:17:18,982 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2024-02-22 23:17:19,009 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:22,163 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:23,545 [ 1] INFO  Unity: SendSkillCast: skill:301 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:17:23,645 [ 1] INFO  Unity: OnSkillCast: skill:301 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:17:24,356 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:24,448 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:25,061 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:25,159 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:25,160 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2024-02-22 23:17:27,638 [ 1] INFO  Unity: BattleManager SetTarget:[3:小恶魔]
+2024-02-22 23:17:28,228 [ 1] INFO  Unity: SendSkillCast: skill:304 caster:9 target:3 pos:SkillBridge.Message.NVector3
+2024-02-22 23:17:28,269 [ 1] INFO  Unity: OnSkillCast: skill:304 caster:9 target :3 pos:(0,0,0) result:Success
+2024-02-22 23:17:29,789 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2024-02-22 23:17:30,388 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:30,390 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:31,051 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:31,100 [ 1] INFO  Unity: OnSkillHit: count:2
+2024-02-22 23:17:31,113 [ 1] INFO  Unity: DoDamage:SkillBridge.Message.NDamageInfo
+2024-02-22 23:17:31,794 [ 1] INFO  Unity: Skill[连射].CastBullet[0] Target:小恶魔
+2024-02-22 23:17:31,826 [ 1] INFO  Unity: OnSkillHit: count:2
+2024-02-22 23:17:32,524 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2024-02-22 23:17:32,526 [ 1] INFO  Unity: OnSkillHit: count:1
+2024-02-22 23:17:33,002 [ 1] INFO  Unity: Character_1002_qqqq OnDestroy :ID:9 POS:(4997, 3399, 0) DIR:(10, -100, 0) SPD:0 
+2024-02-22 23:17:33,003 [ 1] INFO  Unity: Character_0_恶鬼 OnDestroy :ID:1 POS:(5887, 1573, 7) DIR:(5887, 1573, 7) SPD:0 
+2024-02-22 23:17:33,004 [ 1] INFO  Unity: Character_0_山丘巨人 OnDestroy :ID:2 POS:(5540, 1682, 4) DIR:(5540, 1682, 4) SPD:0 
+2024-02-22 23:17:33,005 [ 1] INFO  Unity: Character_0_小恶魔 OnDestroy :ID:3 POS:(4775, 2865, 14) DIR:(4775, 2865, 14) SPD:0 
+2024-02-22 23:17:33,006 [ 1] INFO  Unity: Character_0_死神 OnDestroy :ID:4 POS:(5683, 4173, 0) DIR:(5683, 4173, 0) SPD:0 
+2024-02-22 23:17:33,010 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-02-22 23:17:33,011 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)

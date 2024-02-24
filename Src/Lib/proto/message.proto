@@ -285,6 +285,7 @@ message NetMessageResponse{
 	ChatResponse chat = 30;
 	
 	SkillCastResponse skillCast = 50;
+	SkillHitResponse skillHits = 51;
 
 	StatusNotify statusNotify = 100;
 	
@@ -782,6 +783,14 @@ enum SKILL_RESULT
     COOL_DOWN = 2;		//冷却中
     INVALID_TARGET = 3;	//无效目标
 	OUT_OF_RANGE = 4;	//超出技能范围
+	CASTING = 5;		//技能在释放中
+}
+
+enum SKILL_STATUS
+{
+	NONE = 0;
+	CASTING = 1;	//施法中
+	RUNNING = 2;	//执行中
 }
 
 message NSkillCastInfo
@@ -796,7 +805,17 @@ message NDamageInfo
 {
 	int32 entityId = 1;	//Entity ID
 	int32 damage = 2;	//伤害
-	bool will_dead = 3;	//此次伤害后死亡
+	bool crit = 3;		//是否暴击
+	bool will_dead = 4;	//此次伤害后死亡
+}
+
+message NSkillHitInfo
+{
+	int32 skillId = 1;
+	int32 casterId = 2;
+	int32 hitId = 3;
+	bool isBullet = 4;
+	repeated NDamageInfo damages = 5;
 }
 
 message SkillCastRequest
@@ -810,6 +829,13 @@ message SkillCastResponse
 	string errormsg = 2;
 	NSkillCastInfo castInfo = 3;
 	NDamageInfo damage = 4;
+}
+
+message SkillHitResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NSkillHitInfo hits = 3;
 }
 
 

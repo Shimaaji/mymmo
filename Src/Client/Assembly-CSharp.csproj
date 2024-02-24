@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Assets\Config.cs" />
      <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
+     <Compile Include="Assets\Scripts\Battle\Bullet.cs" />
      <Compile Include="Assets\Scripts\Battle\Skill.cs" />
      <Compile Include="Assets\Scripts\Battle\SkillManager.cs" />
      <Compile Include="Assets\Scripts\Entities\Character.cs" />

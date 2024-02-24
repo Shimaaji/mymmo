@@ -6,9 +6,6 @@ namespace Battle
 {
     public class SkillManager
     {
-        public delegate void SkillInfoUpdateHandle();
-        public event SkillInfoUpdateHandle OnSkillInfoUpdate;
-
         Creature Owner;
         public List<Skill> Skills { get; private set; }
 
@@ -27,8 +24,6 @@ namespace Battle
                 Skill skill = new Skill(skillInfo, this.Owner);
                 this.AddSkill(skill);
             }
-            if(OnSkillInfoUpdate != null)
-                OnSkillInfoUpdate();
         }
 
         public void UpdateSkills()
@@ -41,8 +36,6 @@ namespace Battle
                 else
                     this.AddSkill(skill);
             }
-            if(OnSkillInfoUpdate != null)
-                OnSkillInfoUpdate();
         }
 
         public void AddSkill(Skill skill)

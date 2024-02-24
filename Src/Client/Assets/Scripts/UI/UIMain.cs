@@ -14,11 +14,15 @@ public class UIMain : MonoSingleton<UIMain> {
 
 	public UICreatureInfo targetUI;
 
+	public UISkillSlots skillSlots;
+
 	protected override void OnStart() 
 	{
 		this.UpdateAvatar();
 		this.targetUI.gameObject.SetActive(false);
 		BattleManager.Instance.OnTargetChanged += OnTargetChanged;
+		User.Instance.OnCharacterInit += this.skillSlots.UpdateSkills;
+		this.skillSlots.UpdateSkills();
 	}
 
 

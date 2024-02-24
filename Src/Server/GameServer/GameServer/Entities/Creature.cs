@@ -45,6 +45,16 @@ namespace GameServer.Entities
             this.Info.attrDynamic = this.Attributes.DynamicAttr;
         }
 
+        internal int Distance(Creature target)
+        {
+            return (int)Vector3Int.Distance(this.Position, target.Position);
+        }
+
+        internal int Distance(Vector3Int position)
+        {
+            return (int)Vector3Int.Distance(this.Position, position);
+        }
+
         internal void DoDamage(NDamageInfo damage)
         {
             this.Attributes.HP -= damage.Damage;
@@ -76,6 +86,8 @@ namespace GameServer.Entities
         {
             this.SkillMgr.Update();
         }
+
+
 
     }
 }
