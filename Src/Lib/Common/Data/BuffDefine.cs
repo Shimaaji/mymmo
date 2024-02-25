@@ -15,6 +15,7 @@ namespace Common.Data
         public string Icon { get; set; }
         public TargetType Target { get; set; }
         public BuffEffect Effect { get; set; }
+        public TriggerType Trigger { get;set; }
         public int CD { get; set; }
         public float Duration { get; set; }
         public float Interval { get;set; }

@@ -1,4 +1,5 @@
 ﻿using Common;
+using Common.Battle;
 using Common.Data;
 using Common.Utils;
 using GameServer.Core;
@@ -189,6 +190,8 @@ namespace GameServer.Battle
                 this.Hit = 0;
                 this.Bullets.Clear();
 
+                this.AddBuff(TriggerType.SkillCast);
+
                 //检测瞬发技能
                 if (this.Instant)
                 {
@@ -204,6 +207,27 @@ namespace GameServer.Battle
             }
             Log.InfoFormat("Skill[{0}].Cast Result:{1} Status:{2}", this.Define.Name, result, this.Status);
             return result;
+        }
+
+        private void AddBuff(TriggerType trigger)
+        {
+            if (this.Define.Buff == null || this.Define.Buff.Count == 0) return;
+
+            foreach (var buffId in this.Define.Buff)
+            {
+                var buffDefine = DataManager.Instance.Buffs[buffId];
+
+                if (buffDefine.Trigger != trigger) continue; //触发类型不一致
+
+                if(buffDefine.Target == TargetType.Self)
+                {
+                    this.Owner.AddBuff(this.Context, buffDefine);
+                }
+                else if(buffDefine.Target == TargetType.Target)
+                {
+                    this.Context.Target.AddBuff(this.Context, buffDefine);
+                }
+            }
         }
 
         NSkillHitInfo InitHitInfo(bool isBullet)
@@ -271,7 +295,7 @@ namespace GameServer.Battle
                 pos = this.Owner.Position;
             }
 
-            List<Creature> units = this.Context.Battle.FindUnitsInRange(pos, this.Define.AOERange);
+            List<Creature> units = this.Context.Battle.FindUnitsInMapRange(pos, this.Define.AOERange);
             foreach (var target in units)
             {
                 this.HitTarget(target, hit);
@@ -287,7 +311,11 @@ namespace GameServer.Battle
             Log.InfoFormat("Skill[{0}].HitTarget[{1}] Damage:{2} Crit:{3}", this.Define.Name, target.Name, damage.Damage, damage.Crit);
             target.DoDamage(damage);
             hit.Damages.Add(damage);
+
+            this.AddBuff(TriggerType.SkillHit);
         }
+
+
 
         /*
 战斗计算公式

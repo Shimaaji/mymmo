@@ -60,24 +60,31 @@ namespace Common.Battle
     //技能类型
     public enum SkillType
     {
-        Normal,//普通攻击
-        Skill, //技能
+        Normal = 0,//普通攻击
+        Skill = 1, //技能
     }
 
     //施法目标
     public enum TargetType
     {
-        None,//原地释放（没有目标）
-        Target,//需要选中目标
+        None = 0,//原地释放（没有目标）
+        Target = 1,//需要选中目标
+        Self = 2,
         Position,//需要选中位置释放
-        Self
     }
 
     //Buff
     public enum BuffEffect
     {
-        None,//无buff
-        Stun,//眩晕
+        None = 0,//无buff
+        Stun = 1,//眩晕
+        Invincible = 2,//无敌
     }
 
+    public enum TriggerType
+    {
+        None = 0,
+        SkillCast = 1,//技能释放时间
+        SkillHit = 2,//技能命中时
+    }
 }

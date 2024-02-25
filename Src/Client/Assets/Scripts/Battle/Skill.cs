@@ -234,7 +234,7 @@ namespace Battle
 
         internal void DoHit(int hitId, List<NDamageInfo> damages)
         {
-            if (hitId <= this.Hit)
+            if (hitId > this.Hit)
                 this.HitMap[hitId] = damages;
             else
                 DoHitDamages(damages);

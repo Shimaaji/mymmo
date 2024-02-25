@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace GameServer.Battle
 {
-    class BattleContext
+    public class BattleContext
     {
         public Battle Battle;
         public Creature Caster;
         public Creature Target;
-        public Vector3Int Position; 
-        public NSkillCastInfo CastSkill;
-        public NDamageInfo Damage;
 
+        public NSkillCastInfo CastSkill;
+
+        public Vector3Int Position { get { return this.CastSkill.Position; } } 
         public SkillResult Result;
 
         public BattleContext(Battle battle)

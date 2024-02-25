@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GameServer.Managers
 {
-    class MonsterManager
+    public class MonsterManager
     {
         private Map Map;
 

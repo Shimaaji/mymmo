@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\GameObject\PlayerInputController.cs" />
      <Compile Include="Assets\Scripts\GameObject\RideController.cs" />
      <Compile Include="Assets\Scripts\GameObject\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\GameObject\TargetSelector.cs" />
      <Compile Include="Assets\Scripts\GameObject\TelepoterObject.cs" />
      <Compile Include="Assets\Scripts\LoadingManager.cs" />
      <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
@@ -209,6 +210,7 @@
      <None Include="Assets\Shader\UITest.shader" />
      <None Include="Assets\Shader\Lightmap\Lightmap.shader" />
      <None Include="Assets\ThirdParty\Candlelight\Asset Store Products\HyperText\Documentation\Readme.txt" />
+     <None Include="Assets\Shader\ProjectorLight.shader" />
      <None Include="Assets\Shader\Particle\ParticleAdditive.shader" />
      <None Include="Assets\References\log4net.xml" />
      <None Include="Assets\Resources\log4net.xml" />

@@ -122,7 +122,7 @@ namespace Entities
             this.position = position;
         }
 
-        public void CastSkill(int skillId, Creature target, NVector3 position, NDamageInfo damage)
+        public void CastSkill(int skillId, Creature target, NVector3 position)
         {
             this.SetStandby(true);
             var skill = this.SkillMgr.GetSkill(skillId);
@@ -150,7 +150,7 @@ namespace Entities
 
         public void DoDamage(NDamageInfo damage)
         {
-            Debug.LogFormat("DoDamage:{0}", damage);
+            Debug.LogFormat("DoDamage:{0} DMG:{1} CRT:{2}", this.Name, damage.Damage, damage.Crit);
             this.Attributes.HP -= damage.Damage;
             this.PlayAnim("Hurt");
         }

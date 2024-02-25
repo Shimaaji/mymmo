@@ -5,6 +5,7 @@
     "Description": "2秒眩晕",
     "Icon": "UI/Skill/warrior_buff_xy",
     "Target": "Target",
+    "Trigger": "SkillHit",
     "Effect": "Stun",
     "Duration": 2.0
   },
@@ -14,6 +15,7 @@
     "Description": "防御力增加50%",
     "Icon": "UI/Skill/warrior_buff_yy",
     "Target": "Self",
+    "Trigger": "SkillCast",
     "Duration": 3.0,
     "DEFRatio": 0.5
   },
@@ -23,6 +25,7 @@
     "Description": "防御力降低50%",
     "Icon": "UI/Skill/warrior_debuff_pj",
     "Target": "Target",
+    "Trigger": "SkillHit",
     "Duration": 5.0,
     "DEFRatio": -0.5
   },
@@ -32,8 +35,9 @@
     "Description": "每秒造成XXX点法术伤害",
     "Icon": "UI/Skill/wizzard_debuff_hy",
     "Target": "Target",
+    "Trigger": "SkillHit",
     "Duration": 5.0,
-    "Interval ": 1.0,
+    "Interval": 1.0,
     "APFator": 0.25
   },
   "5": {
@@ -42,8 +46,9 @@
     "Description": "每秒造成XXX点物理伤害",
     "Icon": "UI/Skill/archer_debuff_lx",
     "Target": "Target",
-    "Duration": 3.0,
-    "Interval ": 1.0,
+    "Trigger": "SkillHit",
+    "Duration": 5.0,
+    "Interval": 1.0,
     "ADFator": 0.125
   },
   "6": {
@@ -52,8 +57,9 @@
     "Description": "每秒造成XXX点法术伤害",
     "Icon": "UI/Skill/archer_debuff_zd",
     "Target": "Target",
+    "Trigger": "SkillHit",
     "Duration": 5.0,
-    "Interval ": 1.0,
+    "Interval": 1.0,
     "APFator": 0.16667
   }
 }

@@ -15,7 +15,7 @@ using GameServer.Services;
 
 namespace GameServer.Models
 {
-    class Map
+    public class Map
     {
         internal class MapCharacter
         {
@@ -164,6 +164,8 @@ namespace GameServer.Models
                     kv.Value.connection.Session.Response.skillCast = response.skillCast;
                 if(response.skillHits != null)
                     kv.Value.connection.Session.Response.skillHits = response.skillHits;
+                if (response.buffRes != null)
+                    kv.Value.connection.Session.Response.buffRes = response.buffRes;
                 kv.Value.connection.SendResponse();
             }
         }

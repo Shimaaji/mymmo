@@ -13,8 +13,8 @@ namespace Common.Battle
         AttributeData Initial = new AttributeData();
         AttributeData Growth = new AttributeData();
         AttributeData Equip = new AttributeData();
-        AttributeData Basic = new AttributeData();//Basic 指 角色的初始属性 + 成长的属性 + 所穿装备的属性 所得到的初始属性
-        AttributeData Buff = new AttributeData();
+        public AttributeData Basic = new AttributeData();//Basic 指 角色的初始属性 + 成长的属性 + 所穿装备的属性 所得到的初始属性
+        public AttributeData Buff = new AttributeData();
         public AttributeData Final = new AttributeData();//Final指 Basic通过Buff属性的运算得到的最终属性
 
         int Level;

@@ -286,6 +286,7 @@ message NetMessageResponse{
 	
 	SkillCastResponse skillCast = 50;
 	SkillHitResponse skillHits = 51;
+	BuffResponse buffRes = 52;
 
 	StatusNotify statusNotify = 100;
 	
@@ -828,7 +829,6 @@ message SkillCastResponse
 	RESULT result = 1;
 	string errormsg = 2;
 	NSkillCastInfo castInfo = 3;
-	NDamageInfo damage = 4;
 }
 
 message SkillHitResponse
@@ -837,5 +837,29 @@ message SkillHitResponse
 	string errormsg = 2;
 	repeated NSkillHitInfo hits = 3;
 }
+//Buff
+enum BUFF_ACTION
+{
+	NONE = 0;
+	ADD = 1;
+	REMOVE = 2;
+	HIT = 3;
+}
 
+message NBuffInfo
+{
+	int32 buffId = 1;
+	int32 buffType = 2;
+	BUFF_ACTION action = 3;
+	int32 casterId = 4;
+	int32 ownerId = 5;
+	NDamageInfo damage = 6;
+}
+
+message BuffResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NBuffInfo buffs = 3;
+}
 
