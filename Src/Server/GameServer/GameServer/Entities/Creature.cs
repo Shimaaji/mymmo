@@ -57,7 +57,7 @@ namespace GameServer.Entities
             return (int)Vector3Int.Distance(this.Position, position);
         }
 
-        internal void DoDamage(NDamageInfo damage)
+        internal void DoDamage(NDamageInfo damage, Creature source)
         {
             this.Attributes.HP -= damage.Damage;
             if (this.Attributes.HP < 0)
@@ -65,6 +65,7 @@ namespace GameServer.Entities
                 this.IsDeath = true;
                 damage.WillDead = true;
             }
+            this.OnDamage(damage, source);
         }
 
         private void InitSkills()
@@ -100,5 +101,10 @@ namespace GameServer.Entities
         {
             this.BuffMgr.AddBuff(context, buffDefine);
         }
+        protected virtual void OnDamage(NDamageInfo damage, Creature source)
+        {
+            
+        }
+
     }
 }

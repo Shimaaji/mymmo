@@ -55,7 +55,7 @@ namespace Entities
             this.speed = entity.Speed;
         }
 
-        private void UpdateEntityData()
+        public void UpdateEntityData()
         {
             entityData.Position.FromVector3Int(this.position);
             entityData.Direction.FromVector3Int(this.direction);

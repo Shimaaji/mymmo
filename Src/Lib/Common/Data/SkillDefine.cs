@@ -24,10 +24,12 @@ namespace Common.Data
         public float BulletSpeed { get; set; }
         public string BulletResource { get; set; }
         public int AOERange { get; set; }
+        public string AOEEffect { get; set; }
         public string SkillAnim { get; set; }
         public float Duration { get; set; }
         public float Interval { get; set; }
         public List<float> HitTimes { get; set; }
+        public string HitEffect { get; set; }
         public List<int> Buff { get; set; }
         public float AD { get; set; }
         public float AP { get; set; }

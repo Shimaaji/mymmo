@@ -87,6 +87,11 @@ namespace Services
             foreach (var buff in message.Buffs)
             {
                 Debug.LogFormat("      Buff:{0}:{1}[{2}]", buff.buffId, buff.buffType, buff.Action);
+                Creature owner = EntityManager.Instance.GetEntity(buff.ownerId) as Creature;
+                if(owner != null)
+                {
+                    owner.DoBuffAction(buff);
+                }
             }
         }
 

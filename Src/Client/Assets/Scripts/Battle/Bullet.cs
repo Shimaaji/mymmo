@@ -12,7 +12,7 @@ namespace Assets.Scripts.Battle
         Skill skill;
         int hit = 0;
         float flyTime = 0;
-        float duration = 0;
+        public float duration = 0;
 
         public bool Stopped = false;
 

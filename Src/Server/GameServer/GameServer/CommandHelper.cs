@@ -15,6 +15,11 @@ namespace GameServer
             {
                 Console.Write(">");
                 string line = Console.ReadLine().ToLower().Trim();
+                if(string.IsNullOrEmpty(line))
+                {
+                    Help();
+                    continue;
+                }
                 try
                 {
                     if(line == "")

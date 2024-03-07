@@ -43,5 +43,8 @@ namespace Common.Data
         public float SPD { get; set; }
         //暴击概率
         public float CRI { get; set; }
+
+        public float Height { get; set; }
+
     }
 }

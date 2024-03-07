@@ -190,7 +190,7 @@ namespace GameServer.Battle
                 this.Hit = 0;
                 this.Bullets.Clear();
 
-                this.AddBuff(TriggerType.SkillCast);
+                this.AddBuff(TriggerType.SkillCast, this.Context.Target);
 
                 //检测瞬发技能
                 if (this.Instant)
@@ -209,7 +209,7 @@ namespace GameServer.Battle
             return result;
         }
 
-        private void AddBuff(TriggerType trigger)
+        private void AddBuff(TriggerType trigger, Creature target)
         {
             if (this.Define.Buff == null || this.Define.Buff.Count == 0) return;
 
@@ -225,7 +225,7 @@ namespace GameServer.Battle
                 }
                 else if(buffDefine.Target == TargetType.Target)
                 {
-                    this.Context.Target.AddBuff(this.Context, buffDefine);
+                    target.AddBuff(this.Context, buffDefine);
                 }
             }
         }
@@ -309,10 +309,10 @@ namespace GameServer.Battle
 
             NDamageInfo damage = this.CalcSkillDamage(Context.Caster, target);
             Log.InfoFormat("Skill[{0}].HitTarget[{1}] Damage:{2} Crit:{3}", this.Define.Name, target.Name, damage.Damage, damage.Crit);
-            target.DoDamage(damage);
+            target.DoDamage(damage, Context.Caster);
             hit.Damages.Add(damage);
 
-            this.AddBuff(TriggerType.SkillHit);
+            this.AddBuff(TriggerType.SkillHit, target);
         }
 
 

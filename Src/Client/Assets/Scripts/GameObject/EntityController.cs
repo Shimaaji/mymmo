@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Entities;
 using Managers;
+using Battle;
 
 public class EntityController : MonoBehaviour, IEntityNotify, IEntityController
 {
@@ -32,6 +33,8 @@ public class EntityController : MonoBehaviour, IEntityNotify, IEntityController
     private int currentRide = 0;
 
     public Transform rideBone;
+
+    public EntityEffectManager EffectMgr;
 
     // Use this for initialization
     void Start () {
@@ -171,5 +174,39 @@ public class EntityController : MonoBehaviour, IEntityNotify, IEntityController
     public void SetStandby(bool standby)
     {
         this.anim.SetBool("Standby", standby);
+    }
+
+    public void UpdateDirection()
+    {
+        this.direction = GameObjectTool.LogicToWorld(entity.direction);
+        this.transform.forward = this.direction;
+        this.lastRotation = this.rotation;
+    }
+
+    public void PlayEffect(EffectType type,string name, Creature target, float duration)
+    {
+        Transform transform = target.Controller.GetTransform();
+        if(type == EffectType.Position || type == EffectType.Hit)
+        {
+            FXManager.Instance.PlayEffect(type, name, transform, target.GetHitOffset(), duration);
+        }
+        else
+        {
+            this.EffectMgr.PlayEffect(type, name, transform, target.GetHitOffset(), duration);
+        }
+    }
+
+    public void PlayEffect(EffectType type, string name, NVector3 position, float duration)
+    {
+        if (type == EffectType.Position || type == EffectType.Hit)
+            FXManager.Instance.PlayEffect(type, name, null, GameObjectTool.LogicToWorld(position), duration);
+        else
+            this.EffectMgr.PlayEffect(type, name, null, GameObjectTool.LogicToWorld(position), duration);
+    }
+
+
+    public Transform GetTransform()
+    {
+        return this.transform;
     }
 }

@@ -9,12 +9,14 @@ public class UINameBar : MonoBehaviour {
 
 	public Text avatarName;
 	public Creature character;
+
+	public UIBuffIcons buffIcons;
 	// Use this for initialization
 	void Start () 
 	{
 		if(this.character != null)
         {
-			
+			buffIcons.SetOwner(this.character);
         }
 	}
 	
