@@ -40,7 +40,7 @@ namespace Battle
         {
             this.Info = info;
             this.Owner = owner;
-            this.Define = DataManager.Instance.Skills[(int)this.Owner.Define.Class][this.Info.Id];
+            this.Define = DataManager.Instance.Skills[this.Owner.Define.TID][this.Info.Id];
             this.cd = 0;
         }
 

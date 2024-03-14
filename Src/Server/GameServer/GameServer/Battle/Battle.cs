@@ -21,6 +21,9 @@ namespace GameServer.Battle
         //技能释放队列
         Queue<NSkillCastInfo> Actions = new Queue<NSkillCastInfo>();
 
+        //一帧之内有多少个技能要释放
+        List<NSkillCastInfo> CastSkills = new List<NSkillCastInfo>();
+
         List<NSkillHitInfo> Hits = new List<NSkillHitInfo>();
 
         List<NBuffInfo> BuffActions = new List<NBuffInfo>();
@@ -47,6 +50,7 @@ namespace GameServer.Battle
 
         internal void Update()
         {
+            this.CastSkills.Clear();
             this.Hits.Clear();
             this.BuffActions.Clear();
             if (this.Actions.Count > 0)
@@ -82,19 +86,20 @@ namespace GameServer.Battle
                 this.JoinBattle(context.Target);
 
             context.Caster.CastSkill(context, cast.skillId);
-
-            NetMessageResponse message = new NetMessageResponse();
-            message.skillCast = new SkillCastResponse();
-            message.skillCast.castInfo = context.CastSkill;
-            message.skillCast.Result = context.Result == SkillResult.Ok ? Result.Success : Result.Failed;
-            message.skillCast.Errormsg = context.Result.ToString();
-            this.Map.BroadcastBattleResponse(message);
         }
 
         private void BroadcastHitsMessage()
         {
-            if (this.Hits.Count == 0 && this.BuffActions.Count ==0) return;
+            if (this.Hits.Count == 0 && this.BuffActions.Count ==0 && this.CastSkills.Count == 0) return;
             NetMessageResponse message = new NetMessageResponse();
+            if(this.CastSkills.Count > 0)
+            {
+                message.skillCast = new SkillCastResponse();
+                message.skillCast.castInfoes.AddRange(this.CastSkills);
+                message.skillCast.Result = Result.Success;
+                message.skillCast.Errormsg = "";
+            }
+
             if(this.Hits.Count > 0)
             {
                 message.skillHits = new SkillHitResponse();
@@ -145,6 +150,11 @@ namespace GameServer.Battle
         internal List<Creature> FindUnitsInMapRange(Vector3Int pos, int range)
         {
             return EntityManager.Instance.GetMapEntitiesInRange<Creature>(this.Map.ID, pos, range);
+        }
+
+        public void AddCastSkillInfo(NSkillCastInfo cast)
+        {
+            this.CastSkills.Add(cast);
         }
 
         public void AddHitInfo(NSkillHitInfo hit)

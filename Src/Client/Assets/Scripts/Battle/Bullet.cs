@@ -32,8 +32,12 @@ namespace Assets.Scripts.Battle
             if(this.flyTime > duration)
             {
                 this.skill.DoHitDamages(this.hit);
-                this.Stopped = true;
+                this.Stop();
             }
+        }
+        public void Stop()
+        {
+            this.Stopped = true;
         }
     }
 }

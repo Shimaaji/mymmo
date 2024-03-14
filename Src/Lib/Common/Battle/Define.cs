@@ -60,8 +60,10 @@ namespace Common.Battle
     //技能类型
     public enum SkillType
     {
-        Normal = 0,//普通攻击
-        Skill = 1, //技能
+        All = -1,
+        Normal = 1,//普通攻击
+        Skill = 2, //技能
+        Passive = 4
     }
 
     //施法目标
@@ -86,5 +88,12 @@ namespace Common.Battle
         None = 0,
         SkillCast = 1,//技能释放时间
         SkillHit = 2,//技能命中时
+    }
+
+    public enum BattleState
+    {
+        None,
+        Idle,//空闲
+        InBattle,//战斗中
     }
 }

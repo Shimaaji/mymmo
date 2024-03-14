@@ -28,6 +28,12 @@ namespace GameServer.Entities
 
         public bool IsDeath = false;
 
+        //战斗状态（是否在战斗）
+        public BattleState BattleState;
+
+        //移动状态（是否在移动）
+        public CharacterState State;
+
         public Creature(CharacterType type, int configId, int level, Vector3Int pos, Vector3Int dir) :
            base(pos, dir)
         {
@@ -59,6 +65,7 @@ namespace GameServer.Entities
 
         internal void DoDamage(NDamageInfo damage, Creature source)
         {
+            this.BattleState = BattleState.InBattle;
             this.Attributes.HP -= damage.Damage;
             if (this.Attributes.HP < 0)
             {
@@ -89,6 +96,33 @@ namespace GameServer.Entities
         {
             Skill skill = this.SkillMgr.GetSkill(skillId);
             context.Result = skill.Cast(context);
+            if(context.Result == SkillResult.Ok)
+            {
+                this.BattleState = BattleState.InBattle;
+            }
+
+            //CastSkill如果是客户端传送过来的，即玩家释放的，那么一定不为空，如果是怪物CastSkill，因为怪物CastSkill是服务端new出来的，所以一定为空
+            if(context.CastSkill == null)
+            {
+                //判断怪物技能是否释放成功
+                if(context.Result == SkillResult.Ok)
+                {
+                    context.CastSkill = new NSkillCastInfo()
+                    {
+                        casterId = this.entityId,
+                        targetId = context.Target.entityId,
+                        skillId = skill.Define.ID,
+                        Position = new NVector3(),
+                        Result = context.Result,
+                    };
+                    context.Battle.AddCastSkillInfo(context.CastSkill);
+                }
+            }
+            else
+            {
+                context.CastSkill.Result = context.Result;
+                context.Battle.AddCastSkillInfo(context.CastSkill);
+            }
         }
 
         public override void Update()
